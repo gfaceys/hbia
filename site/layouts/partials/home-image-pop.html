@@ -1,0 +1,84 @@
+<script>
+    let text_i = 0;
+    let images1_i = 0;
+    let images2_i = 0;
+    let images3_i = 0;
+
+    let text = {{ .welcome }};
+    let images1 = {{ .imagesGroup1 }};
+    let images2 = {{ .imagesGroup2 }};
+    let images3 = {{ .imagesGroup3 }};
+
+    const swapText = (i) => {
+        let e = document.getElementById("welcome");
+        let index = text_i % text.length;
+        e.innerText = text[index];
+    }
+
+    const swapImage1 = (i) => {
+        let e = document.getElementById("img1");
+        let index = i % images1.length;
+        e.src = images1[index].image;
+    }
+
+    const swapImage2 = (i) => {
+        let e = document.getElementById("img2");
+        let index = i % images2.length;
+        e.src = images2[index].image;
+    }
+
+    const swapImage3 = (i) => {
+        let e = document.getElementById("img3");
+        let index = i % images3.length;
+        e.src = images3[index].image;
+    }
+
+    const textLoop = () => setTimeout(() => {
+        text_i++;
+        swapText(text_i);
+        textLoop();
+    }, 1000)
+
+    const image1Loop = () => setTimeout(() => {
+        images1_i++;
+        swapImage1(images1_i);
+        image1Loop();
+    }, 5000)
+
+    const image2Loop = () => setTimeout(() => {
+        images2_i++;
+        swapImage2(images2_i);
+        image2Loop();
+    }, 5000)
+
+    const image3Loop = () => setTimeout(() => {
+        images3_i++;
+        swapImage3(images3_i);
+        image3Loop();
+    }, 5000)
+
+    textLoop()
+    setTimeout(() => (image1Loop()), 1200) // delay first call
+    setTimeout(() => (image2Loop()), 3450) // delay first call
+    setTimeout(() => (image3Loop()), 5750) // delay first call
+</script>
+
+<div style="margin: 4rem; display: flex; align-items: center; justify-content: center; font-size: larger">
+    <div style="display: flex; flex-direction: column;">
+        <h2 id="welcome" style="font-size: xxx-large; font-weight: bold">Welcome!</h2>
+        <span>{{.textIntro}}</span>
+        <div>
+            <span>{{.textGroup1}}</span>
+            <img id="img1" style="width: 3rem" src={{ (index .imagesGroup1 0).image }}>
+        </div>
+        <div>
+            <span>{{.textGroup2}}</span>
+            <img id="img2" style="width: 3rem" src={{ (index .imagesGroup2 0).image }}>
+        </div>
+        <div>
+            <span>{{.textGroup3}}</span>
+            <img id="img3" style="width: 3rem" src={{ (index .imagesGroup3 0).image }}>
+        </div>
+        <span>{{.textAfterGroup3}}</span>
+    </div>
+</div>

@@ -1,5 +1,5 @@
 ---
-name: G Facey Clothing
+title: G Facey Clothing
 ontario-category: Retail
 business-type: Apparel
 latitude: "43.9512753"

@@ -12,34 +12,37 @@ collections: # A list of collections the CMS should be able to edit
     path: "{{slug}}/index" # Each document is inside a folder with the slug name.
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Intro Blurb", name: "description", widget: "text"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Intro Blurb", name: "description", widget: "text" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "shop"
     label: "Shop"
     folder: "site/content/shop"
     path: "{{slug}}/index"
     create: true
     fields:
-      - {label: "Name", name: "name", widget: "string", hint: "store name"}
-      - {label: "Storefront", name: "storefront", widget: "image", required: false, hint: "image of the storefront"}
-      - {label: "Inside", name: "inside", widget: "image", required: false, hint: "inside image of store"}
-      - {label: "Body", name: "body", widget: "markdown", hint: "brief blurb about the store"}
-      - {label: "Ontario Category", name: "ontario-category", widget: "select", hint: "business category for ontario government usage (not shown on shop pages)", options: ["Food, Beverage, Pharmacy", "Food Services", "Personal Services", "Professional Services", "Retail", "Other Services", "Vacant"]}
-      - {label: "Business Type", name: "business-type", widget: "select", hint: "business type", options: ["Apparel", "Art Gallery", "Food & Pub", "Hotel", "Health & Fitness", "Home ware", "Professional Services", "Salon"]}
-      - {label: "Latitude", name: "latitude", widget: "string", default: "43.95"}
-      - {label: "Longitude", name: "longitude", widget: "string", default: "-78.29"}
-      - {label: "Vacant", name: "vacant", widget: "boolean", default: false, hint: "whether the store is vacant"}
-      - {label: "Address", name: "address", widget: "string", hint: "one line about the address, e.g. 12 Walton Street"}
-      - {label: "Phone", name: "phone", widget: "string", required: false, hint: "business phone number (public)"}
-      - {label: "Website", name: "website", widget: "string", required: false, hint: "business website url"}
-      - {label: "Facebook", name: "facebook", widget: "string", required: false, hint: "business facebook page url"}
-      - {label: "Twitter", name: "twitter", widget: "string", required: false, hint: "business twitter page url"}
-      - {label: "Instagram", name: "instagram", widget: "string", required: false, hint: "business instagram page url"}
-      - {label: "Owner Name", name: "owner-name", widget: "string", required: false, hint: "owner name (private/for internal use)" }
-      - {label: "Mailing List Email", name: "mailing-list", widget: "", required: false, hint: "mailing list email (private/for internal use)"}
+      - { label: "Title", name: "title", widget: "string", hint: "store name" }
+      - { label: "Storefront", name: "storefront", widget: "image", required: false, hint: "image of the storefront" }
+      - { label: "Inside", name: "inside", widget: "image", required: false, hint: "inside image of store" }
+      - { label: "Body", name: "body", widget: "markdown", hint: "brief blurb about the store", required: false }
+      - { label: "Ontario Category", name: "ontario-category", widget: "select", hint: "business category for ontario government usage (not shown on shop pages)", options: [ "Food, Beverage, Pharmacy", "Food Services", "Personal Services", "Professional Services", "Retail", "Other Services", "Vacant" ] }
+      - { label: "Business Type", name: "business-type", widget: "select", hint: "business type", options: [ "Apparel", "Art Gallery", "Food & Pub", "Hotel", "Health & Fitness", "Home ware", "Professional Services", "Salon" ] }
+      - { label: "Latitude", name: "latitude", widget: "string", default: "43.95" }
+      - { label: "Longitude", name: "longitude", widget: "string", default: "-78.29" }
+      - { label: "Residential only", name: "residential", widget: "boolean", default: false, hint: "the property is residential only (not displayed on website)" }
+      - { label: "Vacant", name: "vacant", widget: "boolean", default: false, hint: "whether the store is vacant" }
+      - { label: "Address", name: "address", widget: "string", hint: "one line about the address, e.g. 12 Walton Street" }
+      - { label: "Phone", name: "phone", widget: "string", required: false, hint: "business phone number (public)" }
+      - { label: "Website", name: "website", widget: "string", required: false, hint: "business website url" }
+      - { label: "Facebook", name: "facebook", widget: "string", required: false, hint: "business facebook page url" }
+      - { label: "Twitter", name: "twitter", widget: "string", required: false, hint: "business twitter page url" }
+      - { label: "Instagram", name: "instagram", widget: "string", required: false, hint: "business instagram page url" }
+      - { label: "Owner Name", name: "owner-name", widget: "string", required: false, hint: "owner name (private/for internal use)" }
+      - { label: "Mailing List Email", name: "mailing-list", widget: "", required: false, hint: "mailing list email (private/for internal use)" }
+      - { label: "Building Owner Name", name: "building-owner", widget: "string", required: false, hint: "building owner name (private/for internal use)" }
+      - { label: "Building Owner Mailing List Email", name: "building-mailing-list", widget: "", required: false, hint: "building owner mailing list email (private/for internal use)" }
   - name: "pages"
     label: "Pages"
     files:
@@ -47,28 +50,31 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home Page"
         name: "home"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: "Blurb", name: blurb, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Intro", name: intro, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Products", name: products, widget: list, fields: [
-              {label: "Image", name: "image", widget: "image"},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Values", name: "values", widget: "object", fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - { label: Image, name: image, widget: image }
+          - { label: Video, name: video, widget: string }
+          - { label: "Welcome", name: welcome, widget: list, hint: "welcome in many different languages" }
+          - { label: "Image Pop: intro", name: textIntro, widget: string, hint: "in the image pop section, the text before the images" }
+          - { label: "Image pop: group 1 text", name: textGroup1, widget: string, hint: "in the image pop section, the text corresponding to the first set of images" }
+          - { label: "Image pop: group 1 images", name: imagesGroup1, widget: list, fields: [
+            { label: "Image", name: "image", widget: "image" },
+            { label: "Business name", name: "name", widget: "text" } ] }
+          - { label: "Image pop: group 2 text", name: textGroup2, widget: string, hint: "in the image pop section, the text corresponding to the second set of images" }
+          - { label: "Image pop: group 2 images", name: imagesGroup2, widget: list, fields: [
+            { label: "Image", name: "image", widget: "image" },
+            { label: "Business name", name: "name", widget: "text" } ] }
+          - { label: "Image pop: group 3 text", name: textGroup3, widget: string, hint: "in the image pop section, the text corresponding to the third set of images" }
+          - { label: "Image pop: group 3 images", name: imagesGroup3, widget: list, fields: [
+            { label: "Image", name: "image", widget: "image" },
+            { label: "Business name", name: "name", widget: "text" } ] }
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: image}
-          - {label: Body, name: body, widget: markdown}
+          - { label: Title, name: title, widget: string }
+          - { label: Logo, name: logo, widget: image }
+          - { label: Body, name: body, widget: markdown }
           - label: Contact Entries
             name: contact_entries
             widget: list
@@ -83,26 +89,26 @@ collections: # A list of collections the CMS should be able to edit
         label: "Products Page"
         name: "products"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-          - {label: Full_image, name: full_image, widget: image}
-          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: image }
+          - { label: Intro, name: intro, widget: object, fields: [ { label: Heading, name: heading, widget: string }, { label: Description, name: description, widget: text }, { label: Blurbs, name: blurbs, widget: list, fields: [ { label: Image, name: image, widget: image }, { label: Text, name: text, widget: text } ] } ] }
+          - { label: Main, name: main, widget: object, fields: [ { label: Heading, name: heading, widget: string }, { label: Description, name: description, widget: text }, { label: Image1, name: image1, widget: object, fields: [ { label: Image, name: image, widget: image }, { label: Alt, name: alt, widget: string } ] }, { label: Image2, name: image2, widget: object, fields: [ { label: Image, name: image, widget: image }, { label: Alt, name: alt, widget: string } ] }, { label: Image3, name: image3, widget: object, fields: [ { label: Image, name: image, widget: image }, { label: Alt, name: alt, widget: string } ] } ] }
+          - { label: Testimonials, name: testimonials, widget: list, fields: [ { label: Quote, name: quote, widget: string }, { label: Author, name: author, widget: string } ] }
+          - { label: Full_image, name: full_image, widget: image }
+          - { label: Pricing, name: pricing, widget: object, fields: [ { label: Heading, name: heading, widget: string }, { label: Description, name: description, widget: string }, { label: Plans, name: plans, widget: list, fields: [ { label: Plan, name: plan, widget: string }, { label: Price, name: price, widget: string }, { label: Description, name: description, widget: string }, { label: Items, name: items, widget: list } ] } ] }
       - file: "site/content/values/_index.md"
         label: "Values Page"
         name: "values"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: image }
           - label: Values
             name: values
             widget: list
             fields:
-              - {label: Heading, name: heading, widget: string}
-              - {label: Text, name: text, widget: text}
-              - {label: Image, name: imageUrl, widget: image}
+              - { label: Heading, name: heading, widget: string }
+              - { label: Text, name: text, widget: text }
+              - { label: Image, name: imageUrl, widget: image }
   - name: "site_settings"
     label: "Site Settings"
     files:
@@ -110,15 +116,15 @@ collections: # A list of collections the CMS should be able to edit
         label: Footer
         name: footer
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Blurb, name: blurb, widget: text}
+          - { label: Title, name: title, widget: string }
+          - { label: Blurb, name: blurb, widget: text }
       - file: "site/hugo.toml"
         label: Hugo Config
         name: config
         editor:
           preview: false
         fields:
-          - {label: Site Title for Browser Tab, name: title, widget: string}
+          - { label: Site Title for Browser Tab, name: title, widget: string }
           - label: Params
             name: params
             widget: object
