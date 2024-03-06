@@ -24,11 +24,12 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string", hint: "store name" }
+      - { label: "Slug", name: "slug", widget: "string", hint: "url for web page (lowercase, no spaces only dashes -)", pattern: "^[a-z0-9]+(?:[_-][a-z0-9]+)*$" }
       - { label: "Storefront", name: "storefront", widget: "image", required: false, hint: "image of the storefront" }
       - { label: "Inside", name: "inside", widget: "image", required: false, hint: "inside image of store" }
       - { label: "Body", name: "body", widget: "markdown", hint: "brief blurb about the store", required: false }
       - { label: "Ontario Category", name: "ontario-category", widget: "select", hint: "business category for ontario government usage (not shown on shop pages)", options: [ "Food, Beverage, Pharmacy", "Food Services", "Personal Services", "Professional Services", "Retail", "Other Services", "Vacant" ] }
-      - { label: "Business Type", name: "business-type", widget: "select", hint: "business type", options: [ "Apparel", "Art Gallery", "Food & Pub", "Hotel", "Health & Fitness", "Home ware", "Professional Services", "Salon" ] }
+      - { label: "Business Type", name: "business-type", widget: "select", hint: "business type", options: [ "shop", "taste", "explore-stay", "service" ] }
       - { label: "Latitude", name: "latitude", widget: "string", default: "43.95" }
       - { label: "Longitude", name: "longitude", widget: "string", default: "-78.29" }
       - { label: "Residential only", name: "residential", widget: "boolean", default: false, hint: "the property is residential only (not displayed on website)" }
