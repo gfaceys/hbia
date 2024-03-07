@@ -25,6 +25,7 @@ text:
   - "Dining"
   - "Capitol Theatre"
   - "Architecture"
+  - "Welcoming"
 imagesGroup1:
   - image: img/illustrations-coffee.svg
     name: "Johnny Roasters"

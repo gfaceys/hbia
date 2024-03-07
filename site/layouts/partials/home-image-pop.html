@@ -1,11 +1,13 @@
 <div class="event-wrapper" style="display: flex; justify-content: center">
         <div id="welcome-wrapper-inner">
-        <h2><span id="welcome">Welcome!</span></h2>
+            <h2 style="display: flex; justify-content: center; width: 100%">
+                <span id="welcome">Welcome!</span>
+            </h2>
 
-            Port Hope is:
+            <div style="display: flex; flex-wrap: wrap; white-space: nowrap; max-width: 100vw; justify-content: center; align-items: center; column-gap: 0.5rem">
+                Port Hope is...
 
-            <div style="display: flex; flex-wrap: wrap; white-space: nowrap; max-width: 100vw; align-items: center; column-gap: 0.5rem">
-            <img id="img1" class="welcome-img" src={{ (index .imagesGroup1 0).image }}>
+                <img id="img1" class="welcome-img" src={{ (index .imagesGroup1 0).image }}>
                 {{ if gt (len .text) 1 }}
                 <span>{{ index .text 0}},</span>
                 <span>{{ index .text 1}}</span>
@@ -26,13 +28,13 @@
                 {{ if gt (len .text) 7 }}
                 <span>{{ index .text 7}},</span>
                 {{ end }}
+                <img id="img4" class="welcome-img" src={{ (index .imagesGroup3 0).image }}>
                 {{ if gt (len .text) 8 }}
                 <span>{{ index .text 8}},</span>
                 {{ end }}
                 {{ if gt (len .text) 9 }}
                 <span>{{ index .text 9}}</span>
                 {{ end }}
-            <img id="img4" class="welcome-img" src={{ (index .imagesGroup3 0).image }}>
             </div>
         </div>
 </div>
@@ -109,7 +111,6 @@
         swapImage4(images4_i);
         image4Loop();
     }, 1000 + Math.random() * 9000)
-
 
     textLoop()
     setTimeout(() => (image1Loop()), 1250) // delay first call

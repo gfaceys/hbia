@@ -1,8 +1,8 @@
-<nav data-nav class="flex justify-between items-center center bg-white divider-grey relative">
-    <div style="display: flex; flex-direction: row; justify-content: space-between; width: 100%">
+<nav data-nav class="flex items-center center bg-white divider-grey relative">
+    <div style="display: flex; flex-direction: row; justify-content: space-between; width: 100%;">
         <!-- Logo -->
         <a href="/" class="pa2 db ml1 h-100 flex-none logo">
-            <div style="display: flex">
+            <div style="display: flex; justify-content: center">
                 <img src="/img/logo-med-no-text.webp" alt="port hope bia logo" class="w-100"/>
                 <div class="logo-text">
                     Port Hope HBIA
@@ -10,14 +10,16 @@
             </div>
         </a>
 
-        <ul style="display: flex; flex-direction: row; justify-content: space-around;align-items: center; padding-right: 2rem;">
-            <li><a href="/shop" class="pa3 no-underline db">shop</a></li>
+        <ul style="flex-grow: 1; max-width: 800px; display: flex; flex-direction: row; justify-content: space-around; align-items: center;">
+            <li><a href="/shop" class="no-underline nav-text">shop</a></li>
 
-            <li><a href="/taste" class="pa2 no-underline db">taste</a></li>
+            <li><a href="/taste" class="no-underline nav-text">taste</a></li>
 
-            <li><a href="/explore" class="pa2 no-underline db">explore & stay</a></li>
+            <li><a href="/explore" class="no-underline nav-text">
+                <div style="text-align: center">explore & stay</div>
+            </a></li>
 
-            <li><a href="/contact" class="pa2 no-underline db">services</a></li>
+            <li><a href="/services" class="no-underline nav-text">services</a></li>
         </ul>
     </div>
 </nav>
