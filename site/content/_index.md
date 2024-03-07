@@ -15,24 +15,34 @@ welcome:
   - "καλώς ήρθατε"
   - "Willkommen!"
   - "Mabuhay"
-textIntro: "Discover a diverse community of people offering"
-textGroup1: "unique wares,"
+text:
+  - "Independent shops"
+  - "Heritage"
+  - "River"
+  - "Small town service"
+  - "Quality"
+  - "Arts"
+  - "Dining"
+  - "Capitol Theatre"
+  - "Architecture"
 imagesGroup1:
   - image: img/illustrations-coffee.svg
     name: "Johnny Roasters"
   - image: img/illustrations-coffee-gear.svg
     name: "Billy Blenders"
-textGroup2: "tasty eats,"
 imagesGroup2:
   - image: img/illustrations-coffee.svg
     name: "Johnny Roasters"
   - image: img/illustrations-coffee-gear.svg
     name: "Billy Blenders"
-textGroup3: "festivals and fairs,"
 imagesGroup3:
   - image: img/illustrations-coffee.svg
     name: "Johnny Roasters"
   - image: img/illustrations-coffee-gear.svg
     name: "Billy Blenders"
-textAfterGroup3: "and lots of other fine goods and services!"
+imagesGroup4:
+  - image: img/illustrations-coffee.svg
+    name: "Johnny Roasters"
+  - image: img/illustrations-coffee-gear.svg
+    name: "Billy Blenders"
 ---

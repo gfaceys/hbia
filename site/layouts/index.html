@@ -1,5 +1,86 @@
-{{ define "main" }}
+{{ define "head" }}
+<style>
+    html {
+        background-color: white;
+    }
 
+    h1 {
+        font-size: 1.25rem;
+        padding-left: 0.25rem;
+        padding-right: 0.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+        padding-left: 0.25rem;
+        padding-right: 0.5rem;
+    }
+
+    .title-wrapper {
+        padding-left: 2rem;
+    }
+
+
+    .event-wrapper {
+        margin: 2rem;
+    }
+
+    h2 {
+        font-size: xx-large;
+        width: 250px;
+        overflow: clip;
+        font-weight: bold;
+    }
+
+    #welcome-wrapper-inner {
+        align-items: baseline;
+        justify-content: center;
+        max-width: 20rem;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+
+    .welcome-img {
+        width: 3rem;
+        z-index: 2;
+        margin-top: -0.25rem;
+    }
+    
+    @media screen and (min-width: 600px) {
+        h1 {
+            font-size: 3rem;
+            padding-left: 0.5rem;
+            padding-right: 1rem
+        }
+
+        h2 {
+            font-size: xxx-large;
+            width: fit-content;
+        }
+
+        h3 {
+            font-size: 2rem;
+            padding-left: 0.5rem;
+            padding-right: 1rem;
+        }
+
+        .title-wrapper {
+            padding-left: 4rem;
+        }
+
+        .event-wrapper {
+            margin: 4rem;
+        }
+
+        #welcome-wrapper {
+            margin: 4rem;
+            font-size: larger;
+        }
+    }
+</style>
+{{end}}
+
+{{ define "main" }}
 <!-- video intro -->
 <div style="position: relative; top:0; left: 0; width: 100%; height: 100%; opacity: 100%">
     <div style="position: relative; overflow: hidden; height: 0; padding-bottom: 56.25%;">
@@ -14,18 +95,18 @@
     </div>
 
     <div style="background-color: rgba(50, 50, 50, 0.4); position: absolute; z-index: 1; top: 0; width: 100%; height: 100%">
-        <div style="display: flex; flex-direction: column; justify-content: center; height: 100%; padding-left: 4rem">
+        <div class="title-wrapper"
+             style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
             <div style="display: flex; flex-direction: column">
                 <div style="width: fit-content; margin-bottom: 1rem;">
-                    <h1 class="white bg-primary"
-                        style="font-size: 3rem; font-weight: bold; padding-left: 0.5rem; padding-right: 1rem">
+                    <h1 class="white bg-primary" style="font-weight: bold;">
                         {{.Params.title}}
                     </h1>
                 </div>
-                <div class="white bg-primary"
-                     style="font-size: 2rem; font-weight: bold; padding-left: 0.5rem; padding-right: 1rem; width: fit-content">
+                <h3 class="white bg-primary"
+                    style="font-weight: bold; width: fit-content">
                     {{.Params.subtitle}}
-                </div>
+                </h3>
             </div>
         </div>
     </div>
@@ -35,9 +116,9 @@
 {{ partial "home-image-pop" .Params}}
 
 <!-- latest events -->
-<div style="margin: 4rem;">
+<div class="event-wrapper">
     <div>
-        <h2 class="f2 b lh-title mb3">Latest events</h2>
+        <h2>Latest events</h2>
 
         <div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
             {{ range first 4 (where .Data.Pages "Type" "post") }}

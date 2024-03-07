@@ -24,7 +24,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string", hint: "store name" }
-      - { label: "Slug", name: "slug", widget: "string", hint: "url for web page (lowercase, no spaces only dashes -)", pattern: "^[a-z0-9]+(?:[_-][a-z0-9]+)*$" }
+      - { label: "Slug", name: "slug", widget: "string", hint: "url for web page (lowercase, no spaces only dashes -)", pattern: [ "^[a-z0-9]+(?:[_-][a-z0-9]+)*$", "must be lowercase, without spaces. Dashes are allowed." ] }
       - { label: "Storefront", name: "storefront", widget: "image", required: false, hint: "image of the storefront" }
       - { label: "Inside", name: "inside", widget: "image", required: false, hint: "inside image of store" }
       - { label: "Body", name: "body", widget: "markdown", hint: "brief blurb about the store", required: false }
@@ -56,19 +56,16 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Image, name: image, widget: image }
           - { label: Video, name: video, widget: string }
           - { label: "Welcome", name: welcome, widget: list, hint: "welcome in many different languages" }
-          - { label: "Image Pop: intro", name: textIntro, widget: string, hint: "in the image pop section, the text before the images" }
-          - { label: "Image pop: group 1 text", name: textGroup1, widget: string, hint: "in the image pop section, the text corresponding to the first set of images" }
+          - { label: "Image Pop: intro", name: text, widget: list, hint: "words in the image pop section. Takes between 6 to 10." }
           - { label: "Image pop: group 1 images", name: imagesGroup1, widget: list, fields: [
             { label: "Image", name: "image", widget: "image" },
-            { label: "Business name", name: "name", widget: "text" } ] }
-          - { label: "Image pop: group 2 text", name: textGroup2, widget: string, hint: "in the image pop section, the text corresponding to the second set of images" }
+            { label: "Business name", name: "name", widget: "string" } ] }
           - { label: "Image pop: group 2 images", name: imagesGroup2, widget: list, fields: [
             { label: "Image", name: "image", widget: "image" },
-            { label: "Business name", name: "name", widget: "text" } ] }
-          - { label: "Image pop: group 3 text", name: textGroup3, widget: string, hint: "in the image pop section, the text corresponding to the third set of images" }
+            { label: "Business name", name: "name", widget: "string" } ] }
           - { label: "Image pop: group 3 images", name: imagesGroup3, widget: list, fields: [
             { label: "Image", name: "image", widget: "image" },
-            { label: "Business name", name: "name", widget: "text" } ] }
+            { label: "Business name", name: "name", widget: "string" } ] }
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
