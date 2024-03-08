@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<div style="display: flex; justify-content: center;">
+    <div style="max-width: calc(1200px + 1rem)">
+        <h1 class="proper-h1">Taste</h1>
+
+        <div class="tile-wrapper">
+            <div class="image-tile">
+                {{ range (where .Site.Pages "Type" "directory") }}
+                {{ if eq .Params.businessType "taste" }}
+                {{ if and (not .Params.vacant) (not .Params.residential) }}
+                {{ .Render "li-thumb" }}
+                {{ end }}
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}

@@ -1,0 +1,15 @@
+{{ $link := .RelPermalink }}
+
+<a href="{{ $link }}" class="no-underline">
+    {{ with .Params }}
+    {{ with .storefront }}
+    <img class="thumb" src="{{ $link }}/{{ . }}">
+    {{ else }}
+    <div class="thumb"
+         style="background-color: gainsboro; display: flex; justify-content: center; align-content: center; flex-direction: column">
+        <p>Storefront photo missing</p>
+        <p>{{ .Title }}</p>
+    </div>
+    {{end }}
+    {{ end }}
+</a>
