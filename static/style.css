@@ -1,0 +1,485 @@
+/* CSS Reset */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+#root, #__next {
+    isolation: isolate;
+}
+
+/* system font stack */
+html {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+}
+
+/* variable */
+
+:root {
+    /* Colors */
+    --primary: rgba(255, 68, 0, 1);
+    --highlight: rgba(254, 213, 198, 1);
+    --white: rgba(255, 255, 255, 1);
+    --off-white: rgba(255, 253, 252, 1);
+    --grey-1: rgba(245, 243, 242, 1);
+    --grey-2: rgba(235, 231, 230, 1);
+    --grey-3: rgba(89, 87, 86, 1);
+    --grey-4: rgba(66, 64, 64, 1);
+    --black: rgba(43, 37, 35, 1);
+
+    /* Typography */
+    --line-height: 1.5;
+
+    --font-size: 18px;
+    --font-size-m: 20px;
+    --font-size-l: 22px;
+
+    --body-font-weight: 300;
+    --bold-font-weight: 700;
+
+    /* Sizing */
+    --spacing-none: 0;
+    --spacing-extra-small: .25rem;
+    --spacing-small: .5rem;
+    --spacing-medium: 1rem;
+    --spacing-large: 2rem;
+    --spacing-extra-large: 4rem;
+    --spacing-extra-extra-large: 8rem;
+    --spacing-extra-extra-extra-large: 16rem;
+
+    /* Miscelaneous */
+    --border-radius: .25rem;
+    --hover-transition: all 150ms ease;
+}
+
+/* media queries */
+/* --breakpoint-not-small screen and (min-width: 40em); */
+/* --breakpoint-medium screen and (min-width: 50em); */
+/* --breakpoint-large screen and (min-width: 60em); */
+
+
+/* font sizing */
+
+html {
+    font-size: var(--font-size);
+    @media (min-width: 50em) {
+        font-size: var(--font-size-m);
+    }
+    @media (min-width: 60em) {
+        font-size: var(--font-size-l);
+    }
+    background-color: var(--black);
+    color: var(--black);
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+
+body {
+    font-size: var(--spacing-medium);
+    line-height: var(--line-height);
+    font-weight: var(--body-font-weight);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--off-white);
+}
+
+p {
+    margin-bottom: 0.3rem;
+    margin-top: 0.1rem;
+    max-width: 32rem;
+}
+
+strong {
+    font-weight: var(--bold-font-weight);
+}
+
+img:not(.w-100) {
+    border-radius: var(--border-radius)
+}
+
+/* font decoration */
+.no-underline {
+    text-decoration: none;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.white {
+    color: var(--white);
+}
+
+/* colour classes */
+.bg-grey-1 {
+    background-color: var(--grey-1);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+/* only used by jumbotron.html */
+.bg-fix-primary {
+    padding: 0 var(--spacing-small);
+
+    & :first-child {
+        box-shadow: var(--spacing-small) 0 0 var(--primary), .5rem 0 0 var(--primary);
+    }
+}
+
+.primary {
+    color: var(--primary);
+}
+
+.highlight {
+    color: var(--highlight);
+}
+
+
+::selection {
+    background-color: var(--highlight);
+}
+
+
+/* Focus states */
+input:focus, textarea:focus, a:focus, button:focus {
+    box-shadow: inset 0 0 0 2px var(--primary);
+    outline: 0 !important;
+}
+
+.raise {
+    transition: var(--hover-transition);
+    transform: translateY(0) translateZ(0);
+}
+
+.raise:hover,
+.raise:focus {
+    transition: var(--hover-transition);
+    transform: translateY(-.12rem) translateZ(0);
+}
+
+.raise:active {
+    transition: var(--hover-transition);
+    opacity: .5;
+}
+
+/* Links */
+
+.link {
+    text-decoration: none;
+    transition: var(--hover-transition);
+    color: inherit;
+}
+
+.link:link,
+.link:visited {
+    transition: color .15s ease-in;
+}
+
+.link:hover {
+    transition: color .15s ease-in;
+    text-decoration: underline;
+}
+
+.link:active {
+    transition: color .15s ease-in;
+}
+
+.link:focus {
+    transition: color .15s ease-in;
+    outline: 1px dotted currentColor;
+}
+
+iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 16px 10px;
+    font-size: var(--spacing-medium);
+    line-height: 1.25;
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    font-weight: var(--bold-font-weight);
+    color: var(--primary);
+    text-align: center;
+    box-shadow: inset 0 0 0 2px var(--primary);
+    transition: var(--hover-transition);
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-content: center;
+    background-color: var(--white);
+    box-shadow: inset 0 -4px 0 var(--grey-1);
+    /* Link hover states */
+
+    & a {
+        transition: var(--hover-transition);
+    }
+
+    & ul a:hover, & ul a:focus {
+        box-shadow: inset 0 -4px 0 var(--primary);
+    }
+}
+
+/* section: css for taste,shop,services,explore storefront grid thumbnail view */
+.thumb {
+    width: calc(50vw - 0.5rem);
+    height: calc(50vw - 0.5rem);
+}
+
+@media screen and (min-width: 600px) {
+    .thumb {
+        width: 300px;
+        height: 300px
+    }
+}
+
+.proper-h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.tile-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.image-tile {
+    display: flex;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* end section */
+
+.footer {
+    background-color: var(--black);
+    color: var(--white);
+    padding-top: 3rem;
+}
+
+.footer a {
+    color: var(--white);
+}
+
+.square {
+    width: 300px;
+    height: 300px;
+}
+
+.logo {
+    max-width: 3rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.nav-text {
+    padding: 0 1rem;
+    font-size: smaller;
+}
+
+.logo-text {
+    position: absolute;
+    z-index: 100;
+    font-weight: bolder;
+    background-color: rgba(50, 50, 50, 0.05);
+    font-size: x-small;
+}
+
+@media screen and (min-width: 500px) {
+    .square {
+        width: 450px;
+        height: 450px;
+    }
+
+    .nav-text {
+        font-size: medium;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .logo {
+        max-width: 6rem;
+    }
+
+    .logo-text {
+        top: 4rem;
+        font-size: medium;
+    }
+
+    .nav-text {
+        padding: 0 2rem;
+        font-size: large;
+    }
+}
+
+/* cms class only used by single.html */
+.cms {
+    /* Headings */
+
+    & h1, & h2, & h3, & h4, & h5, & h6 {
+        font-weight: var(--bold-font-weight);
+        line-height: 1.25;
+        margin-bottom: var(--spacing-small);
+    }
+
+    & h1 {
+        font-size: 2.25rem;
+    }
+
+    & h2 {
+        font-size: 1.5rem;
+    }
+
+    & h3 {
+        font-size: 1.25rem;
+    }
+
+    & h4 {
+        font-size: 1rem;;
+    }
+
+    & h5 {
+        font-size: .875rem;
+    }
+
+    /* Images */
+
+    & img {
+        display: block;
+        margin-bottom: var(--spacing-medium);
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+
+    /* Links */
+
+    & a {
+        color: var(--primary);
+        transition: var(--hover-transition);
+
+        &:hover {
+            background-color: var(--highlight);
+            color: var(--black);
+        }
+    }
+
+    /* Lists */
+
+    & ul, & ol, & li {
+        position: relative;
+    }
+
+    & ul, & ol {
+        margin-bottom: var(--spacing-medium);
+    }
+
+    & ul ul, & ol ol {
+        padding-left: var(--spacing-small);
+    }
+
+    & ul {
+        margin-left: 1.33rem;
+
+        & > li:before {
+            content: '✱';
+            left: -1.33rem;
+            position: absolute;
+            color: var(--primary);
+        }
+    }
+
+    & ol {
+        list-style: none;
+        margin-left: var(--spacing-medium);
+        counter-reset: i 0;
+
+        & > li:before {
+            font-weight: 800;
+            left: var(--spacing-medium);
+            margin-right: 1.33rem;
+            position: relative;
+            height: 100%;
+            content: counter(i);
+            counter-increment: i;
+            color: var(--primary);
+        }
+    }
+
+    /* Blockquotes */
+
+    & blockquote {
+        background-color: var(--grey-1);
+        display: block;
+        border-radius: var(--border-radius);
+        padding: var(--spacing-medium);
+        color: var(--primary);
+        font-weight: 700;
+        font-size: 1.25rem;;
+        margin-bottom: var(--spacing-medium);
+
+        & p {
+            margin: 0;
+        }
+    }
+}
+
+

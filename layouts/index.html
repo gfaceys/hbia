@@ -1,0 +1,150 @@
+{{ define "head" }}
+<style>
+    html {
+        background-color: white;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+        padding-left: 0.25rem;
+        padding-right: 0.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+        padding-left: 0.25rem;
+        padding-right: 0.5rem;
+    }
+
+    .title-wrapper {
+        padding-left: 2rem;
+    }
+
+
+    .event-wrapper {
+        margin: 2rem;
+    }
+
+    h2 {
+        font-size: xx-large;
+        width: 250px;
+        overflow: clip;
+        font-weight: bold;
+    }
+
+    #welcome-wrapper-inner {
+        align-items: baseline;
+        justify-content: center;
+        max-width: 20rem;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+
+    .welcome-img {
+        width: 3rem;
+        z-index: 2;
+        margin-top: -0.25rem;
+    }
+
+    @media screen and (min-width: 600px) {
+        h1 {
+            font-size: 2.5rem;
+            padding-left: 0.5rem;
+            padding-right: 1rem
+        }
+
+        h2 {
+            font-size: xxx-large;
+            width: fit-content;
+        }
+
+        h3 {
+            font-size: 2rem;
+            padding-left: 0.5rem;
+            padding-right: 1rem;
+        }
+
+        .title-wrapper {
+            padding-left: 4rem;
+        }
+
+        .event-wrapper {
+            margin: 4rem;
+        }
+
+        #welcome-wrapper {
+            margin: 4rem;
+        }
+
+        #welcome-wrapper-inner {
+            font-size: xxx-large;
+            max-width: 30rem;
+            text-align: center;
+        }
+
+        .event-wrapper-inner {
+            width: 100%;
+            display: flex;
+            margin-left: 0.25rem;
+            margin-right: 0.25rem;
+            margin-bottom: 1rem;
+        }
+    }
+</style>
+{{end}}
+
+{{ define "main" }}
+<!-- video intro -->
+<div style="position: relative; top:0; left: 0; width: 100%; height: 100%; opacity: 100%">
+    <div style="position: relative; overflow: hidden; height: 0; padding-bottom: 56.25%;">
+        <iframe width="560" height="315"
+                src="https://www.youtube-nocookie.com/embed/whjJuOrhFnI?autoplay=1&mute=1&modestbranding=1&playsinline=1&rel=0&controls=0&showinfo=0&autohide=1&enablejsapi=1&loop=1&playlist=whjJuOrhFnI"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                allowfullscreen
+                style="z-index: 0"
+        >
+        </iframe>
+    </div>
+
+    <div style="background-color: rgba(50, 50, 50, 0.4); position: absolute; z-index: 1; top: 0; width: 100%; height: 100%">
+        <div class="title-wrapper"
+             style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+            <div style="display: flex; flex-direction: column">
+                <div style="width: fit-content; margin-bottom: 1rem;">
+                    <h1 style="font-weight: bold; color: var(--white)">
+                        {{.Params.title}}
+                    </h1>
+                </div>
+                <h3 style="font-weight: bold; width: fit-content; color: var(--white)">
+                    {{.Params.subtitle}}
+                </h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- welcome with images -->
+{{ partial "home-image-pop" .Params}}
+
+<!-- latest events -->
+<div class="event-wrapper">
+    <div>
+        <h2>Latest events</h2>
+
+        <div class="event-wrapper-inner">
+            {{ range first 4 (where .Data.Pages "Type" "event") }}
+            <div style="display: flex; width: 50%; padding-left: 0.25rem; padding-right: 0.25rem">
+                {{ .Render "li" }}
+            </div>
+            {{ end }}
+        </div>
+
+        <div style="text-align: center">
+            <a href="/event" class="btn raise">Read more</a>
+        </div>
+    </div>
+</div>
+
+
+{{ end }}

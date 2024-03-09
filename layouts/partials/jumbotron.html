@@ -1,0 +1,22 @@
+<div
+        style="padding: 4rem 2rem;
+        background-image: url('{{.imageUrl}}');
+        background-size: cover!important;
+        background-repeat: no-repeat;
+        background-position: center center;"
+>
+    <div style="display: block">
+        <div class="bg-fix-primary" style="position: relative; margin-bottom: 1rem">
+            <h1 class="white bg-primary" style="display: inline; padding: 0.25rem">
+                {{.title}}
+            </h1>
+        </div>
+        <div class="bg-fix-primary">
+            {{ if .subtitle }}
+            <p class="b f4 di lh-title mb3 white mw6 bg-primary">
+                {{.subtitle}}
+            </p>
+            {{ end }}
+        </div>
+    </div>
+</div>
