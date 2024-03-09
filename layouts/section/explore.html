@@ -1,7 +1,8 @@
 {{ define "main" }}
+{{ $i := 0 }}
 
 <div style="display: flex; justify-content: center;">
-    <div style="max-width: calc(1200px + 1rem)">
+    <div style="max-width: calc(900px + 1rem)">
         <h1 class="proper-h1">Explore & Stay</h1>
 
         <div class="tile-wrapper">
@@ -9,7 +10,12 @@
                 {{ range sort (where .Site.Pages "Type" "directory") "Title" "desc" }}
                 {{ if eq .Params.businessType "explore-stay" }}
                 {{ if and (not .Params.vacant) (not .Params.residential) }}
+                {{ $i = add $i 1 }}
+                {{ if gt $i 9 }}
+                {{ .Render "li-thumb-lazy" }}
+                {{ else }}
                 {{ .Render "li-thumb" }}
+                {{ end }}
                 {{ end }}
                 {{ end }}
                 {{ end }}
@@ -17,5 +23,7 @@
         </div>
     </div>
 </div>
+
+{{ partial "lazy-load" . }}
 
 {{ end }}

@@ -1,0 +1,15 @@
+<script defer>
+    let cfg = {}
+    let observer = new IntersectionObserver(function (entries, self) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                console.log("HI")
+                entry.target.src = entry.target.getAttribute('data-src')
+                self.unobserve(entry.target)
+            }
+        });
+    }, cfg);
+
+    const images = document.querySelectorAll('[data-src]').values();
+    images.forEach(image => (observer.observe(image)));
+</script>
