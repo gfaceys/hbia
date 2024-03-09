@@ -1,5 +1,6 @@
 ---
-name: The Waddell Hotel 
+title: mill-south-2
+name: The Waddell Hotel
 slug: the-waddell-hotel
 ontarioCategory: Other Services
 businessType: explore-stay
@@ -8,15 +9,14 @@ longitude: "-78.2918438315392"
 residential: false
 vacant: false
 address: 2 Mill Street S
-title: mill-south-2
-phone: 
+phone: null
 website: http://thewaddell.ca/
-facebook: 
-instagram: 
-twitter: 
-ownerName:  
-mailingList: 
-buildingOwner: 
-buildingMailingList: 
+facebook: null
+twitter: null
+instagram: null
+ownerName: null
+mailingList: null
+buildingOwner: null
+buildingMailingList: null
 ---
-
+Duplicate of Walton street entry
