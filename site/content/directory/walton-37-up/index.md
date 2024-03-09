@@ -8,7 +8,7 @@ longitude: "-78.2932855188847"
 residential: false
 vacant: false
 address: 37 Walton Street
-title: Walton-37-b
+title: Walton-37-up
 phone: 905-885-0815
 website: https://www.racinefinancial.ca/
 facebook: https://www.facebook.com/racinefinancial/
@@ -18,6 +18,7 @@ ownerName: John  Racine
 mailingList: john@racinefinancial.ca
 buildingOwner: Robin Long
 buildingMailingList: same
+storefront: 37-Walton.webp
 ---
 
 Racine Financial offers fee-only investment management, comprehensive financial planning and risk solutions.

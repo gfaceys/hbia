@@ -1,5 +1,5 @@
 ---
-name: Second Helpings 
+name: Second Helpings
 slug: second-helpings
 ontarioCategory: Retail
 businessType: shop
@@ -10,13 +10,14 @@ vacant: false
 address: 45 Walton Street
 title: Walton-45
 phone: 905-885-9411
-website: https://seontario.org/business/second-helpings-port-hope/ 
-facebook: 
-instagram: 
-twitter: 
+website: https://seontario.org/business/second-helpings-port-hope/
+facebook:
+instagram:
+twitter:
 ownerName: Gwen Hudson
 mailingList: gwen.hudson@bigbrothersbigsisters.ca
 buildingOwner: Gary Knight
 buildingMailingList: gary.knight@taksavvy.com
+storefront: 45-Walton.webp
 ---
 

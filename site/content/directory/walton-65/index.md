@@ -1,5 +1,5 @@
 ---
-name: Furby House Books 
+name: Furby House Books
 slug: furby-house-books
 ontarioCategory: Retail
 businessType: shop
@@ -18,6 +18,7 @@ ownerName: Alex Byers
 mailingList: info@furbyhousebooks.com
 buildingOwner: Lou Pamenter
 buildingMailingList: louspamenter@gmail.com
+storefront: 65-Walton.webp
 ---
 
 A local bookstore at the heart of historic Port Hope

@@ -1,5 +1,5 @@
 ---
-name: Tall Birches 
+name: Tall Birches
 slug: tall-birches
 ontarioCategory: Retail
 businessType: shop
@@ -12,12 +12,13 @@ title: Walton-54
 phone: 905-396-1460
 website: https://www.tallbirches.com/
 facebook: https://www.facebook.com/tallbirches
-instagram: 
-twitter: 
+instagram:
+twitter:
 ownerName: Autumn Sanders
-mailingList: tallbirches@hotmail.com 
+mailingList: tallbirches@hotmail.com
 buildingOwner: Jody & Brenda Fiske
-buildingMailingList:         
+buildingMailingList:
+storefront: 54-Walton.webp
 ---
 
 Tall Birches is owned by Autumn-Leeh Saunders. Having a strong bond with the Tall Birches family farm, she found a way

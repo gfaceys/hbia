@@ -1,5 +1,5 @@
 ---
-name: Schmidt Legal Services 
+name: Schmidt Legal Services
 slug: schmidt-legal-services
 ontarioCategory: Professional Services
 businessType: service
@@ -12,12 +12,15 @@ title: Walton-59
 phone: 289-436-0113
 website: https://schmidtleagalservices.com
 facebook: https://www.facebook.com/SchmidtLawLegalServices/
-instagram: 
-twitter: 
+instagram:
+twitter:
 ownerName: Jason Schmidt
 mailingList: jason@schmidtlegalservices.com
 buildingOwner: Jason Schmidt
 buildingMailingList: Same as Biz
+storefront: 59-Walton.webp
+otherPics:
+  - images: 59-Walton-2.webp
 ---
 
 There is more than one way to resolve legal problems. You have specific needs that we will work within to develop a

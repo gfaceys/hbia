@@ -1,5 +1,5 @@
 ---
-name: Holton Flowers 
+name: Holton Flowers
 slug: holton-flowers
 ontarioCategory: Retail
 businessType: shop
@@ -13,10 +13,11 @@ phone: 905-885-7439
 website: https://holtonsflowers.com
 facebook: https://www.facebook.com/HoltonFlowers/
 instagram: https://www.instagram.com/holtonflowers/
-twitter: 
+twitter:
 ownerName: Tova White
 mailingList: info@holtonflowers.com
 buildingOwner: Tova White
 buildingMailingList: same as info@holtons
+storefront: 62-Walton.webp
 ---
 

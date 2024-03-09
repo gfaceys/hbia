@@ -1,5 +1,5 @@
 ---
-name: Lent Travel (1982) Ltd. 
+name: Lent Travel (1982) Ltd.
 slug: lent-travel-1982-ltd
 ontarioCategory: Other Services
 businessType: service
@@ -12,12 +12,13 @@ title: Walton-67
 phone: 905-885-2453
 website: https://www.lenttravel.ca/
 facebook: https://www.facebook.com/LentTravelPortHope
-instagram: 
-twitter: 
+instagram:
+twitter:
 ownerName: John  Beauchamp
-mailingList: john@lenttravel.ca 
+mailingList: john@lenttravel.ca
 buildingOwner: John Beauchamp
 buildingMailingList: Same as Biz
+storefront: 67-Walton.webp
 ---
 
 Lent Travel was established in 1951 by the Lent family: our location has served as a passenger rail depot for the Port

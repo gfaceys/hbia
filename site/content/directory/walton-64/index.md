@@ -1,5 +1,5 @@
 ---
-name: Kingsmill Kitchens & Baths 
+name: Kingsmill Kitchens & Baths
 slug: kingsmill-kitchens-baths
 ontarioCategory: Retail
 businessType: shop
@@ -17,7 +17,8 @@ twitter: https://twitter.com/kingsmkitchen
 ownerName: Tony Hunt
 mailingList: tony@kingsmillkitchens.com
 buildingOwner: Phil Carter & Sheilagh Fletcher
-buildingMailingList: 
+buildingMailingList:
+storefront: 64-Walton.webp
 ---
 
 We are a team of award winning interior designers specializing in kitchen and bathroom design.

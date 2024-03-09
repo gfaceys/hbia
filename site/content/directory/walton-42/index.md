@@ -1,5 +1,5 @@
 ---
-name: Royal Service Real Estate 
+name: Royal Service Real Estate
 slug: royal-service-real-estate
 ontarioCategory: Professional Services
 businessType: service
@@ -11,13 +11,14 @@ address: 42 Walton Street
 title: Walton-42
 phone: 905-885-7627
 website: https://www.royalservice.ca/
-facebook: 
-instagram: 
-twitter: 
+facebook:
+instagram:
+twitter:
 ownerName: Erin Brown
 mailingList: erinbrown@royalservice.ca
-buildingOwner: 
-buildingMailingList: 
+buildingOwner:
+buildingMailingList:
+storefront: 42-Walton.webp
 ---
 
 Our team of over 60 professional REALTORS speak English, ASL, and are ready to assist you in buying and selling houses,

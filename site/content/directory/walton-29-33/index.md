@@ -17,7 +17,10 @@ twitter:
 ownerName: Liza Smith
 mailingList: liza@millysporthope.com
 buildingOwner:
-buildingMailingList: 
+buildingMailingList:
+storefront: 29-33-Walton.webp
+otherPics:
+  - image: 29-Walton.webp
 ---
 
 Our cozy bistro offers a delicious menu of ready-to-eat meals such as sandwiches, salads, and soups that can be enjoyed

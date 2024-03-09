@@ -18,5 +18,6 @@ ownerName: Loyalist College
 mailingList: rads@loyalistcollege.com
 buildingOwner: Maryam Sadriah
 buildingMailingList: same
+storefront: 34-36-Walton.webp
 ---
 

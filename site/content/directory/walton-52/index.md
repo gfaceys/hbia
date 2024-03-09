@@ -1,5 +1,5 @@
 ---
-name: Grasshopper Cannabis 
+name: Grasshopper Cannabis
 slug: grasshopper-cannabis
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -10,13 +10,14 @@ vacant: false
 address: 52 Walton Street
 title: Walton-52
 phone: 905-885-8778
-website: 
-facebook: 
-instagram: 
-twitter: 
+website:
+facebook:
+instagram:
+twitter:
 ownerName: Jack Walsh
 mailingList: info@grasshoppercannabis.com
-buildingOwner: 
-buildingMailingList: 
+buildingOwner:
+buildingMailingList:
+storefront: 52-Walton.webp
 ---
 

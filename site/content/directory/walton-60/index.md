@@ -1,5 +1,5 @@
 ---
-name: Faun Boutique 
+name: Faun Boutique
 slug: faun-boutique
 ontarioCategory: Retail
 businessType: shop
@@ -13,11 +13,12 @@ phone: 289-961-0292
 website: https://faunboutiqueandsalon.simplybook.me/v2/
 facebook: https://www.facebook.com/faunboutique/
 instagram: https://www.instagram.com/faunboutique/?hl=en
-twitter: 
+twitter:
 ownerName: Haley  Campbell
-mailingList: faunboutique@gmail.com 
+mailingList: faunboutique@gmail.com
 buildingOwner: Maryam Sadriah
-buildingMailingList:         same
+buildingMailingList: same
+storefront: 60-Walton.webp
 ---
 
 Hey babes. We're back! We can't wait to see you. There will be some new precautions in place for your comfort. There are

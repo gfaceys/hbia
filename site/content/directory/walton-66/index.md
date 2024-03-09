@@ -1,5 +1,5 @@
 ---
-name: The Main 
+name: The Main
 slug: the-main
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -10,13 +10,14 @@ vacant: false
 address: 66 Walton Street
 title: Walton-66
 phone: 905-885-2325
-website: 
-facebook: 
+website:
+facebook:
 instagram: https://www.instagram.com/themainat66/
-twitter: 
+twitter:
 ownerName: Albert Schultz
 mailingList: themainat66@gmail.com
 buildingOwner: Dave Watson
-buildingMailingList: 
+buildingMailingList:
+storefront: 26-Walton.webp
 ---
 

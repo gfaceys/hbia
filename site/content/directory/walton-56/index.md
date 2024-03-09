@@ -1,5 +1,5 @@
 ---
-name: Bibelot 
+name: Bibelot
 slug: bibelot
 ontarioCategory: Retail
 businessType: shop
@@ -12,12 +12,13 @@ title: Walton-56
 phone: 905-885-9682
 website: http://bibelotporthope.ca/
 facebook: https://www.facebook.com/originalbibelot/
-instagram: 
-twitter: 
-ownerName: Jann Stefoff 
+instagram:
+twitter:
+ownerName: Jann Stefoff
 mailingList: jann.stefoff@gmail.com
 buildingOwner: Maryam Sadriah
-buildingMailingList: 
+buildingMailingList:
+storefront: 56-Walton.webp
 ---
 
 A beautiful boutique experience of unexpected treats & unique treasures, lovingly sourced & curated by Jann - for you or

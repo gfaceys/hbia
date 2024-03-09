@@ -1,5 +1,5 @@
 ---
-name: Vision Travel 
+name: Vision Travel
 slug: vision-travel
 ontarioCategory: Professional Services
 businessType: service
@@ -12,12 +12,13 @@ title: Walton-46
 phone: 905-885-7246
 website: https://www.visiontravel.ca/lyndawestlake/en/
 facebook: https://www.facebook.com/Lynda.VisionTravel.PortHope/
-instagram: 
-twitter: 
+instagram:
+twitter:
 ownerName: Lynda Westlake
-mailingList: lynda.westlake@visiontravel.ca 
-buildingOwner: 
-buildingMailingList: 
+mailingList: lynda.westlake@visiontravel.ca
+buildingOwner:
+buildingMailingList:
+storefront: 46-Walton.webp
 ---
 
 Specializing in travel arrangements for people in the. Grand Bank area. All travel is processed by Goliger's Travel Plus

@@ -1,5 +1,5 @@
 ---
-name: Scotia Bank 
+name: Scotia Bank
 slug: scotia-bank
 ontarioCategory: Professional Services
 businessType: service
@@ -18,5 +18,6 @@ ownerName: Doug Gadsby
 mailingList: douggadsby@scotiabank.com
 buildingOwner: Lynch, Rutherford ,Tozer
 buildingMailingList:
+storefront: 69-Walton.webp
 ---
 

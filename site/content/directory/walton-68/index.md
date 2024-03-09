@@ -1,5 +1,5 @@
 ---
-name: The Nooks 
+name: The Nooks
 slug: the-nooks
 ontarioCategory: Retail
 businessType: shop
@@ -15,9 +15,10 @@ facebook: https://www.facebook.com/thenookscanada/
 instagram: https://www.instagram.com/thenookscanada/
 twitter: https://twitter.com/thenooks?lang=en
 ownerName: Colleen Imrie
-mailingList: colleen@thenooks.ca 
+mailingList: colleen@thenooks.ca
 buildingOwner: Dave Watson
-buildingMailingList: 
+buildingMailingList:
+storefront: 68-Walton.webp
 ---
 
 The Nooks is the first Artisan Retail Business Incubator in Canada! Our unique retail model combines in store space, a

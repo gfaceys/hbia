@@ -8,7 +8,7 @@ longitude: "-78.2932855188847"
 residential: false
 vacant: false
 address: 37 Walton Street
-title: Walton-37-a
+title: Walton-37-down
 phone: 905-885-1323
 website: https://www.ganaraskart.com/
 facebook:
@@ -18,6 +18,7 @@ ownerName: Graeme
 mailingList: info@ganaraskart.com
 buildingOwner: Robin Long
 buildingMailingList: robinklong@icloud.com
+storefront: 37-Walton.webp
 ---
 
 Ganaraska Art & Framing is a boutique art gallery showcasing local artists. We offer a wide range of framing options for
