@@ -1,5 +1,5 @@
 ---
-title: Madd World Gift Shop
+name: Madd World Gift Shop 
 slug: madd-world-gift-shop
 ontarioCategory: Retail
 businessType: shop
@@ -8,6 +8,7 @@ longitude: "-78.2950249314308"
 residential: false
 vacant: false
 address: 91 Walton Street
+title: Walton-91
 phone: 289-251-2172
 website:
 facebook:

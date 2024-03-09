@@ -1,5 +1,5 @@
 ---
-title: TD Canada Trust
+name: TD Canada Trust 
 slug: td-canada-trust
 ontarioCategory: Professional Services
 businessType: service
@@ -8,6 +8,7 @@ longitude: "-78.2955546677113"
 residential: false
 vacant: false
 address: 113 Walton Street
+title: Walton-113
 phone: 905-885-6361
 website: http://tdcanadatrust.com/
 facebook:

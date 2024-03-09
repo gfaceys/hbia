@@ -1,6 +1,5 @@
-
 ---
-title: Purpose Thrift Store
+name: Purpose Thrift Store 
 slug: purpose-thrift-store
 ontarioCategory: Retail
 businessType: shop
@@ -9,6 +8,7 @@ longitude: "-78.2929059863091"
 residential: false
 vacant: false
 address: 32 Walton Street
+title: Walton-32
 phone: 905-376-3307
 website: 
 facebook: https://www.facebook.com/VictimServicesPN/
@@ -19,4 +19,6 @@ mailingList: purposevspn@gmail.com
 buildingOwner: 
 buildingMailingList: 
 ---
-A store dedicated to spreading the joy of #thrifting with everyone :) All of our proceeds go towards Victim Services so come shop for a good cause!
+
+A store dedicated to spreading the joy of #thrifting with everyone :) All of our proceeds go towards Victim Services so
+come shop for a good cause!

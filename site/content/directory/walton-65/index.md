@@ -1,6 +1,5 @@
-
 ---
-title: Furby House Books
+name: Furby House Books 
 slug: furby-house-books
 ontarioCategory: Retail
 businessType: shop
@@ -9,6 +8,7 @@ longitude: "-78.294"
 residential: false
 vacant: false
 address: 65 Walton Street
+title: Walton-65
 phone: 905-885-7296
 website: https://furbyhousebooks.com/
 facebook: https://www.facebook.com/furbyhousebooks/
@@ -19,4 +19,5 @@ mailingList: info@furbyhousebooks.com
 buildingOwner: Lou Pamenter
 buildingMailingList: louspamenter@gmail.com
 ---
+
 A local bookstore at the heart of historic Port Hope

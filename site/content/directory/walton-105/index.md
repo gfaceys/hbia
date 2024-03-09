@@ -1,5 +1,5 @@
 ---
-title: Stately Raven
+name: Stately Raven 
 slug: stately-raven
 ontarioCategory: Personal Services
 businessType: service
@@ -8,6 +8,7 @@ longitude: "-78.295416533947"
 residential: false
 vacant: false
 address: 105 Walton Street
+title: Walton-105
 phone: 905-885-9806
 website: https://www.statelyravenstudio.com/
 facebook:
@@ -19,6 +20,7 @@ buildingOwner:
 buildingMailingList:
 storefront: 105-walton.webp
 ---
+
 Located in Historical downtown Port Hope, Ravens Strange and Unusual Oddities and Tattoos provides Quality Custom
 tattoos. All our artists are trained in proper and safe tattooing to ensure safety for all our clients.
 

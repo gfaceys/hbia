@@ -1,5 +1,5 @@
 ---
-title: Evolution Hair Design and Aesthetics
+name: Evolution Hair Design and Aesthetics
 slug: evolution-hair-design-and-aesthetics
 ontarioCategory: Professional Services
 businessType: service
@@ -8,6 +8,7 @@ longitude: "-78.2948385179043"
 residential: false
 vacant: false
 address: 98 Walton Street
+title: Walton-98-a
 phone: 905-885-5507
 website: https://evolutionhairdesign.godaddysites.com/
 facebook: https://www.facebook.com/Evolution-Hair-Design-292145867541108/

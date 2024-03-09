@@ -1,5 +1,5 @@
 ---
-title: PoHo BoHo
+name: PoHo BoHo 
 slug: poho-boho
 ontarioCategory: Retail
 businessType: shop
@@ -8,6 +8,7 @@ longitude: "-78.2950733"
 residential: false
 vacant: false
 address: 93 Walton Street
+title: Walton-93
 phone: 905-435-7228
 website:
 facebook: https://www.facebook.com/pohoboho/

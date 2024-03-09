@@ -1,6 +1,5 @@
-
 ---
-title: The Christmas Store
+name: The Christmas Store 
 slug: the-christmas-store
 ontarioCategory: Vacant
 businessType: none
@@ -9,6 +8,7 @@ longitude: "-78.2947620749474"
 residential: false
 vacant: false
 address: 16 John Street
+title: john-16
 phone: 
 website: 
 facebook: 

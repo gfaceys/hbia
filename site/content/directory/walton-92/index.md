@@ -1,5 +1,5 @@
 ---
-title: Timm David
+name: Timm David 
 slug: timm-david
 ontarioCategory: Personal Services
 businessType: service
@@ -8,6 +8,7 @@ longitude: "-78.2947484"
 residential: false
 vacant: false
 address: 92 Walton Street
+title: Walton-92
 phone: 905-430-2300
 website: https://www.timmdavidshampoocompany.com/
 facebook: https://www.facebook.com/timmdavidshampoocompany/

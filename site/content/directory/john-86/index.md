@@ -1,5 +1,5 @@
 ---
-title: Hotel Carlyle & Restaurant
+name: Hotel Carlyle & Restaurant 
 slug: hotel-carlyle-restaurant
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -8,6 +8,7 @@ longitude: "-78.2953736186028"
 residential: false
 vacant: false
 address: 86 John Street
+title: john-86
 phone: 905-885-5500
 website: https://www.hotelcarlyle.ca/
 facebook: https://www.facebook.com/hotelcarlyleandrestaurant/
@@ -19,4 +20,5 @@ buildingOwner:
 buildingMailingList:
 storefront: 86-john.webp
 ---
+
 Hotel Carlyle, offers stylish boutique hotel accommodation and casually elegant dining, in the heart of Old Port Hope

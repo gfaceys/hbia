@@ -1,6 +1,6 @@
-
 ---
-title: Jim’s Pizza & Pasta
+title: Walton-20-22
+name: Jim’s Pizza & Pasta
 slug: jim-s-pizza-pasta
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -12,11 +12,12 @@ address: 20 and 22 Walton Street
 phone: 905-885-6313
 website: http://jimsporthope.ca/
 facebook: https://www.facebook.com/jimspizza
-instagram: 
-twitter: 
+instagram:
+twitter:
 ownerName: Trevor Causton
-mailingList: jimspizzaph@hotmail.com 
+mailingList: jimspizzaph@hotmail.com
 buildingOwner: Trevor Causton
 buildingMailingList: Same as Biz
 ---
+
 Pizza, spaghetti & oven-baked pastas prepared in a relaxed setting with a patio since 1970. 

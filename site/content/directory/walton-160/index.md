@@ -1,6 +1,5 @@
-
 ---
-title: Okeefe Accounting
+name: Okeefe Accounting 
 slug: okeefe-accounting
 ontarioCategory: Professional Services
 businessType: service
@@ -9,6 +8,7 @@ longitude: "-78.297760784626"
 residential: false
 vacant: false
 address: 160 Walton Street
+title: Walton-160
 phone: 905-800-0909
 website: http://okeefecpa.ca/
 facebook: https://www.facebook.com/OKeefeCPA
@@ -19,5 +19,7 @@ mailingList: info@okeefecpa.ca
 buildingOwner: 
 buildingMailingList: 
 ---
-We are a professional accounting firm aimed at helping business become more profitable. We also offer audits and reviews for those that have this requirement.
+
+We are a professional accounting firm aimed at helping business become more profitable. We also offer audits and reviews
+for those that have this requirement.
 

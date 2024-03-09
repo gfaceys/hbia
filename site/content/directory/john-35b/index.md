@@ -1,6 +1,5 @@
-
 ---
-title: 35B John - Vacant
+name: 35B John - Vacant 
 slug: 35b-john-vacant
 ontarioCategory: Vacant
 businessType: none
@@ -9,6 +8,7 @@ longitude: "-78.2947540283203"
 residential: false
 vacant: true
 address: 35B John Street
+title: john-35B
 phone: 
 website: 
 facebook: 

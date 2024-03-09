@@ -1,5 +1,6 @@
 ---
-title: Racine Law
+title: Walton-48-50
+name: Racine Law
 slug: racine-law
 ontarioCategory: Professional Services
 businessType: service
@@ -18,5 +19,6 @@ mailingList: melanie@racinelaw.ca
 buildingOwner:
 buildingMailingList:
 ---
+
 At Racine Law, it is our mission to help the residents of Northumberland County with real estate law, land use, wills
 and powers of attorneys, business and corporate law, commercial and corporate transactions, and estate administration.

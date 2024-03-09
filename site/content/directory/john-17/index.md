@@ -1,6 +1,5 @@
-
 ---
-title: 17 John - Residential
+name: 17 John - Residential 
 slug: 17-john-residential
 ontarioCategory: Residential
 businessType: none
@@ -9,6 +8,7 @@ longitude: "-78.2946561276913"
 residential: true
 vacant: false
 address: 17 John Street
+title: john-17
 phone: 
 website: 
 facebook: 

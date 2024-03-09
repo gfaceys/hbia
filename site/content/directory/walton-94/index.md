@@ -1,5 +1,5 @@
 ---
-title: Dane and Jute
+name: Dane and Jute
 slug: dane-and-jute
 ontarioCategory: Retail
 businessType: shop
@@ -8,6 +8,7 @@ longitude: "-78.2948265"
 residential: false
 vacant: false
 address: 94 Walton Street
+title: Walton-94-a
 phone: 905-885-2332
 website: https://daneandjute.ca/
 facebook: https://www.facebook.com/daneandjute/

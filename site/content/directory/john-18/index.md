@@ -1,5 +1,5 @@
 ---
-title: The Tiny Nest gallery
+name: The Tiny Nest gallery 
 slug: the-tiny-nest-gallery
 ontarioCategory: Retail
 businessType: shop
@@ -8,6 +8,7 @@ longitude: "-78.294885"
 residential: false
 vacant: false
 address: 18 John Street
+title: john-18
 phone: 647-376-5376
 website:
 facebook:

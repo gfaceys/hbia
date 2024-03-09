@@ -1,6 +1,5 @@
-
 ---
-title: Olympus Burger
+name: Olympus Burger 
 slug: olympus-burger
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -9,6 +8,7 @@ longitude: "-78.2911734"
 residential: false
 vacant: false
 address: 55 Mill Street S
+title: mill-south-55
 phone: 905-885-4637
 website: https://olympusburger.ca/
 facebook: https://www.facebook.com/olympusburgerporthope

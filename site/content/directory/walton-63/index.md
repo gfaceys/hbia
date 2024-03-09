@@ -1,6 +1,5 @@
-
 ---
-title: Thirsty Goose
+name: Thirsty Goose 
 slug: thirsty-goose
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -9,6 +8,7 @@ longitude: "-78.2939"
 residential: false
 vacant: false
 address: 63 Walton Street
+title: Walton-63
 phone: 905-800-0338
 website: https://thethirstygoose.ca/
 facebook: https://www.facebook.com/thethirstygooseph/
@@ -19,5 +19,6 @@ mailingList: info@thirstygoose.ca
 buildingOwner: Reg Marnda &CamGreene
 buildingMailingList: 
 ---
+
 Downtown Port Hope's favourite bar and pub with a wide selection of food & drink available.
 

@@ -1,6 +1,6 @@
-
 ---
-title: Epic Gymnastics
+title: robertson-10-b
+name: Epic Gymnastics
 slug: epic-gymnastics
 ontarioCategory: Personal Services
 businessType: service
@@ -11,12 +11,13 @@ vacant: false
 address: 10 Robertson St
 phone: 905-800-0094
 website: http://epicgym.ca/
-facebook: 
-instagram: 
-twitter: 
+facebook:
+instagram:
+twitter:
 ownerName: Cassandra Cornall
 mailingList: info@epicgym.ca
-buildingOwner: 
+buildingOwner:
 buildingMailingList: 
 ---
+
 EPIC Gymnastics, Dance, Parkour, Karate, Events, Parties, and more.

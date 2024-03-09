@@ -1,6 +1,5 @@
-
 ---
-title: Benjamin Moore Colour Concepts
+name: Benjamin Moore Colour Concepts 
 slug: benjamin-moore-colour-concepts
 ontarioCategory: Retail
 businessType: shop

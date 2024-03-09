@@ -1,6 +1,5 @@
-
 ---
-title: 54 John – Residential
+name: 54 John – Residential 
 slug: 54-john-residential
 ontarioCategory: Residential
 businessType: none
@@ -9,6 +8,7 @@ longitude: "-78.2949538528919"
 residential: true
 vacant: false
 address: 54 John Street
+title: john-54
 phone: 
 website: 
 facebook: 

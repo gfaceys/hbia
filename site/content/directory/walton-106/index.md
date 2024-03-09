@@ -1,6 +1,5 @@
-
 ---
-title: 106 Walton - Vacant
+name: 106 Walton - Vacant 
 slug: 106-walton-vacant
 ontarioCategory: Vacant
 businessType: none
@@ -9,6 +8,7 @@ longitude: "-78.2950115203858"
 residential: false
 vacant: true
 address: 106 Walton Street
+title: Walton-106
 phone: 
 website: 
 facebook: 

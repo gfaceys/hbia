@@ -1,6 +1,5 @@
-
 ---
-title: Retrospective
+name: Retrospective 
 slug: retrospective
 ontarioCategory: Retail
 businessType: shop
@@ -9,6 +8,7 @@ longitude: "-78.2928588"
 residential: false
 vacant: false
 address: 27 Walton Street
+title: Walton-27
 phone: 905-885-1027
 website: 
 facebook: 

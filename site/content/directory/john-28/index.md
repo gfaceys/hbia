@@ -1,5 +1,5 @@
 ---
-title: Gryphon Books
+name: Gryphon Books 
 slug: gryphon-books
 ontarioCategory: Retail
 businessType: shop
@@ -8,6 +8,7 @@ longitude: "-78.2949681"
 residential: false
 vacant: false
 address: 28 John Street
+title: john-28
 phone: 905-885-5399
 website:
 facebook: https://www.facebook.com/pages/category/Bookstore/Gryphon-Books-133148373369658/
@@ -19,5 +20,6 @@ buildingOwner:
 buildingMailingList:
 storefront: 28-john.webp
 ---
+
 We buy and sell good quality used books. Serving Port Hope and the surrounding area for over 20 years! Please call if
 you are looking for something specific

@@ -1,6 +1,5 @@
-
 ---
-title: Second Helpings
+name: Second Helpings 
 slug: second-helpings
 ontarioCategory: Retail
 businessType: shop
@@ -9,6 +8,7 @@ longitude: "-78.2934384047985"
 residential: false
 vacant: false
 address: 45 Walton Street
+title: Walton-45
 phone: 905-885-9411
 website: https://seontario.org/business/second-helpings-port-hope/ 
 facebook: 

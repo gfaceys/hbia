@@ -1,6 +1,5 @@
-
 ---
-title: Port Hope Suites and Extended Stays
+name: Port Hope Suites and Extended Stays 
 slug: port-hope-suites-and-extended-stays
 ontarioCategory: Other Services
 businessType: explore-stay
@@ -9,6 +8,7 @@ longitude: "-78.2917915284634"
 residential: false
 vacant: false
 address: 12 Mill Street S
+title: mill-south-12
 phone: 905-269-3650
 website: https://porthopesuites.com/
 facebook: 

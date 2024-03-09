@@ -1,6 +1,5 @@
-
 ---
-title: Municipality of Port Hope 
+name: Municipality of Port Hope  
 slug: municipality-of-port-hope
 ontarioCategory: Professional Services
 businessType: service
@@ -9,6 +8,7 @@ longitude: "-78.2935094833374"
 residential: false
 vacant: false
 address: 56 Queen Street
+title: queen-56
 phone: 905-885-4544
 website: http://porthope.ca/
 facebook: https://www.facebook.com/MunicipalityofPortHope

@@ -1,5 +1,5 @@
 ---
-title: Piccini Architect
+name: Piccini Architect 
 slug: piccini-architect
 ontarioCategory: Professional Services
 businessType: service
@@ -8,6 +8,7 @@ longitude: "-78.2971867918968"
 residential: false
 vacant: false
 address: 148 Walton Street
+title: Walton-148
 phone: 905-885-8729
 website: https://www.picciniarchitect.net/
 facebook:

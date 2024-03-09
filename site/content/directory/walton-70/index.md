@@ -1,5 +1,5 @@
 ---
-title: BMO Bank of Montreal
+name: BMO Bank of Montreal 
 slug: bmo-bank-of-montreal
 ontarioCategory: Professional Services
 businessType: service
@@ -8,6 +8,7 @@ longitude: "-78.29417"
 residential: false
 vacant: false
 address: 70 Walton Street
+title: Walton-70
 phone: 905-885-4531 906-885-4260
 website: https://www.bmo.com/main/personal
 facebook:

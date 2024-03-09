@@ -1,6 +1,5 @@
-
 ---
-title: BobaLoka Bubble Tea Store
+name: BobaLoka Bubble Tea Store
 slug: bobaloka-bubble-tea-store
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -9,14 +8,16 @@ longitude: "-78.2931312918663"
 residential: false
 vacant: false
 address: 63 Ontario Street
+title: ontario-63-b
 phone: 416-710-3426
 website: https://bobaloka.ca
-facebook: 
-instagram: 
-twitter: 
-ownerName:  BobaLoka
+facebook:
+instagram:
+twitter:
+ownerName: BobaLoka
 mailingList: bobalokaporthope@gmail.com
-buildingOwner: 
+buildingOwner:
 buildingMailingList: 
 ---
+
 Northumberland’s coolest Bubble Tea spot, brought to you by The Loco Smoker BBQ

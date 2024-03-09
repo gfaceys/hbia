@@ -1,5 +1,5 @@
 ---
-title: Turtle Johns
+name: Turtle Johns 
 slug: turtle-johns
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -8,6 +8,7 @@ longitude: "-78.295001"
 residential: false
 vacant: false
 address: 64 John Street
+title: john-64
 phone: 905-885-7200
 website: https://www.turtlejohns.com/homeph
 facebook: https://www.facebook.com/Turtle-Johns-169582910077520/
@@ -19,6 +20,7 @@ buildingOwner:
 buildingMailingList:
 storefront: 64-john.webp
 ---
+
 At Turtle John's we strive to give genuine attention to all of our customers and to make you feel welcome each and
 everytime you visit us. We do this by providing you with an extensive menu for every pallette and with our welcoming,
 friendly staff. Some of the greatest relationships have been forged over a tasty meal! Each and every time you walk in

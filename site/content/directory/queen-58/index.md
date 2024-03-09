@@ -1,6 +1,5 @@
-
 ---
-title: Port Hope & District Chamber of Commerce  
+name: Port Hope & District Chamber of Commerce   
 slug: port-hope-district-chamber-of-commerce
 ontarioCategory: Professional Services
 businessType: service
@@ -9,6 +8,7 @@ longitude: "-78.2936972379685"
 residential: false
 vacant: false
 address: 58 Queen Street
+title: queen-58
 phone: 905-885-5519
 website: https://www.porthopechamber.com/
 facebook: https://www.facebook.com/PortHopeAndDistrictChamberOfCommerce/

@@ -1,6 +1,5 @@
-
 ---
-title: 50 John – Residential
+name: 50 John – Residential 
 slug: 50-john-residential
 ontarioCategory: Residential
 businessType: none
@@ -9,6 +8,7 @@ longitude: "-78.2949538528919"
 residential: true
 vacant: false
 address: 50 John Street
+title: john-50
 phone: 
 website: 
 facebook: 

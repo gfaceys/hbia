@@ -1,6 +1,6 @@
-
 ---
-title: Loyalist College
+title: Walton-34-36
+name: Loyalist College
 slug: loyalist-college
 ontarioCategory: Professional Services
 businessType: service
@@ -10,13 +10,13 @@ residential: false
 vacant: false
 address: 34 and 36 Walton Street
 phone: 905-885-2152
-website: https://www.loyalistcollege.com/our-campus/port-hope-satellite-location/ 
-facebook: 
-instagram: 
-twitter: 
+website: https://www.loyalistcollege.com/our-campus/port-hope-satellite-location/
+facebook:
+instagram:
+twitter:
 ownerName: Loyalist College
-mailingList: rads@loyalistcollege.com 
+mailingList: rads@loyalistcollege.com
 buildingOwner: Maryam Sadriah
-buildingMailingList:         same
+buildingMailingList: same
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Seven Dragon RMT
+name: Seven Dragon RMT 
 slug: seven-dragon-rmt
 ontarioCategory: Professional Services
 businessType: service
@@ -8,6 +8,7 @@ longitude: "-78.2949042320252"
 residential: false
 vacant: false
 address: 36 John Street
+title: john-36
 phone: 705-308-3066
 website:
 facebook:

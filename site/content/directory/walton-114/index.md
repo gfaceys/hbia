@@ -1,5 +1,5 @@
 ---
-title: Mann McCracken & Associates
+name: Mann McCracken & Associates 
 slug: mann-mccracken-associates
 ontarioCategory: Professional Services
 businessType: service
@@ -8,6 +8,7 @@ longitude: "-78.2954286038876"
 residential: false
 vacant: false
 address: 114 Walton Street
+title: Walton-114
 phone: 905-885-2461
 website: https://northumberlandlaw.com/
 facebook: https://www.facebook.com/mannmccrackenandassociates/
@@ -19,6 +20,7 @@ buildingOwner: Doug Mann & Alan McCracken
 buildingMailingList:
 storefront: 114-walton.webp
 ---
+
 Mann McCracken & Associates is Northumberland County’s most accessible legal service provider. We assist clients ranging
 from individuals, small businesses, retailers, construction companies, large corporations, financial institutions, and
 Municipalities.

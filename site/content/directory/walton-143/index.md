@@ -1,6 +1,5 @@
-
 ---
-title: Residential
+name: Residential 
 slug: residential
 ontarioCategory: Residential
 businessType: none
@@ -9,6 +8,7 @@ longitude: "-78.2974120974541"
 residential: true
 vacant: false
 address: 143 Walton Street
+title: Walton-143
 phone: 
 website: 
 facebook: 

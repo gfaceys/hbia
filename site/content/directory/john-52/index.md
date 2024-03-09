@@ -1,6 +1,5 @@
-
 ---
-title: 46 John – Residential
+name: 46 John – Residential 
 slug: 46-john-residential
 ontarioCategory: Residential
 businessType: none
@@ -9,6 +8,7 @@ longitude: "-78.29501"
 residential: true
 vacant: false
 address: 46 John Street
+title: john-46
 phone: 
 website: 
 facebook: 

@@ -1,6 +1,5 @@
-
 ---
-title: LCBO
+name: LCBO 
 slug: lcbo
 ontarioCategory: Retail
 businessType: shop
@@ -9,6 +8,7 @@ longitude: "-78.2937455177307"
 residential: false
 vacant: false
 address: 15 Ontario Street
+title: ontario-15
 phone: 905-885-5668
 website: https://www.lcbo.com/
 facebook: 

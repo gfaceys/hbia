@@ -1,5 +1,5 @@
 ---
-title: Ravenswood
+name: Ravenswood 
 slug: ravenswood
 ontarioCategory: Personal Services
 businessType: service
@@ -8,6 +8,7 @@ longitude: "-78.2949918"
 residential: false
 vacant: false
 address: 32 John Street
+title: john-32
 phone:
 website: https://www.ravenswoodboutique.com/
 facebook:

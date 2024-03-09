@@ -1,5 +1,5 @@
 ---
-title: Cavan on Walton Cafe
+name: Cavan on Walton Cafe 
 slug: cavan-on-walton-cafe
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -8,6 +8,7 @@ longitude: "-78.2943604"
 residential: false
 vacant: false
 address: 74 Walton Street
+title: Walton-74
 phone:
 website:
 facebook:

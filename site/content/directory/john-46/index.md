@@ -1,6 +1,5 @@
-
 ---
-title: 48 John – Residential
+name: 48 John – Residential 
 slug: 48-john-residential
 ontarioCategory: Residential
 businessType: none
@@ -9,6 +8,7 @@ longitude: "-78.2949243485928"
 residential: true
 vacant: false
 address: 48 John Street
+title: john-48
 phone: 
 website: 
 facebook: 

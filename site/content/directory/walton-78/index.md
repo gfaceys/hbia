@@ -1,5 +1,5 @@
 ---
-title: Dwellissimo
+name: Dwellissimo 
 slug: dwellissimo
 ontarioCategory: Retail
 businessType: shop
@@ -8,6 +8,7 @@ longitude: "-78.294501"
 residential: false
 vacant: false
 address: 78 Walton Street
+title: Walton-78
 phone: 905-885-7044
 website: http://www.dwellissimo.com/
 facebook: https://www.facebook.com/pages/category/Furniture-Store/Dwellissimo-388737831208595/
@@ -19,5 +20,6 @@ buildingOwner:
 buildingMailingList:
 storefront: 78-walton.webp
 ---
+
 Vintage Mid Century Modern Only buy what you like and we source quality Canadian and Scandinavian pieces you will value
 for years.

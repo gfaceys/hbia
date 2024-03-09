@@ -1,5 +1,5 @@
 ---
-title: Bualai Taste of Thai
+name: Bualai Taste of Thai 
 slug: bualai-taste-of-thai
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -8,6 +8,7 @@ longitude: "-78.2952328026295"
 residential: false
 vacant: false
 address: 108 Walton Street
+title: Walton-108
 phone: 905-885-1300
 website:
 facebook: https://www.facebook.com/BualaiThaiporthope

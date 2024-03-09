@@ -1,5 +1,5 @@
 ---
-title: Lynch Rutherford Tozer
+name: Lynch Rutherford Tozer 
 slug: lynch-rutherford-tozer
 ontarioCategory: Professional Services
 businessType: service
@@ -8,6 +8,7 @@ longitude: "-78.2943709"
 residential: false
 vacant: false
 address: 71 Walton Street
+title: Walton-71
 phone: 905-885-2443
 website:
 facebook:

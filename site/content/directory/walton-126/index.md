@@ -1,5 +1,5 @@
 ---
-title: Chestnut Park Realty
+name: Chestnut Park Realty 
 slug: chestnut-park-realty
 ontarioCategory: Professional Services
 businessType: service
@@ -8,6 +8,7 @@ longitude: "-78.2957799732685"
 residential: false
 vacant: false
 address: 126 Walton Street
+title: Walton-126
 phone: 289-251-2172
 website: https://www.chestnutpark.com/Julie-Aldis
 facebook:
@@ -19,5 +20,6 @@ buildingOwner: Daphne Grandfeld&J.AldisSame as Biz
 buildingMailingList:
 storefront: 126-walton.webp
 ---
+
 View Chestnut Park Real Estate Limited, Brokerage - Northumberland County's luxury properties and homes for sale and
 rent available exclusively through Christie's International Real Estate

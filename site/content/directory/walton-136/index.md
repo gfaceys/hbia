@@ -1,5 +1,5 @@
 ---
-title: Thrill of the Find -Closed
+name: Thrill of the Find -Closed 
 slug: thrill-of-the-find-closed
 ontarioCategory: Vacant
 businessType: none
@@ -8,6 +8,7 @@ longitude: "-78.2963740825653"
 residential: false
 vacant: true
 address: 136 Walton Street
+title: Walton-136
 phone: 905-885-4444
 website: https://thrillofthefind.ca/
 facebook:

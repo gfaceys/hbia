@@ -1,6 +1,5 @@
-
 ---
-title: Port Hope Archives   
+name: Port Hope Archives    
 slug: port-hope-archives
 ontarioCategory: Cultural Attraction
 businessType: explore-stay
@@ -9,6 +8,7 @@ longitude: "-78.2915461063385"
 residential: false
 vacant: false
 address: 17 Mill Street N
+title: mill-north-17
 phone: 905-885-1673
 website: http://www.porthopearchives.com/
 facebook: https://www.facebook.com/PHArchives

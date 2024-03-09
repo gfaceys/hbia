@@ -1,6 +1,5 @@
-
 ---
-title: Gloss Beauty Lounge
+name: Gloss Beauty Lounge
 slug: gloss-beauty-lounge
 ontarioCategory: Personal Services
 businessType: service
@@ -9,14 +8,17 @@ longitude: "-78.2941"
 residential: false
 vacant: false
 address: 24 Ontario Street
+title: ontario-24-b
 phone: 905-885-7521
-website: 
+website:
 facebook: https://www.facebook.com/porthopetraining/
-instagram: 
-twitter: 
+instagram:
+twitter:
 ownerName: Anne Dowling
 mailingList: glossporthope@gmail.com
-buildingOwner: 
+buildingOwner:
 buildingMailingList: 
 ---
-An uplifting and empowering atmosphere for all of your beauty needs located in a bright & airy loft lounge in beautiful downtown Port Hope
+
+An uplifting and empowering atmosphere for all of your beauty needs located in a bright & airy loft lounge in beautiful
+downtown Port Hope

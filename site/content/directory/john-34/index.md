@@ -1,5 +1,5 @@
 ---
-title: Gallery 34
+name: Gallery 34 
 slug: gallery-34
 ontarioCategory: Retail
 businessType: shop
@@ -8,6 +8,7 @@ longitude: "-78.2948412001133"
 residential: false
 vacant: false
 address: 34 John Street
+title: john-34
 phone: 905-800-1233
 website:
 facebook:

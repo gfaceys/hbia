@@ -1,6 +1,5 @@
-
 ---
-title: 81 Walton - Vacant
+name: 81 Walton - Vacant 
 slug: 81-walton-vacant
 ontarioCategory: Vacant
 businessType: none
@@ -9,6 +8,7 @@ longitude: "-78.2944643497467"
 residential: false
 vacant: true
 address: 81 Walton Street
+title: Walton-81
 phone: 
 website: 
 facebook: 

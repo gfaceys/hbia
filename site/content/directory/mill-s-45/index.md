@@ -1,6 +1,5 @@
-
 ---
-title: Shantee Healing
+name: Shantee Healing 
 slug: shantee-healing
 ontarioCategory: Personal Services
 businessType: service
@@ -9,6 +8,7 @@ longitude: "-78.2913208007813"
 residential: false
 vacant: false
 address: 45 Mill Street S
+title: mill-south-45
 phone: 905-800-0638
 website: https://shanteehealing.com/
 facebook: https://www.facebook.com/Shanteehealing/

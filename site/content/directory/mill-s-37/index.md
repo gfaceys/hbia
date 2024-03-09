@@ -1,6 +1,5 @@
-
 ---
-title: Dr. Anna Tucka, Dental Office
+name: Dr. Anna Tucka, Dental Office 
 slug: dr-anna-tucka-dental-office
 ontarioCategory: Professional Services
 businessType: service
@@ -9,6 +8,7 @@ longitude: "-78.2913181185723"
 residential: false
 vacant: false
 address: 37 Mill Street S
+title: mill-south-37
 phone: 905-885-9222
 website: https://www.drannatucka.com/
 facebook: https://www.facebook.com/DrAnnaTuckaDentalOffice/

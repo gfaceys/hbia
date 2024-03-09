@@ -1,6 +1,5 @@
-
 ---
-title: High River Closed
+name: High River Closed 
 slug: high-river-closed
 ontarioCategory: Vacant
 businessType: none
@@ -9,6 +8,7 @@ longitude: "-78.2949404"
 residential: false
 vacant: false
 address: 24 John Street
+title: john-24
 phone: 
 website: 
 facebook: 

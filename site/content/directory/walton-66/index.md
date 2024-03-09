@@ -1,6 +1,5 @@
-
 ---
-title: The Main
+name: The Main 
 slug: the-main
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -9,6 +8,7 @@ longitude: "-78.2938273251057"
 residential: false
 vacant: false
 address: 66 Walton Street
+title: Walton-66
 phone: 905-885-2325
 website: 
 facebook: 

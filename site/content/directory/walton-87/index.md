@@ -1,5 +1,5 @@
 ---
-title: All Things Beautiful
+name: All Things Beautiful 
 slug: all-things-beautiful
 ontarioCategory: Retail
 businessType: shop
@@ -8,6 +8,7 @@ longitude: "-78.2949477"
 residential: false
 vacant: false
 address: 87 Walton Street
+title: Walton-87
 phone: 905-626-2290
 website:
 facebook:

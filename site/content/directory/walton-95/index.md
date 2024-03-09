@@ -1,6 +1,5 @@
-
 ---
-title: 95 Walton - Vacant
+name: 95 Walton - Vacant 
 slug: 95-walton-vacant
 ontarioCategory: Vacant
 businessType: none
@@ -9,6 +8,7 @@ longitude: "-78.2951151"
 residential: false
 vacant: true
 address: 95 Walton Street
+title: Walton-95
 phone: 
 website: 
 facebook: 

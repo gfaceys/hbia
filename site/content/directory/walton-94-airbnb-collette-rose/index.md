@@ -1,5 +1,5 @@
 ---
-title: Collette Rose Airbnb
+name: Collette Rose Airbnb
 slug: collette-rose-airbnb
 ontarioCategory: Residential
 businessType: explore-stay
@@ -8,6 +8,7 @@ longitude: "-78.2948267"
 residential: false
 vacant: false
 address: 94 Walton Street
+title: Walton-94-b
 phone:
 website: https://www.airbnb.ca/rooms/972475330959080099
 facebook:

@@ -1,6 +1,5 @@
-
 ---
-title: 35A John - Vacant
+name: 35A John - Vacant 
 slug: 35a-john-vacant
 ontarioCategory: Vacant
 businessType: none
@@ -9,6 +8,7 @@ longitude: "-78.294784873724"
 residential: false
 vacant: true
 address: 35A John Street
+title: john-35A
 phone: 
 website: 
 facebook: 

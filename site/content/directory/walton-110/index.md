@@ -1,6 +1,5 @@
-
 ---
-title: Resurgence
+name: Resurgence 
 slug: resurgence
 ontarioCategory: Personal Services
 businessType: service
@@ -9,6 +8,7 @@ longitude: "-78.295315951109"
 residential: false
 vacant: false
 address: 110 Walton Street
+title: Walton-110
 phone: 905-718-4669
 website: 
 facebook: 

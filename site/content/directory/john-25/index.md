@@ -1,5 +1,5 @@
 ---
-title: Atelier on John
+name: Atelier on John 
 slug: atelier-on-john
 ontarioCategory: Retail
 businessType: shop
@@ -8,6 +8,7 @@ longitude: "-78.2946762442589"
 residential: false
 vacant: false
 address: 25 John Street
+title: john-25
 phone: 905 718-7166
 website: http://www.atelieronjohn.com/
 facebook:

@@ -1,6 +1,5 @@
-
 ---
-title: En Pointe Boutique
+name: En Pointe Boutique 
 slug: en-pointe-boutique
 ontarioCategory: Retail
 businessType: shop
@@ -9,6 +8,7 @@ longitude: "-78.2928214967251"
 residential: false
 vacant: false
 address: 7 Queen Street
+title: queen-7
 phone: 905-885-0808
 website: https://www.enpointeboutique.ca/
 facebook: https://www.facebook.com/enpointeboutique/
@@ -19,4 +19,5 @@ mailingList: info@enpointeboutique.ca
 buildingOwner: 
 buildingMailingList: 
 ---
+
 Just two hard working sisters who love the arts and know how crucial well fitting gear is needed

@@ -1,5 +1,5 @@
 ---
-title: Wilf Jones Airbnb
+name: Wilf Jones Airbnb
 slug: wilf-jones-airbnb
 ontarioCategory: Residential
 businessType: explore-stay
@@ -8,6 +8,7 @@ longitude: "-78.2948267"
 residential: false
 vacant: false
 address: 94 Walton Street
+title: Walton-94-c
 phone:
 website: https://www.airbnb.ca/rooms/569720197266263943
 facebook:

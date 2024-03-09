@@ -1,6 +1,5 @@
-
 ---
-title: Clark Consulting Services
+name: Clark Consulting Services 
 slug: clark-consulting-services
 ontarioCategory: Professional Services
 businessType: service
@@ -9,6 +8,7 @@ longitude: "-78.2949216663838"
 residential: false
 vacant: false
 address: 52 John Street
+title: john-52
 phone: 905-885-8023
 website: https://clarkcs.com/
 facebook: https://www.facebook.com/ccsplanning/
@@ -19,4 +19,6 @@ mailingList: liz@clarkcs.com
 buildingOwner: 
 buildingMailingList: 
 ---
-At Clark Consulting Services we pride ourselves on our ability to innovate solutions to the complicated problems of land use planning and development
+
+At Clark Consulting Services we pride ourselves on our ability to innovate solutions to the complicated problems of land
+use planning and development

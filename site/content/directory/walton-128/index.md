@@ -1,5 +1,5 @@
 ---
-title: The Mens Room
+name: The Mens Room 
 slug: the-mens-room
 ontarioCategory: Personal Services
 businessType: service
@@ -8,6 +8,7 @@ longitude: "-78.2959985733032"
 residential: false
 vacant: false
 address: 128 Walton Street
+title: Walton-128
 phone: 905-373-2285
 website:
 facebook: https://www.facebook.com/themensroomporthope/

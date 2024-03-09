@@ -1,6 +1,5 @@
-
 ---
-title: Dreamer’s Café
+name: Dreamer’s Café 
 slug: dreamer-s-café
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -9,6 +8,7 @@ longitude: "-78.2931829243898"
 residential: false
 vacant: false
 address: 2 Queen Street
+title: queen-2
 phone: 905-885-8303
 website: https://dreamerscafecrazycookie.ca/
 facebook: https://www.facebook.com/Dreamers-Cafe-405111149632790/

@@ -23,7 +23,8 @@ collections: # A list of collections the CMS should be able to edit
     path: "{{slug}}/index"
     create: true
     fields:
-      - { label: "Title", name: "title", widget: "string", hint: "store name, or if vacant, residential, etc, put address" }
+      - { label: "Title", name: "title", widget: "string", hint: "Admin title. Use the address in the format 'john 21', 'Walton 57', etc. All streets except Walton must be lower case. Walton must be upper case. This affects sorting. Must be unique: use -a, -b, -c, etc if multiple businesses share the same address." }
+      - { label: "Name", name: "name", widget: "string", hint: "Name on website. Use store name, or if vacant, residential, etc, put address" }
       - { label: "Slug", name: "slug", widget: "string", hint: "url for web page (lowercase, no spaces only dashes -)", pattern: [ "^[a-z0-9]+(?:[_-][a-z0-9]+)*$", "must be lowercase, without spaces. Dashes are allowed." ] }
       - { label: "Storefront", name: "storefront", widget: "image", required: false, hint: "image of the storefront, 600px x 600px; webp format. imageresizer.com" }
       - { label: "Other pictures", name: "otherPics", widget: "list", required: false, hint: "other images of store. 600px x 600px; webp format. imageresizer.com",  fields: [ { label: "Image", name: "image", widget: "image" } ] }

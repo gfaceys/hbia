@@ -1,5 +1,5 @@
 ---
-title: Patrick King Woolen Company
+name: Patrick King Woolen Company
 slug: patrick-king-woolen-company
 ontarioCategory: Retail
 businessType: shop
@@ -8,6 +8,7 @@ longitude: "-78.2947861"
 residential: false
 vacant: false
 address: 41 John Street
+title: john-41-d
 phone: 905-885-7825
 website: https://patrickkingwoollencompany.com/
 facebook:

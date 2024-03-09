@@ -1,6 +1,5 @@
-
 ---
-title: 24 Queen - Residential
+name: 24 Queen - Residential 
 slug: 24-queen-residential
 ontarioCategory: Residential
 businessType: none
@@ -9,6 +8,7 @@ longitude: "-78.2933619618416"
 residential: true
 vacant: false
 address: 24 Queen Street
+title: queen-24
 phone: 
 website: 
 facebook: 

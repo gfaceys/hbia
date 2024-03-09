@@ -1,6 +1,5 @@
-
 ---
-title: Holton Flowers
+name: Holton Flowers 
 slug: holton-flowers
 ontarioCategory: Retail
 businessType: shop
@@ -9,6 +8,7 @@ longitude: "-78.2933503"
 residential: false
 vacant: false
 address: 62 Walton Street
+title: Walton-62
 phone: 905-885-7439
 website: https://holtonsflowers.com
 facebook: https://www.facebook.com/HoltonFlowers/

@@ -1,5 +1,6 @@
 ---
-title: Residential and Parking Lot
+title: Walton-118-120
+name: Residential and Parking Lot
 slug: residential-and-parking-lot
 ontarioCategory: Residential
 businessType: none
@@ -13,7 +14,7 @@ website:
 facebook:
 instagram:
 twitter:
-ownerName:  
+ownerName:
 mailingList:
 buildingOwner:
 buildingMailingList:

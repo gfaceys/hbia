@@ -1,6 +1,5 @@
-
 ---
-title: The Nooks
+name: The Nooks 
 slug: the-nooks
 ontarioCategory: Retail
 businessType: shop
@@ -9,6 +8,7 @@ longitude: "-78.2938966"
 residential: false
 vacant: false
 address: 68 Walton Street
+title: Walton-68
 phone: 647-748-1218
 website: https://thenooks.ca/
 facebook: https://www.facebook.com/thenookscanada/
@@ -19,4 +19,6 @@ mailingList: colleen@thenooks.ca
 buildingOwner: Dave Watson
 buildingMailingList: 
 ---
-The Nooks is the first Artisan Retail Business Incubator in Canada! Our unique retail model combines in store space, a ‘nook’ with an online marketplace for handmade, small businesses to grow.
+
+The Nooks is the first Artisan Retail Business Incubator in Canada! Our unique retail model combines in store space, a
+‘nook’ with an online marketplace for handmade, small businesses to grow.

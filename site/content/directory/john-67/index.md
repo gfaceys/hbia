@@ -1,6 +1,5 @@
-
 ---
-title: Canada Post Corporation
+name: Canada Post Corporation 
 slug: canada-post-corporation
 ontarioCategory: Other Services
 businessType: service
@@ -9,6 +8,7 @@ longitude: "-78.2950289547444"
 residential: false
 vacant: false
 address: 67 John Street
+title: john-67
 phone: 1-800-267-1177
 website: https://www.canadapost.ca/
 facebook: 
