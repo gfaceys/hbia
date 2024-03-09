@@ -2,13 +2,13 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "site/static/img" # Folder where user uploaded files should go
+media_folder: "static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "event" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Event" # Used in the UI, ie.: "New Event"
-    folder: "site/content/event" # The path to the folder where the documents are stored
+    folder: "content/event" # The path to the folder where the documents are stored
     path: "{{slug}}/index" # Each document is inside a folder with the slug name.
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
@@ -19,7 +19,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "directory"
     label: "Directory"
-    folder: "site/content/directory"
+    folder: "content/directory"
     path: "{{slug}}/index"
     create: true
     fields:
@@ -48,7 +48,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Pages"
     files:
-      - file: "site/content/_index.md"
+      - file: "content/_index.md"
         label: "Home Page"
         name: "home"
         fields:
@@ -69,7 +69,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Image pop: group 4 images", name: imagesGroup4, widget: list, fields: [
             { label: "Image", name: "image", widget: "image" },
             { label: "Business name", name: "name", widget: "string" } ] }
-      - file: "site/content/products/_index.md"
+      - file: "content/products/_index.md"
         label: "Products Page"
         name: "products"
         fields:
@@ -83,13 +83,13 @@ collections: # A list of collections the CMS should be able to edit
   - name: "site_settings"
     label: "Site Settings"
     files:
-      - file: "site/data/footer.json"
+      - file: "data/footer.json"
         label: Footer
         name: footer
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Blurb, name: blurb, widget: text }
-      - file: "site/hugo.toml"
+      - file: "hugo.toml"
         label: Hugo Config
         name: config
         editor:
