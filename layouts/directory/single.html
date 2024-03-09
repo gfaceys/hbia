@@ -2,6 +2,16 @@
 <title>{{ .Params.name }} | {{ $.Site.Title }}</title>
 {{ end }}
 
+{{ define "meta" }}
+{{ if .Params.meta }}
+<meta name="description" content="{{ .meta }}">
+{{ else if and .Params.content (and (gt (len .Params.content) 0) (lt (len .Params.content) 161)) }}
+<meta name="description" content="{{ .content }}">
+{{ else }}
+<meta name="description" content="{{ .Title }}">
+{{ end }}
+{{ end }}
+
 {{ define "main" }}
 {{ $link := .Page.RelPermalink }}
 <div style="display: flex; justify-content: center; margin: 2rem">
@@ -30,8 +40,10 @@
 
                 {{ if and (.Params.otherPics) (gt (len .Params.otherPics) 0) }}
                 <div class="glide__arrows" data-glide-el="controls">
-                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">⇦</button>
-                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">⇨</button>
+                    <button aria-label="previous picture" class="glide__arrow glide__arrow--left" data-glide-dir="<">⇦
+                    </button>
+                    <button aria-label="next picture" class="glide__arrow glide__arrow--right" data-glide-dir=">">⇨
+                    </button>
                 </div>
 
                 <div class="glide__bullets" data-glide-el="controls[nav]">

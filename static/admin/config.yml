@@ -22,6 +22,8 @@ collections: # A list of collections the CMS should be able to edit
     folder: "content/directory"
     path: "{{slug}}/index"
     create: true
+    editor:
+      preview: false
     fields:
       - { label: "Title", name: "title", widget: "string", hint: "Admin title. Use the address in the format 'john 21', 'Walton 57', etc. All streets except Walton must be lower case. Walton must be upper case. This affects sorting. Must be unique: use -a, -b, -c, etc if multiple businesses share the same address." }
       - { label: "Name", name: "name", widget: "string", hint: "Name on website. Use store name, or if vacant, residential, etc, put address" }
@@ -51,6 +53,8 @@ collections: # A list of collections the CMS should be able to edit
       - file: "content/_index.md"
         label: "Home Page"
         name: "home"
+        editor:
+          preview: false
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Subtitle, name: subtitle, widget: string }
@@ -69,6 +73,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Image pop: group 4 images", name: imagesGroup4, widget: list, fields: [
             { label: "Image", name: "image", widget: "image" },
             { label: "Business name", name: "name", widget: "string" } ] }
+          - { label: Meta, name: meta, widget: string, hint: "SEO description for search engines. Should be under 160 characters" }
       - file: "content/products/_index.md"
         label: "Products Page"
         name: "products"
@@ -90,7 +95,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Title, name: title, widget: string }
           - { label: Blurb, name: blurb, widget: text }
       - file: "hugo.toml"
-        label: Hugo Config
+        label: Site Config
         name: config
         editor:
           preview: false

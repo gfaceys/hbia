@@ -46,4 +46,5 @@ imagesGroup4:
     name: "Johnny Roasters"
   - image: img/illustrations-coffee-gear.svg
     name: "Billy Blenders"
+meta: Downtown Port Hope...
 ---

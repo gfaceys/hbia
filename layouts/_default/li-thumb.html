@@ -2,8 +2,10 @@
 
 <a href="{{ $link }}" class="no-underline">
     {{ with .Params }}
+    {{ $name := .name }}
+
     {{ with .storefront }}
-    <img class="thumb" src="{{ $link }}{{ . }}">
+    <img class="thumb" alt="Storefront of {{ $name }}" src="{{ $link }}{{ . }}">
     {{ else }}
     <div class="thumb"
          style="background-color: gainsboro; display: flex; justify-content: center; align-content: center; flex-direction: column">

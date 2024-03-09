@@ -39,7 +39,7 @@ html {
 
 :root {
     /* Colors */
-    --primary: rgba(255, 68, 0, 1);
+    --primary: rgba(219, 59, 0, 1);
     --highlight: rgba(254, 213, 198, 1);
     --white: rgba(255, 255, 255, 1);
     --off-white: rgba(255, 253, 252, 1);
@@ -56,7 +56,7 @@ html {
     --font-size-m: 20px;
     --font-size-l: 22px;
 
-    --body-font-weight: 300;
+    --body-font-weight: 400;
     --bold-font-weight: 700;
 
     /* Sizing */
@@ -94,7 +94,9 @@ html {
     color: var(--black);
 }
 
-h4 {
+.li-title {
+    margin: 0;
+    padding: 0;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -366,7 +368,7 @@ ul {
 
     .nav-text {
         padding: 0 2rem;
-        font-size: large;
+        font-size: x-large;
     }
 }
 
