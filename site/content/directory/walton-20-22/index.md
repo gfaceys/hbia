@@ -18,6 +18,7 @@ ownerName: Trevor Causton
 mailingList: jimspizzaph@hotmail.com
 buildingOwner: Trevor Causton
 buildingMailingList: Same as Biz
+storefront: 22-Walton.webp
 ---
 
 Pizza, spaghetti & oven-baked pastas prepared in a relaxed setting with a patio since 1970. 

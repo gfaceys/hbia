@@ -1,5 +1,5 @@
 ---
-name: Sun Tree Foods 
+name: Sun Tree Foods
 slug: sun-tree-foods
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -13,11 +13,12 @@ phone: 905-885-9900
 website: http://www.suntreefoods.ca/
 facebook: https://www.facebook.com/suntreefoods/
 instagram: https://www.instagram.com/suntreefoods/
-twitter: 
+twitter:
 ownerName: Karen Hendricks
 mailingList: karen@suntreefoods.ca
-buildingOwner: 
-buildingMailingList: 
+buildingOwner:
+buildingMailingList:
+storefront: 19-Ontario.webp
 ---
 
 Located between the LCBO and our free parking lot, Suntree is Port Hope’s downtown grocer. We specialize in foods that

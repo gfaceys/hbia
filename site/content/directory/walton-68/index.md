@@ -18,7 +18,7 @@ ownerName: Colleen Imrie
 mailingList: colleen@thenooks.ca
 buildingOwner: Dave Watson
 buildingMailingList:
-storefront: 68-Walton.webp
+storefront: 68-walton.webp
 ---
 
 The Nooks is the first Artisan Retail Business Incubator in Canada! Our unique retail model combines in store space, a

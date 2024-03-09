@@ -6,7 +6,7 @@
 
         <div class="tile-wrapper">
             <div class="image-tile">
-                {{ range (where .Site.Pages "Type" "directory") }}
+                {{ range sort (where .Site.Pages "Type" "directory") "Title" "desc" }}
                 {{ if eq .Params.businessType "service" }}
                 {{ if and (not .Params.vacant) (not .Params.residential) }}
                 {{ .Render "li-thumb" }}

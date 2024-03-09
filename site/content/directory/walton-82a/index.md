@@ -18,7 +18,7 @@ ownerName: Darrell G. Leeson
 mailingList: gallery@russborough.com
 buildingOwner: Chris Montgomery
 buildingMailingList: studio@russborough.com
-storefront: 82b-walton.webp
+storefront: 82a-walton.webp
 ---
 
 Since 1763 the name Russborough has been synonymous with collecting and dealing in fine art. In the closing decades of

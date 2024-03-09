@@ -18,7 +18,7 @@ ownerName: Rejean Maranda & Cam Green
 mailingList: info@thirstygoose.ca
 buildingOwner: Reg Marnda &CamGreene
 buildingMailingList:
-storefront: 63-Walton.webp
+storefront: 63-walton.webp
 otherPics:
   - image: 63-Walton2.webp
 ---

@@ -18,7 +18,7 @@ ownerName: Alex Byers
 mailingList: info@furbyhousebooks.com
 buildingOwner: Lou Pamenter
 buildingMailingList: louspamenter@gmail.com
-storefront: 65-Walton.webp
+storefront: 65-walton.webp
 ---
 
 A local bookstore at the heart of historic Port Hope

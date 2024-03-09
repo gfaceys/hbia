@@ -1,5 +1,5 @@
 ---
-name: U92 Spice House & Take-Away 
+name: U92 Spice House & Take-Away
 slug: u92-spice-house-take-away
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -11,12 +11,13 @@ address: 49 Mill Street S
 title: mill-south-49
 phone: 905-800-0560
 website: https://u92spicehouseandtakeaway.ca/
-facebook: 
-instagram: 
-twitter: 
+facebook:
+instagram:
+twitter:
 ownerName: Rey
 mailingList: u92shata@gmail.com
 buildingOwner: Rey
 buildingMailingList: Same as Biz
+storefront: 49-Mill.webp
 ---
 

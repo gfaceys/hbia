@@ -17,6 +17,7 @@ twitter:
 ownerName: Maggay
 mailingList: chezmaggay@icloud.com
 buildingOwner:
-buildingMailingList: 
+buildingMailingList:
+storefront: 41-john.webp
 ---
 

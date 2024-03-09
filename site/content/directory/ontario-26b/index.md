@@ -18,6 +18,7 @@ ownerName: TwentySix
 mailingList:
 buildingOwner: Julie Mavis & Laurie Carr
 buildingMailingList: Same as Biz
+storefront: 26-Ontario.webp
 ---
 
 twentysix is a lively bar room specialising in a wide assortment of small plates, emphasising casual, fine dining food.

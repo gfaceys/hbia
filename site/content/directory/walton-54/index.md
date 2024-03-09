@@ -18,7 +18,7 @@ ownerName: Autumn Sanders
 mailingList: tallbirches@hotmail.com
 buildingOwner: Jody & Brenda Fiske
 buildingMailingList:
-storefront: 54-Walton.webp
+storefront: 54-walton.webp
 ---
 
 Tall Birches is owned by Autumn-Leeh Saunders. Having a strong bond with the Tall Birches family farm, she found a way

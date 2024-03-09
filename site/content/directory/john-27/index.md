@@ -1,5 +1,5 @@
 ---
-name: Beamish House Pub & Restaurant 
+name: Beamish House Pub & Restaurant
 slug: beamish-house-pub-restaurant
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -19,6 +19,8 @@ mailingList: info@beamish.com
 buildingOwner:
 buildingMailingList:
 storefront: 27-john.webp
+otherPics:
+  - image: 27-john-2.webp
 ---
 
 Celebrating its legacy as an admired locale, The Beamish House serves as a relaxed environment fostering a sense of

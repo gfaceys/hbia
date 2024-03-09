@@ -1,4 +1,5 @@
 ---
+title: augusta-43
 name: Dr Archer Guy & Associates
 slug: dr-archer-guy-associates
 ontarioCategory: Professional Services
@@ -7,7 +8,7 @@ latitude: "43.9492116460097"
 longitude: "-78.295405805111"
 residential: false
 vacant: false
-address: augusta-43
+address: 43 Augusta Street
 phone: 905-885-2324
 website:
 facebook:

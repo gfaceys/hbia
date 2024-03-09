@@ -1,5 +1,5 @@
 ---
-name: Penney & Co 
+name: Penney & Co
 slug: penney-co
 ontarioCategory: Retail
 businessType: shop
@@ -13,11 +13,12 @@ phone: 905-493-7300
 website: http://www.penneyandcompanyhome.com/
 facebook: https://www.facebook.com/PenneyCoWhitby/
 instagram: https://www.instagram.com/penneyandcompany/?hl=en
-twitter: 
+twitter:
 ownerName: Michael Penny
-mailingList: hello@penneyandcompanyhome.com 
+mailingList: hello@penneyandcompanyhome.com
 buildingOwner: Ben Edery
 buildingMailingList: benedery@ymail.com
+storefront: 51-Walton.webp
 ---
 
 From elegant furnishings to gorgeous accessories to charming gifts, discover everything you need for your home and more!

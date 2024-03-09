@@ -1,5 +1,5 @@
 ---
-name: Nicks Tattoo 
+name: Nicks Tattoo
 slug: nicks-tattoo
 ontarioCategory: Personal Services
 businessType: service
@@ -18,7 +18,7 @@ ownerName: Nickola Magnolia
 mailingList: nickola@nicks.studio
 buildingOwner:
 buildingMailingList:
-storefront: 90-walton
+storefront: 90-walton.webp
 ---
 
 We are a custom tattoo studio located in picturesque downtown Port Hope. You can find us at 90 Walton St, L1A1N3. Our

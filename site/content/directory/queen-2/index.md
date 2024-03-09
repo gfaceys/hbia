@@ -1,5 +1,5 @@
 ---
-name: Dreamer’s Café 
+name: Dreamer’s Café
 slug: dreamer-s-café
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -18,5 +18,8 @@ ownerName: Roger  Bernard
 mailingList: mister_bee@sympatico.ca
 buildingOwner: Roger Bernard
 buildingMailingList: Same as Biz
+storefront: 2-Queen.webp
+otherPics:
+  - image: 2-Queen1.webp
 ---
 

@@ -18,7 +18,7 @@ ownerName: John  Racine
 mailingList: john@racinefinancial.ca
 buildingOwner: Robin Long
 buildingMailingList: same
-storefront: 37-Walton.webp
+storefront: 37-Walton-up.webp
 ---
 
 Racine Financial offers fee-only investment management, comprehensive financial planning and risk solutions.

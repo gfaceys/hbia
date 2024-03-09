@@ -1,5 +1,5 @@
 ---
-name: Port Hope Public Library 
+name: Port Hope Public Library
 slug: port-hope-public-library
 ontarioCategory: Cultural Attraction
 businessType: explore-stay
@@ -16,7 +16,10 @@ instagram: https://www.instagram.com/port_hope_library/
 twitter: https://twitter.com/porthopelibrary?lang=en
 ownerName: Margaret  Scott
 mailingList: mscott@porthope.ca
-buildingOwner: 
-buildingMailingList: 
+buildingOwner:
+buildingMailingList:
+storefront: 31-Queen.webp
+otherPics:
+  - image: 31-Queen1.webp
 ---
 

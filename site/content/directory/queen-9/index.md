@@ -1,5 +1,5 @@
 ---
-name: Pineridge Insurance Brokers Limited. 
+name: Pineridge Insurance Brokers Limited.
 slug: pineridge-insurance-brokers-limited
 ontarioCategory: Professional Services
 businessType: service
@@ -12,12 +12,13 @@ title: queen-9
 phone: 905-885-1433
 website: https://www.pineridgeinsurance.com/
 facebook: https://www.facebook.com/pages/Pine%20Ridge%20Insurance%20Brokers%20Limited/155087798450696/
-instagram: 
-twitter: 
+instagram:
+twitter:
 ownerName: Pine Ridge
-mailingList: pineridgeinsurance@rogers.com 
-buildingOwner: 
-buildingMailingList: 
+mailingList: pineridgeinsurance@rogers.com
+buildingOwner:
+buildingMailingList:
+storefront: 9-Queen.webp
 ---
 
 A one stop shop for clients to place and service all their insurance needs.

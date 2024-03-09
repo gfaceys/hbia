@@ -18,6 +18,6 @@ ownerName: Albert Schultz
 mailingList: themainat66@gmail.com
 buildingOwner: Dave Watson
 buildingMailingList:
-storefront: 26-Walton.webp
+storefront: 66-Walton.webp
 ---
 
