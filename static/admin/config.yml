@@ -62,16 +62,16 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Welcome", name: welcome, widget: list, hint: "welcome in many different languages" }
           - { label: "Image Pop: intro", name: text, widget: list, hint: "words in the image pop section. Best with 10 items." }
           - { label: "Image pop: group 1 images", name: imagesGroup1, widget: list, fields: [
-            { label: "Image", name: "image", widget: "image" },
+            { label: "Image", name: "image", widget: "image", hint: "250px in widest dimension; webp format" },
             { label: "Business name", name: "name", widget: "string" } ] }
           - { label: "Image pop: group 2 images", name: imagesGroup2, widget: list, fields: [
-            { label: "Image", name: "image", widget: "image" },
-            { label: "Business name", name: "name", widget: "string" } ] }
+            { label: "Image", name: "image", widget: "image", hint: "250px wide; webp format" },
+            { label: "Business name", name: "name", widget: "string", hint: "250px in widest dimension; webp format" } ] }
           - { label: "Image pop: group 3 images", name: imagesGroup3, widget: list, fields: [
-            { label: "Image", name: "image", widget: "image" },
+            { label: "Image", name: "image", widget: "image", hint: "250px in widest dimension; webp format" },
             { label: "Business name", name: "name", widget: "string" } ] }
           - { label: "Image pop: group 4 images", name: imagesGroup4, widget: list, fields: [
-            { label: "Image", name: "image", widget: "image" },
+            { label: "Image", name: "image", widget: "image", hint: "250px in widest dimension; webp format" },
             { label: "Business name", name: "name", widget: "string" } ] }
           - { label: Meta, name: meta, widget: string, hint: "SEO description for search engines. Should be under 160 characters" }
       - file: "content/products/_index.md"

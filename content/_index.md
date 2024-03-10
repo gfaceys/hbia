@@ -1,7 +1,7 @@
 ---
 title: "shop, taste, explore"
 subtitle: Downtown Port Hope
-image: /img/home-jumbotron.jpg
+image: /img/about-jumbotron.jpg
 video: https://www.youtube.com/watch?v=whjJuOrhFnI
 welcome:
   - "Welcome!"
@@ -27,24 +27,26 @@ text:
   - "Architecture"
   - "Welcoming"
 imagesGroup1:
-  - image: img/illustrations-coffee.svg
-    name: "Johnny Roasters"
-  - image: img/illustrations-coffee-gear.svg
-    name: "Billy Blenders"
+  - image: img/dreamers-cookie.webp
+    name: "Dreamers Cafe"
+  - image: img/michael-penny-chair.webp
+    name: "Michael Penny"
+  - image: img/bibelot-tiles.webp
+    name: "Bibelot"
 imagesGroup2:
-  - image: img/illustrations-coffee.svg
-    name: "Johnny Roasters"
-  - image: img/illustrations-coffee-gear.svg
-    name: "Billy Blenders"
+  - image: img/olympus.webp
+    name: "Olympus Burger"
+  - image: img/dwellisimo-pillows.webp
+    name: "Dwellisimo"
 imagesGroup3:
-  - image: img/illustrations-coffee.svg
-    name: "Johnny Roasters"
-  - image: img/illustrations-coffee-gear.svg
-    name: "Billy Blenders"
+  - image: img/furby-books.webp
+    name: "Furby House"
+  - image: img/holton-flowers.webp
+    name: "Holton's Flowers"
 imagesGroup4:
-  - image: img/illustrations-coffee.svg
-    name: "Johnny Roasters"
-  - image: img/illustrations-coffee-gear.svg
-    name: "Billy Blenders"
+  - image: img/atelier-bag.webp
+    name: "Atelier"
+  - image: img/nicks-tattoo.webp
+    name: "Nick's Tattoo"
 meta: Downtown Port Hope...
 ---

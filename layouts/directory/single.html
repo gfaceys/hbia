@@ -47,9 +47,10 @@
                 </div>
 
                 <div class="glide__bullets" data-glide-el="controls[nav]">
-                    <button class="glide__bullet" data-glide-dir="=0"></button>
+                    <button aria-label="picture 1" class="glide__bullet" data-glide-dir="=0"></button>
                     {{ range $i, $pic := .Params.otherPics }}
-                    <button class="glide__bullet" data-glide-dir="={{ add $i 1 }}"></button>
+                    <button aria-label="picture {{ add $i 1 }}" class="glide__bullet"
+                            data-glide-dir="={{ add $i 1 }}"></button>
                     {{ end }}
                 </div>
                 {{ end }}
