@@ -3,13 +3,14 @@
     let observer = new IntersectionObserver(function (entries, self) {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                console.log("HI")
                 entry.target.src = entry.target.getAttribute('data-src')
+                entry.target.style.opacity = "1";
                 self.unobserve(entry.target)
             }
         });
     }, cfg);
 
-    const images = document.querySelectorAll('[data-src]').values();
+    const imagesIter = document.querySelectorAll('[data-src]').values();
+    const images = Array.from(imagesIter);
     images.forEach(image => (observer.observe(image)));
 </script>

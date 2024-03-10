@@ -5,11 +5,12 @@
     {{ $name := .name }}
 
     {{ with .storefront }}
-    <img class="thumb" alt="Storefront of {{ $name }}" data-src="{{ $link }}{{ . }}">
+    <img class="thumb lazy" alt="Storefront of {{ $name }}" data-src="{{ $link }}{{ . }}">
     {{ else }}
-    <div class="thumb"
+    <div class="thumb lazy"
          style="background-color: gainsboro; display: flex; justify-content: center; align-content: center; flex-direction: column">
         <p>Storefront photo missing</p>
+        <p>{{ .name }}</p>
         <p>{{ .Title }}</p>
     </div>
     {{end }}
