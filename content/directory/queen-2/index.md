@@ -1,6 +1,6 @@
 ---
 name: Dreamer’s Café
-slug: dreamer-s-café
+slug: dreamers-cafe
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
 latitude: "43.9510382124921"

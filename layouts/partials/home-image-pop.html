@@ -1,42 +1,96 @@
 <div class="event-wrapper" style="display: flex; justify-content: center">
-        <div id="welcome-wrapper-inner">
-            <h2 style="display: flex; justify-content: center; width: 100%">
-                <span id="welcome">Welcome!</span>
-            </h2>
+    <div id="welcome-wrapper-inner">
+        <h2 style="display: flex; justify-content: center; width: 100%">
+            <span id="welcome">Welcome!</span>
+        </h2>
 
-            <div style="display: flex; flex-wrap: wrap; white-space: nowrap; max-width: 100vw; justify-content: center; align-items: center; column-gap: 0.5rem">
-                Port Hope is...
+        <div style="display: flex; flex-wrap: wrap; white-space: nowrap; max-width: 100vw; justify-content: center; align-items: center; column-gap: 0.5rem">
+            Port Hope is...
 
-                <img id="img1" class="welcome-img" src={{ (index .imagesGroup1 0).image }}>
-                {{ if gt (len .text) 1 }}
-                <span>{{ index .text 0}},</span>
-                <span>{{ index .text 1}}</span>
-                {{ end }}
-            <img id="img2" class="welcome-img" src={{ (index .imagesGroup2 0).image }}>
-                {{ if gt (len .text) 4 }}
-                <span>{{ index .text 2 }},</span>
-                <span>{{ index .text 3 }},</span>
-                <span>{{ index .text 4}}</span>
-                {{ end }}
-            <img id="img3" class="welcome-img" src={{ (index .imagesGroup3 0).image }}>
-                {{ if gt (len .text) 5 }}
-                <span>{{ index .text 5}},</span>
-                {{ end }}
-                {{ if gt (len .text) 6 }}
-                <span>{{ index .text 6}},</span>
-                {{ end }}
-                {{ if gt (len .text) 7 }}
-                <span>{{ index .text 7}},</span>
-                {{ end }}
-                <img id="img4" class="welcome-img" src={{ (index .imagesGroup4 0).image }}>
-                {{ if gt (len .text) 8 }}
-                <span>{{ index .text 8}},</span>
-                {{ end }}
-                {{ if gt (len .text) 9 }}
-                <span>{{ index .text 9}}</span>
-                {{ end }}
+            <!-- image 1 and hover caption -->
+            <div class="pop">
+                <a id="link1" href="/directory/{{ (index .imagesGroup1 0).slug }}">
+                    <img id="img1" class="welcome-img" alt={{ (index .imagesGroup1 0).name }} src={{ (index .imagesGroup1 0).image }}>
+                    <div class="hover-text">
+                        <span id="hover1">{{ (index .imagesGroup1 0).name}}</span>
+                    </div>
+                </a>
             </div>
+
+            <!-- text 1, 2 -->
+            {{ if gt (len .text) 1 }}
+            <span>{{ index .text 0}},</span>
+            <span>{{ index .text 1}}</span>
+            {{ end }}
+
+            <!-- image 2 and hover caption -->
+            <div class="pop">
+                <a id="link2" href="/directory/{{ (index .imagesGroup2 0).slug }}">
+                    <img id="img2" class="welcome-img" alt={{ (index .imagesGroup2 0).name }} src={{ (index .imagesGroup2 0).image }}>
+                    <div class="hover-text">
+                        <span id="hover2">{{ (index .imagesGroup2 0).name}}</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- text 3,4,5 -->
+            {{ if gt (len .text) 4 }}
+            <span>{{ index .text 2 }},</span>
+            <span>{{ index .text 3 }},</span>
+            <span>{{ index .text 4}}</span>
+            {{ end }}
+
+            <!-- image 3 and hover caption -->
+            <div class="pop">
+                <a id="link3" href="/directory/{{ (index .imagesGroup3 0).slug }}">
+                    <img id="img3" class="welcome-img" alt={{ (index .imagesGroup3 0).name }} src={{ (index .imagesGroup3 0).image }}>
+                    <div class="hover-text">
+                        <span id="hover3">{{ (index .imagesGroup3 0).name}}</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- text 6,7,8 -->
+            {{ if gt (len .text) 5 }}
+            <span>{{ index .text 5}},</span>
+            {{ end }}
+            {{ if gt (len .text) 6 }}
+            <span>{{ index .text 6}},</span>
+            {{ end }}
+
+            <!-- image 4 and hover caption -->
+            <div class="pop">
+                <a id="link4" href="/directory/{{ (index .imagesGroup4 0).slug }}">
+                    <img id="img4" class="welcome-img" alt={{ (index .imagesGroup4 0).name }} src={{ (index .imagesGroup4 0).image }}>
+                    <div class="hover-text">
+                        <span id="hover4">{{ (index .imagesGroup4 0).name}}</span>
+                    </div>
+                </a>
+            </div>
+
+            {{ if gt (len .text) 7 }}
+            <span>{{ index .text 7}},</span>
+            {{ end }}
+
+            <!-- image 5 and hover caption -->
+            <div class="pop">
+                <a id="link5" href="/directory/{{ (index .imagesGroup5 0).slug }}">
+                    <img id="img5" class="welcome-img" alt={{ (index .imagesGroup5 0).name }} src={{ (index .imagesGroup5 0).image }}>
+                    <div class="hover-text">
+                        <span id="hover5">{{ (index .imagesGroup5 0).name}}</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- text 9, 10 -->
+            {{ if gt (len .text) 8 }}
+            <span>{{ index .text 8}},</span>
+            {{ end }}
+            {{ if gt (len .text) 9 }}
+            <span>{{ index .text 9}}</span>
+            {{ end }}
         </div>
+    </div>
 </div>
 
 <script>
@@ -45,42 +99,37 @@
     let images2_i = 0;
     let images3_i = 0;
     let images4_i = 0;
+    let images5_i = 0;
 
     let text = {{ .welcome }};
-    let images1 = {{ .imagesGroup1 }};
-    let images2 = {{ .imagesGroup2 }};
-    let images3 = {{ .imagesGroup3 }};
-    let images4 = {{ .imagesGroup4 }};
 
+    // swap the welcome text
     const swapText = (i) => {
         let e = document.getElementById("welcome");
         let index = text_i % text.length;
         e.innerText = text[index];
     }
 
-    const swapImage1 = (i) => {
-        let e = document.getElementById("img1");
-        let index = i % images1.length;
-        e.src = images1[index].image;
+    // higher order function (returns a function)
+    // swap the image, hover text and link id
+    const swapPop = (i, images, id, hoverId, linkId) => {
+        let e = document.getElementById(id);
+        let index = i % images.length;
+        e.src = images[index].image;
+        e.alt = images[index].name;
+
+        let e2 = document.getElementById(hoverId);
+        e2.innerText = images[index].name;
+
+        let e3 = document.getElementById(linkId);
+        e3.href = `/directory/${images[index].slug}`
     }
 
-    const swapImage2 = (i) => {
-        let e = document.getElementById("img2");
-        let index = i % images2.length;
-        e.src = images2[index].image;
-    }
-
-    const swapImage3 = (i) => {
-        let e = document.getElementById("img3");
-        let index = i % images3.length;
-        e.src = images3[index].image;
-    }
-
-    const swapImage4 = (i) => {
-        let e = document.getElementById("img4");
-        let index = i % images4.length;
-        e.src = images4[index].image;
-    }
+    const swapPop1 = (i) => swapPop(i, {{ .imagesGroup1 }}, "img1", "hover1", "link1")
+    const swapPop2 = (i) => swapPop(i, {{ .imagesGroup2 }}, "img2", "hover2", "link2")
+    const swapPop3 = (i) => swapPop(i, {{ .imagesGroup3 }}, "img3", "hover3", "link3")
+    const swapPop4 = (i) => swapPop(i, {{ .imagesGroup4 }}, "img4", "hover4", "link4")
+    const swapPop5 = (i) => swapPop(i, {{ .imagesGroup5 }}, "img5", "hover5", "link5")
 
     const textLoop = () => setTimeout(() => {
         text_i++;
@@ -90,31 +139,38 @@
 
     const image1Loop = () => setTimeout(() => {
         images1_i++;
-        swapImage1(images1_i);
+        swapPop1(images1_i);
         image1Loop();
-    }, 5000 + Math.random() * 2000)
+    }, 4000 + Math.random() * 2000)
 
     const image2Loop = () => setTimeout(() => {
         images2_i++;
-        swapImage2(images2_i);
+        swapPop2(images2_i);
         image2Loop();
-    }, 5000 + Math.random() * 2000)
+    }, 4000 + Math.random() * 2000)
 
     const image3Loop = () => setTimeout(() => {
         images3_i++;
-        swapImage3(images3_i);
+        swapPop3(images3_i);
         image3Loop();
     }, 2000 + Math.random() * 7000)
 
     const image4Loop = () => setTimeout(() => {
         images4_i++;
-        swapImage4(images4_i);
+        swapPop4(images4_i);
         image4Loop();
     }, 1000 + Math.random() * 9000)
 
+    const image5Loop = () => setTimeout(() => {
+        images5_i++;
+        swapPop4(images5_i);
+        image5Loop();
+    }, 3000 + Math.random() * 4000)
+
     textLoop()
-    setTimeout(() => (image1Loop()), 1250) // delay first call
-    setTimeout(() => (image2Loop()), 2500) // delay first call
-    setTimeout(() => (image3Loop()), 3750) // delay first call
-    setTimeout(() => (image4Loop()), 5000) // delay first call
+    image1Loop()
+    setTimeout(() => (image2Loop()), 500) // delay first call
+    setTimeout(() => (image3Loop()), 2000) // delay first call
+    setTimeout(() => (image4Loop()), 3000) // delay first call
+    setTimeout(() => (image5Loop()), 3500) // delay first call
 </script>

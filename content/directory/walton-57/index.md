@@ -1,6 +1,6 @@
 ---
 name: G.Facey Clothing
-slug: g-facey-clothing
+slug: gfacey-clothing
 ontarioCategory: Retail
 businessType: shop
 latitude: "43.9512753"

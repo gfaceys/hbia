@@ -287,6 +287,29 @@ ul {
     -webkit-transition: opacity 1s; /* Safari */
 }
 
+.hover-text {
+    visibility: hidden;
+    position: relative;
+    z-index: 10;
+    font-size: small;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0.25rem;
+    top: -50%;
+    left: -12.5%;
+    padding: 0.25rem 0.5rem;
+}
+
+.pop {
+    display: flex;
+    justify-content: center;
+}
+
+
+.pop:hover div {
+    white-space: nowrap;
+    visibility: visible;
+}
+
 @media screen and (min-width: 600px) {
     .thumb {
         width: 300px;

@@ -44,8 +44,8 @@
         max-width: 125px;
         max-height: 125px;
         z-index: 2;
-        margin: 0 -1rem;
-        padding: 0 -1rem;
+        margin: -1rem 0;
+        padding: -1rem 0;
     }
 
     @media screen and (min-width: 600px) {
@@ -133,6 +133,30 @@
 
 <!-- welcome with images -->
 {{ partial "home-image-pop" .Params}}
+
+<!-- shop taste explore-stay services larger links -->
+<div style="display: flex; width: calc(100% - 1rem); justify-content: space-between; gap: 0.25rem; padding: 1rem; flex-wrap: wrap">
+    <a href="/shop">
+    <div style="width: 300px; height: 400px; background-color: gainsboro">
+        Shop
+    </div>
+    </a>
+    <a href="/taste">
+        <div style="width: 300px; height: 400px; background-color: gainsboro">
+            Taste
+        </div>
+    </a>
+    <a href="/explore">
+        <div style="width: 300px; height: 400px; background-color: gainsboro">
+            Explore & Stay
+        </div>
+    </a>
+    <a href="/services">
+        <div style="width: 300px; height: 400px; background-color: gainsboro">
+            Services
+        </div>
+    </a>
+</div>
 
 <!-- latest events -->
 <div class="event-wrapper">
