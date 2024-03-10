@@ -1,9 +1,5 @@
 {{ define "head" }}
 <style>
-    html {
-        background-color: white;
-    }
-
     h1 {
         font-size: 1.25rem;
         padding-left: 0.25rem;
@@ -41,8 +37,9 @@
     }
 
     .welcome-img {
-        max-width: 125px;
-        max-height: 125px;
+        width: 125px;
+        height: 125px;
+        object-fit: scale-down;
         z-index: 2;
         margin: -1rem 0;
         padding: -1rem 0;

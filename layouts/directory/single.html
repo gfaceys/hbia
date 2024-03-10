@@ -40,13 +40,15 @@
 
                 {{ if and (.Params.otherPics) (gt (len .Params.otherPics) 0) }}
                 <div class="glide__arrows" data-glide-el="controls">
-                    <button aria-label="previous picture" class="glide__arrow glide__arrow--left" data-glide-dir="<">⇦
+                    <button aria-label="previous picture" style="left: 0.25rem;" class="glide__arrow glide__arrow--left"
+                            data-glide-dir="<">⇦
                     </button>
-                    <button aria-label="next picture" class="glide__arrow glide__arrow--right" data-glide-dir=">">⇨
+                    <button aria-label="next picture" style="right: 0.25rem;" class="glide__arrow glide__arrow--right"
+                            data-glide-dir=">">⇨
                     </button>
                 </div>
 
-                <div class="glide__bullets" data-glide-el="controls[nav]">
+                <div class="glide__bullets" style="bottom: 1em" data-glide-el="controls[nav]">
                     <button aria-label="picture 1" class="glide__bullet" data-glide-dir="=0"></button>
                     {{ range $i, $pic := .Params.otherPics }}
                     <button aria-label="picture {{ add $i 1 }}" class="glide__bullet"
