@@ -1,14 +1,14 @@
 ---
-name: downstairs vacant
-slug: downstairs-vacant
+name: 24 Ontario
+slug: 24-ontario
 ontarioCategory: Vacant
 businessType: none
 latitude: "43.9522557"
 longitude: "-78.2941"
 residential: false
-vacant: false
+vacant: true
 address: 24 Ontario Street
-title: ontario-24-a
+title: ontario-24-down
 phone:
 website:
 facebook:
@@ -17,6 +17,7 @@ twitter:
 ownerName:
 mailingList:
 buildingOwner:
-buildingMailingList: 
+buildingMailingList:
+storefront: 24-ontario-down.webp
 ---
 

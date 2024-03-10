@@ -1,5 +1,5 @@
 ---
-name: Ed White Appliance Service  
+name: Ed White Appliance Service
 slug: ed-white-appliance-service
 ontarioCategory: Other Services
 businessType: service
@@ -10,13 +10,14 @@ vacant: false
 address: 51 Mill Street S
 title: mill-south-51
 phone: 905-885-7109
-website: 
-facebook: 
-instagram: 
-twitter: 
+website:
+facebook:
+instagram:
+twitter:
 ownerName: Ed  White
-mailingList: robotsfromspace@hotmail.com 
+mailingList: robotsfromspace@hotmail.com
 buildingOwner: Ed White
 buildingMailingList: Same as Biz
+storefront: 51-mill-s.webp
 ---
 

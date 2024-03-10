@@ -1,5 +1,5 @@
 ---
-name: The Ganaraska Hotel & Bar 
+name: The Ganaraska Hotel & Bar
 slug: the-ganaraska-hotel-bar
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -12,12 +12,13 @@ title: ontario-30
 phone: 905-885-8232 office
 website: http://www.ganny.ca/
 facebook: https://www.facebook.com/Ganaraska.Hotel/
-instagram: 
-twitter: 
+instagram:
+twitter:
 ownerName: Rick  Rogalski
-mailingList:  905 885 9254 Bar
+mailingList: 905 885 9254 Bar
 buildingOwner: Rick Rogalski
 buildingMailingList: Same as Biz
+storefront: 30-ontario.webp
 ---
 
 

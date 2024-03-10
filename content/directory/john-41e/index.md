@@ -18,6 +18,6 @@ ownerName: Maggay
 mailingList: chezmaggay@icloud.com
 buildingOwner:
 buildingMailingList:
-storefront: 41-john.webp
+storefront: 41e-john.webp
 ---
 

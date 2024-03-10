@@ -1,5 +1,5 @@
 ---
-name: Riverlake Dental 
+name: Riverlake Dental
 slug: riverlake-dental
 ontarioCategory: Professional Services
 businessType: service
@@ -11,13 +11,14 @@ address: 17 Ontario Street
 title: ontario-17
 phone: 905-885-5144
 website: https://riverlakedental.com
-facebook: 
-instagram: 
-twitter: 
+facebook:
+instagram:
+twitter:
 ownerName: Dr. Gary Senderovich
-mailingList: 
-buildingOwner: 
-buildingMailingList: 
+mailingList:
+buildingOwner:
+buildingMailingList:
+storefront: 17-ontario.webp
 ---
 
 ACCEPTING NEW PATIENTS! Dr. Gary Senderovich, "The Gentle Dentist", and the RiverLake Dental team offer family,

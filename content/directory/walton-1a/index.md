@@ -1,5 +1,5 @@
 ---
-name: Trattoria Gusto    
+name: Trattoria Gusto
 slug: trattoria-gusto
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -12,12 +12,15 @@ title: Walton-1
 phone: 905-885-1198
 website: https://www.thewaddell.ca/trattoria-gusto/
 facebook: https://www.facebook.com/thewaddellhotel/
-instagram: 
+instagram:
 twitter: https://twitter.com/thewaddellhotel
 ownerName: Oodda
-mailingList: info@trattoriagusto.ca 
+mailingList: info@trattoriagusto.ca
 buildingOwner: Oodah
-buildingMailingList: 
+buildingMailingList:
+storefront: 1-walton-a.webp
+otherPics:
+  - picture: 1a-walton-2.webp
 ---
 
 Intimate restaurant in a 19th-century hotel offers contemporary Italian cuisine & patio dining.

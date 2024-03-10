@@ -18,6 +18,6 @@ ownerName: Doug Gadsby
 mailingList: douggadsby@scotiabank.com
 buildingOwner: Lynch, Rutherford ,Tozer
 buildingMailingList:
-storefront: 69-Walton.webp
+storefront: 69-walton.webp
 ---
 

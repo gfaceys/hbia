@@ -19,6 +19,8 @@ mailingList: hello@penneyandcompanyhome.com
 buildingOwner: Ben Edery
 buildingMailingList: benedery@ymail.com
 storefront: 51-Walton.webp
+otherPics:
+  - image: 51-walton-2.webp
 ---
 
 From elegant furnishings to gorgeous accessories to charming gifts, discover everything you need for your home and more!

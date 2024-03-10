@@ -17,6 +17,7 @@ twitter:
 ownerName: Darren Dayman
 mailingList: daymanautomotive@bellnet.ca
 buildingOwner:
-buildingMailingList: 
+buildingMailingList:
+storefront: 9-maitland.webp
 ---
 

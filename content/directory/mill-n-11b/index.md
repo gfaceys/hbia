@@ -17,6 +17,7 @@ twitter:
 ownerName: Carla Abrams
 mailingList: carla@barefootmind.ca
 buildingOwner:
-buildingMailingList: 
+buildingMailingList:
+storefront: 11-mill-n-b.webp
 ---
 

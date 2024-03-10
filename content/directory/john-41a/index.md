@@ -17,7 +17,8 @@ twitter:
 ownerName: Robyn  Town
 mailingList: manekinekotattoo@gmail.com
 buildingOwner:
-buildingMailingList: 
+buildingMailingList:
+storefront: 41-john-a.webp
 ---
 
 Based in amazing Port Hope, Ontario, Maneki Neko is Northumberland Counties longest standing tattoo studio, established

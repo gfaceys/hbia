@@ -1,5 +1,5 @@
 ---
-name: Cafe Lviv Ukrainian Restaurant 
+name: Cafe Lviv Ukrainian Restaurant
 slug: cafe-lviv-ukrainian-restaurant
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -11,13 +11,14 @@ address: 90 Mill Street N
 title: mill-north-90
 phone: 905-269-3373
 website: http://cafelviv.com/
-facebook: 
-instagram: 
-twitter: 
+facebook:
+instagram:
+twitter:
 ownerName: Giorgi
-mailingList: 
+mailingList:
 buildingOwner: George Kallonakis
 buildingMailingList: Same as Biz
+storefront: 90-mill-n.webp
 ---
 
 Discover the taste of Ukraine at Cafe Lviv! Indulge in authentic cuisine in downtown Port Hope. Open for brunch and

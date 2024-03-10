@@ -18,6 +18,7 @@ ownerName: Julie Mavis
 mailingList: admin@thesocialph.ca
 buildingOwner: Julie Mavis & Laurie Carr
 buildingMailingList: Same as Biz
+storefront: 26c-ontario.webp
 ---
 
 The Social Bar + Table features refined, rustic cuisine at its best. It concentrates on craft beers and wines of the

@@ -17,7 +17,10 @@ twitter:
 ownerName: Hannah Macdonald
 mailingList: hello@frostedflourco.ca
 buildingOwner:
-buildingMailingList: 
+buildingMailingList:
+storefront: 73a-mill-s.webp
+otherPics:
+  - image: 73a-mill-s-2.webp
 ---
 
 Frosted Flour Co. is known for its detailed designer cookies, beautifully decorated cakes and handcrafted artisan

@@ -15,9 +15,10 @@ facebook:
 instagram:
 twitter:
 ownerName: Debbie Beattie
-mailingList:  info@criticalmassart.com
+mailingList: info@criticalmassart.com
 buildingOwner:
-buildingMailingList: 
+buildingMailingList:
+storefront: lent-lane.webp
 ---
 
 Critical Mass is a not-for-profit contemporary art organization based in Port Hope, Ontario, on the traditional

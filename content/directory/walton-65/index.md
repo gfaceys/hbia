@@ -19,6 +19,8 @@ mailingList: info@furbyhousebooks.com
 buildingOwner: Lou Pamenter
 buildingMailingList: louspamenter@gmail.com
 storefront: 65-walton.webp
+otherPics:
+  - image: 65-walton-2.webp
 ---
 
 A local bookstore at the heart of historic Port Hope

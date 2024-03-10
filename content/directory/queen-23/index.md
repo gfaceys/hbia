@@ -1,5 +1,5 @@
 ---
-name: Whale Family Chiropractic 
+name: Whale Family Chiropractic
 slug: whale-family-chiropractic
 ontarioCategory: Professional Services
 businessType: service
@@ -12,12 +12,13 @@ title: queen-23
 phone: 905-885-7460
 website: https://www.whalefamilychiropractic.ca/
 facebook: https://www.facebook.com/whalefamilychiropractic/
-instagram: 
-twitter: 
+instagram:
+twitter:
 ownerName: Robin & Caroline  Whale &Taylor
-mailingList: whale@bellnet.ca 
+mailingList: whale@bellnet.ca
 buildingOwner: RobinWhale
 buildingMailingList: Same as Biz
+storefront: 23-Queen.webp
 ---
 
 Chiropractors Port Hope Dr. Caroline Taylor and Dr. Robin Whale are here for you and your family. Pediatric and prenatal

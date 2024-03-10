@@ -1,5 +1,5 @@
 ---
-name: Benjamin Moore Colour Concepts 
+name: Benjamin Moore Colour Concepts
 slug: benjamin-moore-colour-concepts
 ontarioCategory: Retail
 businessType: shop
@@ -10,12 +10,13 @@ vacant: false
 address: 48 Mill Sreet S
 phone: 905-885-8355
 website: https://www.colour-concepts.ca/contact
-facebook: 
-instagram: 
-twitter: 
+facebook:
+instagram:
+twitter:
 ownerName: Erica Smith
 mailingList: info@colour-concepts.ca
-buildingOwner: 
-buildingMailingList: 
+buildingOwner:
+buildingMailingList:
+storefront: 48-mill-s.webp
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Capitol Theatre 
+name: Capitol Theatre
 slug: capitol-theatre
 ontarioCategory: Cultural Attraction
 businessType: explore-stay
@@ -13,11 +13,12 @@ phone: 905-885-1071
 website: https://capitoltheatre.com/
 facebook: https://www.facebook.com/CapitolTheatrePortHope/
 instagram: https://www.instagram.com/capitoltheatreporthope/
-twitter: 
+twitter:
 ownerName: Erin  Pierce
 mailingList: info@capitoltheatre.com
-buildingOwner: 
-buildingMailingList: 
+buildingOwner:
+buildingMailingList:
+storefront: 20-Queen.webp
 ---
 
 The Capitol Theatre is located in Port Hope, Ontario, and is one of the last fully restored atmospheric movie theatres

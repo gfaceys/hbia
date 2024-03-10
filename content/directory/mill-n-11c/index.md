@@ -17,7 +17,8 @@ twitter:
 ownerName: Hear Right
 mailingList: info@hearinglife.com
 buildingOwner:
-buildingMailingList: 
+buildingMailingList:
+storefront: 11-mill-n-c.webp
 ---
 
 At hear right canada, we look forward to testing your hearing and work with you to select the hearing instruments best

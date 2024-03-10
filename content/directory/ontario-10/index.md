@@ -1,5 +1,5 @@
 ---
-name: La Maison Portobello deli 
+name: La Maison Portobello deli
 slug: la-maison-portobello-deli
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -9,14 +9,15 @@ residential: false
 vacant: false
 address: 10 Ontario Street
 title: ontario-10
-phone: 
-website: 
-facebook: 
-instagram: 
-twitter: 
-ownerName:  
-mailingList: 
-buildingOwner: 
-buildingMailingList: 
+phone:
+website:
+facebook:
+instagram:
+twitter:
+ownerName:
+mailingList:
+buildingOwner:
+buildingMailingList:
+storefront: 10-ontario.webp
 ---
 

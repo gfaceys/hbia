@@ -1,5 +1,5 @@
 ---
-name: Municipality of Port Hope  
+name: Municipality of Port Hope
 slug: municipality-of-port-hope
 ontarioCategory: Professional Services
 businessType: service
@@ -14,9 +14,10 @@ website: http://porthope.ca/
 facebook: https://www.facebook.com/MunicipalityofPortHope
 instagram: https://www.instagram.com/municipalityofporthope/
 twitter: https://twitter.com/PortHopeInfo
-ownerName: 
-mailingList: admin@porthope.ca 
-buildingOwner: 
-buildingMailingList: 
+ownerName:
+mailingList: admin@porthope.ca
+buildingOwner:
+buildingMailingList:
+storefront: 56-Queen.webp
 ---
 

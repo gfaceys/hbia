@@ -1,5 +1,5 @@
 ---
-name: First Baptist Church 
+name: First Baptist Church
 slug: first-baptist-church
 ontarioCategory: Other Services
 businessType: service
@@ -9,15 +9,16 @@ residential: false
 vacant: false
 address: 57 John Street
 title: john-57
-phone: 
+phone:
 website: https://www.firstbaptistporthope.com/
-facebook: 
-instagram: 
-twitter: 
-ownerName:  
-mailingList: 
-buildingOwner: 
-buildingMailingList: 
+facebook:
+instagram:
+twitter:
+ownerName:
+mailingList:
+buildingOwner:
+buildingMailingList:
+storefront: 57-john.webp
 ---
 
 Port Hope First Baptist is not just a church, it's a community and even more importantly a family. Sunday morning

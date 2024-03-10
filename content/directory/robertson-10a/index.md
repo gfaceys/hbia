@@ -17,7 +17,8 @@ twitter:
 ownerName: Jessica
 mailingList: jessica@focusedmomentum.ca
 buildingOwner:
-buildingMailingList: 
+buildingMailingList:
+storefront: 10-Robertson.webp
 ---
 
 We are pleased to welcome Stephen McKenzie to Focused Momentum!! Stephen has spent the last 12 years in pursuit of a

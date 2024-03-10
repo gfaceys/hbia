@@ -1,5 +1,5 @@
 ---
-name: Olympus Burger 
+name: Olympus Burger
 slug: olympus-burger
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -18,5 +18,6 @@ ownerName: George Kallonakis
 mailingList: info@olympusburger.ca
 buildingOwner: George Kallonakis
 buildingMailingList: Same as Biz
+storefront: 55-mill-s.webp
 ---
 

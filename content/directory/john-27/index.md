@@ -21,6 +21,7 @@ buildingMailingList:
 storefront: 27-john.webp
 otherPics:
   - image: 27-john-2.webp
+  - image: 27-john-3.webp
 ---
 
 Celebrating its legacy as an admired locale, The Beamish House serves as a relaxed environment fostering a sense of

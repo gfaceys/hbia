@@ -1,5 +1,5 @@
 ---
-name: Hotel Carlyle & Restaurant 
+name: Hotel Carlyle & Restaurant
 slug: hotel-carlyle-restaurant
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -19,6 +19,8 @@ mailingList: happening@hotelcarlyle.ca
 buildingOwner:
 buildingMailingList:
 storefront: 86-john.webp
+otherPics:
+  - image: 86-john2.webp
 ---
 
 Hotel Carlyle, offers stylish boutique hotel accommodation and casually elegant dining, in the heart of Old Port Hope

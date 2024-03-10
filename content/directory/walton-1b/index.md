@@ -1,5 +1,5 @@
 ---
-name: The Waddell 
+name: The Waddell
 slug: the-waddell
 ontarioCategory: Other Services
 businessType: explore-stay
@@ -11,13 +11,14 @@ address: 1 Walton Street
 title: Walton-1
 phone: 905-885-2449
 website: https://www.thewaddell.ca/
-facebook: 
-instagram: 
-twitter: 
+facebook:
+instagram:
+twitter:
 ownerName: Oodda
 mailingList: reception@thewaddell.ca
-buildingOwner: 
-buildingMailingList: 
+buildingOwner:
+buildingMailingList:
+storefront: 1-walton-b.webp
 ---
 
 A minute's walk from the Capitol Theatre, this historic Heritage District hotel, dating from 1845 and overlooking the

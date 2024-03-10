@@ -1,5 +1,5 @@
 ---
-name: Shantee Healing 
+name: Shantee Healing
 slug: shantee-healing
 ontarioCategory: Personal Services
 businessType: service
@@ -13,10 +13,11 @@ phone: 905-800-0638
 website: https://shanteehealing.com/
 facebook: https://www.facebook.com/Shanteehealing/
 instagram: https://www.instagram.com/shanteehealing/
-twitter: 
+twitter:
 ownerName: Tony/Jaz Dhillon
-mailingList: info@shanteehealing.com 
-buildingOwner: 
-buildingMailingList: 
+mailingList: info@shanteehealing.com
+buildingOwner:
+buildingMailingList:
+storefront: 45-mill-s.webp
 ---
 

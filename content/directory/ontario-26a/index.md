@@ -18,6 +18,7 @@ ownerName: Laurie Carr
 mailingList: info@catsmedia.ca
 buildingOwner: Julie Mavis & Laurie Carr
 buildingMailingList: info@catsmedia.ca
+storefront: 26a-ontario.webp
 ---
 
 Are you rebranding and looking for a new brand design for your company? Or maybe you need a new design for your website.

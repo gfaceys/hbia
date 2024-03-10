@@ -17,7 +17,10 @@ twitter:
 ownerName: Brian  Lindsay
 mailingList: info@kpatricks.com
 buildingOwner:
-buildingMailingList: 
+buildingMailingList:
+storefront: 35-mill-n.webp
+otherPics:
+  - image: 35-mill-n-2.webp
 ---
 
 Kirkpatrick's Leather was founded in 1881 as a manufacturer of carriage harness. Located in Toronto for over 75 years,

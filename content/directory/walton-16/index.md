@@ -1,5 +1,5 @@
 ---
-name: Queenies Bake Shop 
+name: Queenies Bake Shop
 slug: queenies-bake-shop
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
@@ -15,8 +15,9 @@ facebook: https://www.facebook.com/Queenies-Bake-Shop-778659905571194/
 instagram: https://www.instagram.com/queeniesbakeshop/
 twitter: https://twitter.com/queeniesph
 ownerName: Adam  Pearson
-mailingList: pearson3d@hotmail.com 
-buildingOwner: 
-buildingMailingList: 
+mailingList: pearson3d@hotmail.com
+buildingOwner:
+buildingMailingList:
+storefront: 16-Walton.webp
 ---
 

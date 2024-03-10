@@ -1,5 +1,5 @@
 ---
-name: Bosley Real Estate Ltd. 
+name: Bosley Real Estate Ltd.
 slug: bosley-real-estate-ltd
 ontarioCategory: Professional Services
 businessType: service
@@ -11,13 +11,14 @@ address: 14 Mill Street S
 title: mill-south-14
 phone: 905-885-0101
 website: https://bosleyrealestate.com
-facebook: 
-instagram: 
-twitter: 
+facebook:
+instagram:
+twitter:
 ownerName: Lee Caswell
 mailingList: info@bosleyrealestate.com
-buildingOwner: 
-buildingMailingList: 
+buildingOwner:
+buildingMailingList:
+storefront: 14-mill-s.webp
 ---
 
 Bosley Real Estate is a Toronto brokerage that has been setting the standard for client care and exemplary results for

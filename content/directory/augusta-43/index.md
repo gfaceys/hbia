@@ -17,5 +17,6 @@ twitter:
 ownerName: Archer & Sarah Guy
 mailingList: sarahcguy@gmail.com
 buildingOwner:
-buildingMailingList: 
+buildingMailingList:
+storefront: 43-augusta.webp
 ---

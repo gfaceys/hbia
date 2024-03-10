@@ -18,7 +18,7 @@ ownerName: Karen Hendricks
 mailingList: karen@suntreefoods.ca
 buildingOwner:
 buildingMailingList:
-storefront: 19-Ontario.webp
+storefront: 19-ontario.webp
 ---
 
 Located between the LCBO and our free parking lot, Suntree is Port Hope’s downtown grocer. We specialize in foods that

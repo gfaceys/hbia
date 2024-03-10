@@ -1,5 +1,5 @@
 ---
-name: Canada Post Corporation 
+name: Canada Post Corporation
 slug: canada-post-corporation
 ontarioCategory: Other Services
 businessType: service
@@ -11,12 +11,13 @@ address: 67 John Street
 title: john-67
 phone: 1-800-267-1177
 website: https://www.canadapost.ca/
-facebook: 
-instagram: 
-twitter: 
+facebook:
+instagram:
+twitter:
 ownerName: Frank  Winton
-mailingList: 
-buildingOwner: 
-buildingMailingList: 
+mailingList:
+buildingOwner:
+buildingMailingList:
+storefront: 67-john.webp
 ---
 
