@@ -135,21 +135,24 @@
 <div class="home-photo-links">
     <a href="/shop" class="home-square-link">
         <h3 class="home-square-caption">Shop</h3>
-        <img src={{ .Params.shopImage }} alt="shop link image" class="home-square-img">
+        <img data-src={{ .Params.shopImage }} alt="shop link image" class="home-square-img">
     </a>
     <a href="/taste" class="home-square-link">
         <h3 class="home-square-caption">Taste</h3>
-        <img src={{ .Params.tasteImage }} alt="taste link image" class="home-square-img">
+        <img data-src={{ .Params.tasteImage }} alt="taste link image" class="home-square-img">
     </a>
     <a href="/explore" class="home-square-link" style="position: relative">
         <h3 class="home-square-caption">Explore<br/>& Stay</h3>
-        <img src={{ .Params.exploreImage }} alt="explore link image" class="home-square-img">
+        <img data-src={{ .Params.exploreImage }} alt="explore link image" class="home-square-img">
     </a>
     <a href="/services" class="home-square-link">
         <h3 class="home-square-caption">Services</h3>
-        <img src={{ .Params.serviceImage }} alt="service link image" class="home-square-img">
+        <img data-src={{ .Params.serviceImage }} alt="service link image" class="home-square-img">
     </a>
 </div>
+
+<!-- lazy load shop, taste, explore images -->
+{{ partial "lazy-load.html" }}
 
 <!-- latest events -->
 <div class="event-wrapper">
