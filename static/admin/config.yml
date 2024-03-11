@@ -82,6 +82,10 @@ collections: # A list of collections the CMS should be able to edit
             { label: "Business name", name: "name", widget: "string", hint: "business name, keep it short" },
             { label: "Business slug", name: "slug", widget: "string", hint: "example: dreamers-cafe or gfacey-clothing" } ] }
           - { label: Meta, name: meta, widget: string, hint: "SEO description for search engines. Should be under 160 characters" }
+          - { label: "Shop link image", name: shopImage, widget: image, hint: "600px x 600px image. webp format. imageresizer.com" }
+          - { label: "Taste link image", name: tasteImage, widget: image, hint: "600px x 600px image. webp format. imageresizer.com" }
+          - { label: "Explore/stay link image", name: exploreImage, widget: image, hint: "600px x 600px image. webp format. imageresizer.com" }
+          - { label: "Services link image", name: serviceImage, widget: image, hint: "600px x 600px image. webp format. imageresizer.com" }
       - file: "content/products/_index.md"
         label: "Products Page"
         name: "products"

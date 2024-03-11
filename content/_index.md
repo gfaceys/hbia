@@ -71,4 +71,8 @@ imagesGroup5:
     name: "Bibelot"
     slug: "bibelot"
 meta: Downtown Port Hope...
+shopImage: img/4Squares-Shop.webp
+tasteImage: img/4Squares-Taste.webp
+exploreImage: img/4Squares-ExploreAndStay.webp
+serviceImage: img/4Squares-Services.webp
 ---
