@@ -358,6 +358,11 @@ ul {
 .nav-text {
     padding: 0 1rem;
     font-size: smaller;
+    height: 100%;;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .logo-text {
@@ -381,6 +386,10 @@ ul {
     align-items: center;
     margin-block-start: 0;
     padding-inline-start: 0
+}
+
+.nav-list li {
+    height: 100%;
 }
 
 .home-photo-links {
@@ -413,6 +422,11 @@ ul {
     color: var(--white);
     background-color: rgba(50, 50, 50, 0.5);
     border-radius: 0.33rem;
+}
+
+.home-square-link:hover h3 {
+    color: var(--primary);
+    background-color: var(--white);
 }
 
 @media screen and (min-width: 1024px) {

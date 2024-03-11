@@ -100,25 +100,22 @@
 <!-- video intro -->
 <div style="position: relative; top:0; left: 0; width: 100%; height: 100%; opacity: 100%">
     <div id="intro-video-parent" style="position: relative; overflow: hidden; height: 0; padding-bottom: 56.25%;">
-        <img style="object-fit: fill; width: 100%" src={{ .Params.image }}>
+        <img alt="Downtown Port Hope" style="object-fit: fill; width: 100%" src={{ .Params.image }}>
     </div>
 
     <div style="background-color: rgba(50, 50, 50, 0.4); position: absolute; z-index: 1; top: 0; width: 100%; height: 100%; ba">
         <div class="title-wrapper"
              style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
             <div style="display: flex; flex-direction: column">
-                <div style="width: fit-content; margin-bottom: 1rem;">
-                    <h1 style="font-weight: bold; color: var(--white)">
-                        {{.Params.title}}
-                    </h1>
-                </div>
-                <h3 style="font-weight: bold; width: fit-content; color: var(--white)">
+                <h1 style="font-weight: bold; color: var(--white)">
+                    {{.Params.title}}
+                </h1>
+                <h3 style="font-weight: bold; width: fit-content; color: var(--white);">
                     {{.Params.subtitle}}
                 </h3>
             </div>
         </div>
     </div>
-
 </div>
 
 <!-- welcome with images -->
@@ -126,19 +123,19 @@
 
 <!-- shop taste explore-stay services larger links -->
 <div class="home-photo-links">
-    <a href="/shop" class="home-square-link">
+    <a href="/shop" class="home-square-link raise">
         <h3 class="home-square-caption">Shop</h3>
         <img data-src={{ .Params.shopImage }} alt="shop link image" class="home-square-img">
     </a>
-    <a href="/taste" class="home-square-link">
+    <a href="/taste" class="home-square-link raise">
         <h3 class="home-square-caption">Taste</h3>
         <img data-src={{ .Params.tasteImage }} alt="taste link image" class="home-square-img">
     </a>
-    <a href="/explore" class="home-square-link" style="position: relative">
+    <a href="/explore" class="home-square-link raise" style="position: relative">
         <h3 class="home-square-caption">Explore<br/>& Stay</h3>
         <img data-src={{ .Params.exploreImage }} alt="explore link image" class="home-square-img">
     </a>
-    <a href="/services" class="home-square-link">
+    <a href="/services" class="home-square-link raise">
         <h3 class="home-square-caption">Services</h3>
         <img data-src={{ .Params.serviceImage }} alt="service link image" class="home-square-img">
     </a>
@@ -161,7 +158,7 @@
         </div>
 
         <div style="text-align: center">
-            <a href="/event" class="btn raise">Read more</a>
+            <a aria-label="See all events" href="/event" class="btn raise">Read more</a>
         </div>
     </div>
 </div>

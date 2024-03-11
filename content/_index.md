@@ -2,7 +2,6 @@
 title: "shop, taste, explore"
 subtitle: Downtown Port Hope
 image: img/home.webp
-video: https://www.youtube.com/watch?v=whjJuOrhFnI
 welcome:
   - "Welcome!"
   - "Bienvenue!"
