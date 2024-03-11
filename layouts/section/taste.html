@@ -12,18 +12,12 @@
 
         <div class="tile-wrapper">
             <div class="image-tile">
-                {{ range sort (where .Site.Pages "Type" "directory") "Title" "desc" }}
-                {{ if eq .Params.businessType "taste" }}
-                {{ if and (not .Params.vacant) (not .Params.residential) }}
-                {{ $i = add $i 1 }}
-                {{ if gt $i 9 }}
-                {{ .Render "li-thumb-lazy" }}
-                {{ else }}
-                {{ .Render "li-thumb" }}
-                {{ end }}
-                {{ end }}
-                {{ end }}
-                {{ end }}
+                {{ range sort (where .Site.Pages "Type" "directory") "Title" "desc" -}}
+                {{ if eq .Params.businessType "taste" -}}
+                {{ if and (not .Params.vacant) (not .Params.residential) -}}
+                {{ $i = add $i 1 -}}
+                {{ if gt $i 9 -}} {{ .Render "li-thumb-lazy" -}} {{ else }} {{ .Render "li-thumb" -}} {{ end }}
+                {{ end }} {{ end }} {{ end }}
             </div>
         </div>
     </div>
