@@ -99,15 +99,8 @@
 {{ define "main" }}
 <!-- video intro -->
 <div style="position: relative; top:0; left: 0; width: 100%; height: 100%; opacity: 100%">
-    <div style="position: relative; overflow: hidden; height: 0; padding-bottom: 56.25%;">
-        <iframe width="560" height="315"
-                src="https://www.youtube-nocookie.com/embed/whjJuOrhFnI?autoplay=1&mute=1&modestbranding=1&playsinline=1&rel=0&controls=0&showinfo=0&autohide=1&enablejsapi=1&loop=1&playlist=whjJuOrhFnI"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-                allowfullscreen
-                style="z-index: 0"
-        >
-        </iframe>
+    <div id="intro-video-parent" style="position: relative; overflow: hidden; height: 0; padding-bottom: 56.25%;">
+        <img style="object-fit: fill; width: 100%" src={{ .Params.image }}>
     </div>
 
     <div style="background-color: rgba(50, 50, 50, 0.4); position: absolute; z-index: 1; top: 0; width: 100%; height: 100%; ba">
@@ -174,4 +167,38 @@
 </div>
 
 
+<script defer>
+    /** Only load promo video if muted autoplay is enabled */
+    let e = document.getElementById("intro-video-parent");
+    let testVid = document.createElement('video');
+    testVid.src = 'data:video/mp4;base64,AAAAIGZ0eXBpc29tAAACAGlzb21pc28yYXZjMW1wNDEAAAAIZnJlZQAAAs1tZGF0AAACrgYF//+q3EXpvebZSLeWLNgg2SPu73gyNjQgLSBjb3JlIDE0OCByMjYwMSBhMGNkN2QzIC0gSC4yNjQvTVBFRy00IEFWQyBjb2RlYyAtIENvcHlsZWZ0IDIwMDMtMjAxNSAtIGh0dHA6Ly93d3cudmlkZW9sYW4ub3JnL3gyNjQuaHRtbCAtIG9wdGlvbnM6IGNhYmFjPTEgcmVmPTMgZGVibG9jaz0xOjA6MCBhbmFseXNlPTB4MzoweDExMyBtZT1oZXggc3VibWU9NyBwc3k9MSBwc3lfcmQ9MS4wMDowLjAwIG1peGVkX3JlZj0xIG1lX3JhbmdlPTE2IGNocm9tYV9tZT0xIHRyZWxsaXM9MSA4eDhkY3Q9MSBjcW09MCBkZWFkem9uZT0yMSwxMSBmYXN0X3Bza2lwPTEgY2hyb21hX3FwX29mZnNldD0tMiB0aHJlYWRzPTEgbG9va2FoZWFkX3RocmVhZHM9MSBzbGljZWRfdGhyZWFkcz0wIG5yPTAgZGVjaW1hdGU9MSBpbnRlcmxhY2VkPTAgYmx1cmF5X2NvbXBhdD0wIGNvbnN0cmFpbmVkX2ludHJhPTAgYmZyYW1lcz0zIGJfcHlyYW1pZD0yIGJfYWRhcHQ9MSBiX2JpYXM9MCBkaXJlY3Q9MSB3ZWlnaHRiPTEgb3Blbl9nb3A9MCB3ZWlnaHRwPTIga2V5aW50PTI1MCBrZXlpbnRfbWluPTEwIHNjZW5lY3V0PTQwIGludHJhX3JlZnJlc2g9MCByY19sb29rYWhlYWQ9NDAgcmM9Y3JmIG1idHJlZT0xIGNyZj0yMy4wIHFjb21wPTAuNjAgcXBtaW49MCBxcG1heD02OSBxcHN0ZXA9NCBpcF9yYXRpbz0xLjQwIGFxPTE6MS4wMACAAAAAD2WIhAA3//728P4FNjuZQQAAAu5tb292AAAAbG12aGQAAAAAAAAAAAAAAAAAAAPoAAAAZAABAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACGHRyYWsAAABcdGtoZAAAAAMAAAAAAAAAAAAAAAEAAAAAAAAAZAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAIAAAAAACRlZHRzAAAAHGVsc3QAAAAAAAAAAQAAAGQAAAAAAAEAAAAAAZBtZGlhAAAAIG1kaGQAAAAAAAAAAAAAAAAAACgAAAAEAFXEAAAAAAAtaGRscgAAAAAAAAAAdmlkZQAAAAAAAAAAAAAAAFZpZGVvSGFuZGxlcgAAAAE7bWluZgAAABR2bWhkAAAAAQAAAAAAAAAAAAAAJGRpbmYAAAAcZHJlZgAAAAAAAAABAAAADHVybCAAAAABAAAA+3N0YmwAAACXc3RzZAAAAAAAAAABAAAAh2F2YzEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAgACAEgAAABIAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY//8AAAAxYXZjQwFkAAr/4QAYZ2QACqzZX4iIhAAAAwAEAAADAFA8SJZYAQAGaOvjyyLAAAAAGHN0dHMAAAAAAAAAAQAAAAEAAAQAAAAAHHN0c2MAAAAAAAAAAQAAAAEAAAABAAAAAQAAABRzdHN6AAAAAAAAAsUAAAABAAAAFHN0Y28AAAAAAAAAAQAAADAAAABidWR0YQAAAFptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABtZGlyYXBwbAAAAAAAAAAAAAAAAC1pbHN0AAAAJal0b28AAAAdZGF0YQAAAAEAAAAATGF2ZjU2LjQwLjEwMQ==';
+    testVid.autoplay = true;
+    testVid.muted = true;
+
+    testVid.style.position = 'absolute';
+    testVid.style.height = "0";
+    testVid.style.width = "0";
+    testVid.style.cssText = "display: none";
+
+    e.appendChild(testVid);
+
+    testVid.play().then(_ => {
+        console.log("autoplay enabled")
+            // autoplay allowed; swap in video
+            let yt = document.createElement("iframe");
+            yt.width = "560";
+            yt.height = "315";
+            yt.src = "https://www.youtube-nocookie.com/embed/whjJuOrhFnI?autoplay=1&mute=1&modestbranding=1&playsinline=1&rel=0&controls=0&showinfo=0&autohide=1&enablejsapi=1&loop=1&playlist=whjJuOrhFnI";
+            yt.title = "Promotional video for Port Hope Downtown HBIA";
+            yt.frameBorder = "0"
+            yt.allowFullscreen = true
+            yt.autoplay = true
+            yt.muted = true
+            yt.style.zIndex = "0"
+            yt.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+            e.replaceChildren(yt)
+        }).catch(err => {
+            console.log("autoplay not allowed")
+        });
+</script>
 {{ end }}

@@ -1,7 +1,7 @@
 ---
 title: "shop, taste, explore"
 subtitle: Downtown Port Hope
-image: /img/about-jumbotron.jpg
+image: img/home.webp
 video: https://www.youtube.com/watch?v=whjJuOrhFnI
 welcome:
   - "Welcome!"
