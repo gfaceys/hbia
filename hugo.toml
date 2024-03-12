@@ -9,5 +9,5 @@ title = "Port Hope HBIA"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
-images = ["img/og-image.jpg"]
+images = ["img/open-graph.jpg"]
 eventsMainImage = "img/home.webp"
