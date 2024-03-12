@@ -10,4 +10,4 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
 images = ["img/og-image.jpg"]
-mainImage = "img/home.webp"
+eventsMainImage = "img/home.webp"

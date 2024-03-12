@@ -10,3 +10,5 @@ cypress/videos
 cypress/screenshots
 
 /public
+/resources/_gen
+.DS_Store

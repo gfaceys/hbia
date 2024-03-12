@@ -121,3 +121,6 @@ collections: # A list of collections the CMS should be able to edit
                 name: images
                 widget: list
                 field: { label: Image, name: image, widget: image }
+              - label: Events main image
+                name: eventsMainImage
+                widget: image
