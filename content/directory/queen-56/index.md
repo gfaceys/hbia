@@ -19,5 +19,7 @@ mailingList: admin@porthope.ca
 buildingOwner:
 buildingMailingList:
 storefront: 56-Queen.webp
+otherPics:
+  - image: 56-queen-2.webp
 ---
 

@@ -19,6 +19,8 @@ mailingList: reception@thewaddell.ca
 buildingOwner:
 buildingMailingList:
 storefront: 1-walton-b.webp
+otherPics:
+  - image: 1b-walton-2.webp
 ---
 
 A minute's walk from the Capitol Theatre, this historic Heritage District hotel, dating from 1845 and overlooking the
