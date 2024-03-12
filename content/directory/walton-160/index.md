@@ -1,5 +1,5 @@
 ---
-name: Okeefe Accounting 
+name: Okeefe Accounting
 slug: okeefe-accounting
 ontarioCategory: Professional Services
 businessType: service
@@ -12,12 +12,13 @@ title: Walton-160
 phone: 905-800-0909
 website: http://okeefecpa.ca/
 facebook: https://www.facebook.com/OKeefeCPA
-instagram: 
+instagram:
 twitter: https://twitter.com/OKeefeCPA
 ownerName: John  Okeefe
 mailingList: info@okeefecpa.ca
-buildingOwner: 
-buildingMailingList: 
+buildingOwner:
+buildingMailingList:
+storefront: 160-Walton.webp
 ---
 
 We are a professional accounting firm aimed at helping business become more profitable. We also offer audits and reviews

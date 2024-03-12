@@ -17,7 +17,8 @@ twitter:
 ownerName: BobaLoka
 mailingList: bobalokaporthope@gmail.com
 buildingOwner:
-buildingMailingList: 
+buildingMailingList:
+storefront: 63b-ontario.webp
 ---
 
 Northumberland’s coolest Bubble Tea spot, brought to you by The Loco Smoker BBQ

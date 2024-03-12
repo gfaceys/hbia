@@ -1,5 +1,5 @@
 ---
-name: Elliott Insurance Services 
+name: Elliott Insurance Services
 slug: elliott-insurance-services
 ontarioCategory: Professional Services
 businessType: service
@@ -12,12 +12,13 @@ title: queen-27
 phone: 905-885-2061
 website: https://elliottinsuranceservices.com/
 facebook: https://www.facebook.com/ElliottInsBrksPortHope/
-instagram: 
-twitter: 
+instagram:
+twitter:
 ownerName: David  Elliott
 mailingList: info@elliottinsuranceservices.com
 buildingOwner: David Elliot
 buildingMailingList: Same as Biz
+storefront: 27-queen.webp
 ---
 
 Elliott Insurance Services has provided Home, Auto, Commercial and Life insurance since 1919. Using our experience to

@@ -1,5 +1,5 @@
 ---
-name: Port Hope Suites and Extended Stays 
+name: Port Hope Suites and Extended Stays
 slug: port-hope-suites-and-extended-stays
 ontarioCategory: Other Services
 businessType: explore-stay
@@ -11,12 +11,15 @@ address: 12 Mill Street S
 title: mill-south-12
 phone: 905-269-3650
 website: https://porthopesuites.com/
-facebook: 
-instagram: 
-twitter: 
+facebook:
+instagram:
+twitter:
 ownerName: Ken Garrett
-mailingList: porthopesuites@gmail.com 
-buildingOwner: 
-buildingMailingList: 
+mailingList: porthopesuites@gmail.com
+buildingOwner:
+buildingMailingList:
+storefront: 12-mill-s.webp
+otherPics:
+  - image: 12-mill-s-2.webp
 ---
 

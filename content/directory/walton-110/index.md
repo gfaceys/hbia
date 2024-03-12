@@ -1,5 +1,5 @@
 ---
-name: Resurgence 
+name: Resurgence
 slug: resurgence
 ontarioCategory: Personal Services
 businessType: service
@@ -10,13 +10,14 @@ vacant: false
 address: 110 Walton Street
 title: Walton-110
 phone: 905-718-4669
-website: 
-facebook: 
-instagram: 
-twitter: 
+website:
+facebook:
+instagram:
+twitter:
 ownerName: Scott Jenkins
 mailingList: info@resurgencehealth.com
-buildingOwner: 
-buildingMailingList: 
+buildingOwner:
+buildingMailingList:
+storefront: 110-Walton.webp
 ---
 

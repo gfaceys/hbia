@@ -1,5 +1,5 @@
 ---
-name: Lynch Rutherford Tozer 
+name: Lynch Rutherford Tozer
 slug: lynch-rutherford-tozer
 ontarioCategory: Professional Services
 businessType: service
@@ -18,5 +18,6 @@ ownerName: Glen Tozer
 mailingList: gtozer@myaccountants.ca
 buildingOwner: Lynch, Rutherford ,Tozer
 buildingMailingList:
+storefront: 71-Walton.webp
 ---
 

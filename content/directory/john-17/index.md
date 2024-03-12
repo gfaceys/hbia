@@ -1,5 +1,5 @@
 ---
-name: 17 John - Residential 
+name: 17 John - Residential
 slug: 17-john-residential
 ontarioCategory: Residential
 businessType: none
@@ -9,14 +9,15 @@ residential: true
 vacant: false
 address: 17 John Street
 title: john-17
-phone: 
-website: 
-facebook: 
-instagram: 
-twitter: 
-ownerName:  
-mailingList: 
+phone:
+website:
+facebook:
+instagram:
+twitter:
+ownerName:
+mailingList:
 buildingOwner: Paul Godin
-buildingMailingList: 
+buildingMailingList:
+storefront: 17-john.webp
 ---
 

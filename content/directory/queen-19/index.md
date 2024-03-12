@@ -1,5 +1,5 @@
 ---
-name: Altima Port Hope Dental Centre 
+name: Altima Port Hope Dental Centre
 slug: altima-port-hope-dental-centre
 ontarioCategory: Professional Services
 businessType: service
@@ -12,12 +12,13 @@ title: queen-19
 phone: 905-885-5314
 website: https://www.altimadental.com/locations/port-hope/
 facebook: https://www.facebook.com/AltimaPortHope/
-instagram: 
-twitter: 
+instagram:
+twitter:
 ownerName: Altima
-mailingList: porthope@altima.ca 
-buildingOwner: 
-buildingMailingList: 
+mailingList: porthope@altima.ca
+buildingOwner:
+buildingMailingList:
+storefront: 19-queen.webp
 ---
 
 At Altima Dental, we are committed to providing a relaxed, professional setting to make your visit as comfortable as

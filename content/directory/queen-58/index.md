@@ -1,5 +1,5 @@
 ---
-name: Port Hope & District Chamber of Commerce   
+name: Port Hope & District Chamber of Commerce
 slug: port-hope-district-chamber-of-commerce
 ontarioCategory: Professional Services
 businessType: service
@@ -15,8 +15,9 @@ facebook: https://www.facebook.com/PortHopeAndDistrictChamberOfCommerce/
 instagram: https://www.instagram.com/porthopechamber/?hl=en
 twitter: https://twitter.com/port_chamber
 ownerName: Siobhan Kloosterhof
-mailingList: admin@porthopechamber.com 
-buildingOwner: 
-buildingMailingList: 
+mailingList: admin@porthopechamber.com
+buildingOwner:
+buildingMailingList:
+storefront: 58-Queen.webp
 ---
 

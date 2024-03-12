@@ -1,5 +1,5 @@
 ---
-name: Ganaraska Chiropractic and Healing Arts 
+name: Ganaraska Chiropractic and Healing Arts
 slug: ganaraska-chiropractic-and-healing-arts
 ontarioCategory: Professional Services
 businessType: service
@@ -12,12 +12,13 @@ title: ontario-73
 phone: 905-885-6938
 website: http://ganaraskachiropractic.com/
 facebook: https://www.facebook.com/ganaraskachiropractic
-instagram: 
-twitter: 
+instagram:
+twitter:
 ownerName: Kim  Patton
-mailingList: info@betterbacks.ca 
-buildingOwner: 
-buildingMailingList: 
+mailingList: info@betterbacks.ca
+buildingOwner:
+buildingMailingList:
+storefront: 73-ontario.webp
 ---
 
 Business was established in 1998,provides several health care options in one location. More options,better health.

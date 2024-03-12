@@ -1,5 +1,5 @@
 ---
-name: 19 John - Residential  
+name: 19 John - Residential
 slug: 19-john-residential
 ontarioCategory: Residential
 businessType: none
@@ -9,14 +9,15 @@ residential: true
 vacant: false
 address: 19 John Street
 title: john-19
-phone: 
-website: 
-facebook: 
-instagram: 
-twitter: 
-ownerName:  
-mailingList: 
+phone:
+website:
+facebook:
+instagram:
+twitter:
+ownerName:
+mailingList:
 buildingOwner: Carmi Godin
-buildingMailingList: 
+buildingMailingList:
+storefront: 19-john.webp
 ---
 

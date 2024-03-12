@@ -33,8 +33,8 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Body", name: "body", widget: "markdown", hint: "brief blurb about the store", required: false }
       - { label: "Ontario Category", name: "ontarioCategory", widget: "select", hint: "business category for ontario government usage (not shown on shop pages)", options: [ "Food, Beverage, Pharmacy", "Food Services", "Personal Services", "Professional Services", "Retail", "Other Services", "Vacant", "Residential" ] }
       - { label: "Business Type", name: "businessType", widget: "select", hint: "business type", options: [ "shop", "taste", "explore-stay", "service", "none" ] }
-      - { label: "Latitude", name: "latitude", widget: "string", default: "43.95" }
-      - { label: "Longitude", name: "longitude", widget: "string", default: "-78.29" }
+      - { label: "Latitude", name: "latitude", widget: "string", default: "43.95", hint: "https://codepen.io/aaronpinero/pen/yQOKdY" }
+      - { label: "Longitude", name: "longitude", widget: "string", default: "-78.29", hint: "https://codepen.io/aaronpinero/pen/yQOKdY" }
       - { label: "Residential only", name: "residential", widget: "boolean", default: false, hint: "the property is residential only (not displayed on website)" }
       - { label: "Vacant", name: "vacant", widget: "boolean", default: false, hint: "whether the store is vacant (not displayed on website)" }
       - { label: "Address", name: "address", widget: "string", hint: "one line about the address, e.g. 12 Walton Street" }

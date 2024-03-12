@@ -1,5 +1,5 @@
 ---
-name: 54 John – Residential 
+name: 54 John – Residential
 slug: 54-john-residential
 ontarioCategory: Residential
 businessType: none
@@ -9,14 +9,15 @@ residential: true
 vacant: false
 address: 54 John Street
 title: john-54
-phone: 
-website: 
-facebook: 
-instagram: 
-twitter: 
-ownerName:  
-mailingList: 
+phone:
+website:
+facebook:
+instagram:
+twitter:
+ownerName:
+mailingList:
 buildingOwner: Dale & Max Chipman
 buildingMailingList: cmchipman@bell.net
+storefront: 54-john.webp
 ---
 

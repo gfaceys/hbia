@@ -18,7 +18,7 @@ ownerName: Cassandra Cornall
 mailingList: info@epicgym.ca
 buildingOwner:
 buildingMailingList:
-storefront: 10-Robertson.webp
+storefront: 10-robertson-epic.webp
 ---
 
 EPIC Gymnastics, Dance, Parkour, Karate, Events, Parties, and more.

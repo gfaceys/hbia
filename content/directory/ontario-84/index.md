@@ -1,5 +1,5 @@
 ---
-name: Fresh Off The Vine 
+name: Fresh Off The Vine
 slug: fresh-off-the-vine
 ontarioCategory: Retail
 businessType: shop
@@ -12,12 +12,13 @@ title: ontario-84
 phone: 905-885-1500
 website: http://www.freshoffthevineporthope.ca/
 facebook: https://www.facebook.com/pages/category/Product-Service/Fresh-Off-The-Vine-127625507928232/
-instagram: 
-twitter: 
+instagram:
+twitter:
 ownerName: Anita  Clark
 mailingList: freshoffthevine@live.ca
-buildingOwner: 
-buildingMailingList: 
+buildingOwner:
+buildingMailingList:
+storefront: 84-ontario.webp
 ---
 
 Fresh Off The Vine Wine-Beer-Making-Equipment-Supplies in Port Hope Ontario

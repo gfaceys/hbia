@@ -18,6 +18,7 @@ ownerName: Melissa Aubin
 mailingList: melissa@fresh-face.ca
 buildingOwner:
 buildingMailingList:
+storefront: 98b-Walton.webp
 ---
 
 Owner/Esthetician: Melissa Aubin Specializing in Manicures - Pedicures - Gel Polished Manicures

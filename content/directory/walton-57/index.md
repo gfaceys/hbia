@@ -19,6 +19,8 @@ mailingList: team@gfacey.com
 buildingOwner: TJ Collina
 buildingMailingList: gfaceys@gmail.com
 storefront: 57-Walton.webp
+otherPics:
+  - image: 57-Walton-2.webp
 ---
 
 G. Facey’s has been doing business in beautiful downtown Port Hope, Ontario for over 20 years. Clothing, accessories &

@@ -1,5 +1,5 @@
 ---
-name: 50 John – Residential 
+name: 50 John – Residential
 slug: 50-john-residential
 ontarioCategory: Residential
 businessType: none
@@ -9,14 +9,15 @@ residential: true
 vacant: false
 address: 50 John Street
 title: john-50
-phone: 
-website: 
-facebook: 
-instagram: 
-twitter: 
-ownerName:  
-mailingList: 
+phone:
+website:
+facebook:
+instagram:
+twitter:
+ownerName:
+mailingList:
 buildingOwner: Bobby Tamo
 buildingMailingList: bdtamo@gmail.com
+storefront: 50-john.webp
 ---
 

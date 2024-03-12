@@ -1,5 +1,5 @@
 ---
-name: Ross Funeral Chapel 
+name: Ross Funeral Chapel
 slug: ross-funeral-chapel
 ontarioCategory: Professional Services
 businessType: service
@@ -10,14 +10,15 @@ vacant: false
 address: 135 Walton Street
 title: Walton-135
 phone: 905-885-4931
-website: https://www.rossfuneralchapel.com/ 
-facebook: 
-instagram: 
-twitter: 
+website: https://www.rossfuneralchapel.com/
+facebook:
+instagram:
+twitter:
 ownerName: Jamieson Ross
 mailingList: rfc_at@eagle.ca
-buildingOwner: 
-buildingMailingList: 
+buildingOwner:
+buildingMailingList:
+storefront: 135-Walton.webp
 ---
 
 Ross Funeral Chapel is the oldest business in Port Hope, and certainly one of the earliest surviving establishments in

@@ -18,5 +18,6 @@ ownerName:
 mailingList:
 buildingOwner:
 buildingMailingList:
+storefront: 118-Walton.webp
 ---
 

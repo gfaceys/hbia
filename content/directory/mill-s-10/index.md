@@ -2,7 +2,7 @@
 name: Artisan Aesthetics
 slug: artisan-aesthetics
 ontarioCategory: Other Services
-businessType: explore-stay
+businessType: service
 latitude: "43.9503679663371"
 longitude: "-78.2917626947165"
 residential: false

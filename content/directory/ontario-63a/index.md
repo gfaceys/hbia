@@ -17,6 +17,7 @@ twitter:
 ownerName: Diamond Auto
 mailingList:
 buildingOwner:
-buildingMailingList: 
+buildingMailingList:
+storefront: 63-ontario.webp
 ---
 

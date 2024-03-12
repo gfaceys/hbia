@@ -2,7 +2,7 @@
 name: Grasshopper Cannabis
 slug: grasshopper-cannabis
 ontarioCategory: Food, Beverage & Pharmacy
-businessType: taste
+businessType: shop
 latitude: "43.951453367027"
 longitude: "-78.2934759557247"
 residential: false

@@ -1,5 +1,5 @@
 ---
-name: Port Hope Archives    
+name: Port Hope Archives
 slug: port-hope-archives
 ontarioCategory: Cultural Attraction
 businessType: explore-stay
@@ -12,11 +12,12 @@ title: mill-north-17
 phone: 905-885-1673
 website: http://www.porthopearchives.com/
 facebook: https://www.facebook.com/PHArchives
-instagram: 
+instagram:
 twitter: https://twitter.com/PHArchives
 ownerName: Erin  Walsh
-mailingList: archives@porthope.ca 
-buildingOwner: 
-buildingMailingList: 
+mailingList: archives@porthope.ca
+buildingOwner:
+buildingMailingList:
+storefront: 17-mill-n.webp
 ---
 

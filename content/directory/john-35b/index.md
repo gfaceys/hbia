@@ -1,5 +1,5 @@
 ---
-name: 35B John - Vacant 
+name: 35B John - Vacant
 slug: 35b-john-vacant
 ontarioCategory: Vacant
 businessType: none
@@ -9,14 +9,15 @@ residential: false
 vacant: true
 address: 35B John Street
 title: john-35B
-phone: 
-website: 
-facebook: 
-instagram: 
-twitter: 
+phone:
+website:
+facebook:
+instagram:
+twitter:
 ownerName: Lori & Bob Dodd
-mailingList: 
+mailingList:
 buildingOwner: Lori & Bob Dodd
-buildingMailingList: 
+buildingMailingList:
+storefront: 35b-john.webp
 ---
 

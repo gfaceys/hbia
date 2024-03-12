@@ -1,5 +1,5 @@
 ---
-name: 35A John - Vacant 
+name: 35A John - Vacant
 slug: 35a-john-vacant
 ontarioCategory: Vacant
 businessType: none
@@ -9,14 +9,15 @@ residential: false
 vacant: true
 address: 35A John Street
 title: john-35A
-phone: 
-website: 
-facebook: 
-instagram: 
-twitter: 
-ownerName:  
-mailingList: 
-buildingOwner: 
-buildingMailingList: 
+phone:
+website:
+facebook:
+instagram:
+twitter:
+ownerName:
+mailingList:
+buildingOwner:
+buildingMailingList:
+storefront: 35a-john.webp
 ---
 

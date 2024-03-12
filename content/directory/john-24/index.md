@@ -1,22 +1,23 @@
 ---
-name: High River Closed 
+name: High River Closed
 slug: high-river-closed
-ontarioCategory: Vacant
+ontarioCategory: Residential
 businessType: none
 latitude: "43.9513094"
 longitude: "-78.2949404"
 residential: false
-vacant: false
+vacant: true
 address: 24 John Street
 title: john-24
-phone: 
-website: 
-facebook: 
-instagram: https://www.instagram.com/mercury_chocolates/
-twitter: 
-ownerName:  
-mailingList: 
-buildingOwner: 
-buildingMailingList: 
+phone:
+website:
+facebook:
+instagram:
+twitter:
+ownerName:
+mailingList:
+buildingOwner:
+buildingMailingList:
+storefront: 24-john.webp
 ---
 

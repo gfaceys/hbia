@@ -1,5 +1,5 @@
 ---
-name: Residential 
+name: Residential
 slug: residential
 ontarioCategory: Residential
 businessType: none
@@ -9,14 +9,15 @@ residential: true
 vacant: false
 address: 143 Walton Street
 title: Walton-143
-phone: 
-website: 
-facebook: 
-instagram: 
-twitter: 
-ownerName:  
-mailingList: 
-buildingOwner: 
-buildingMailingList: 
+phone:
+website:
+facebook:
+instagram:
+twitter:
+ownerName:
+mailingList:
+buildingOwner:
+buildingMailingList:
+storefront: 143-Walton.webp
 ---
 

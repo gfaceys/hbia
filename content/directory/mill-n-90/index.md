@@ -19,6 +19,8 @@ mailingList:
 buildingOwner: George Kallonakis
 buildingMailingList: Same as Biz
 storefront: 90-mill-n.webp
+otherPics:
+  - image: 90-mill-2.webp
 ---
 
 Discover the taste of Ukraine at Cafe Lviv! Indulge in authentic cuisine in downtown Port Hope. Open for brunch and
