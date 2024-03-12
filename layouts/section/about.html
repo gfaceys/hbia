@@ -1,0 +1,11 @@
+{{ define "meta" }}
+<meta name="description"
+      content="{{.Params.meta}}">
+{{ end }}
+
+{{ define "main" }}
+    <div style="padding: 2rem">
+    <h1>{{.Params.title}}</h1>
+    <div>{{.Content}}</div>
+    </div>
+{{ end }}

@@ -147,7 +147,7 @@
         <h2>Latest events</h2>
 
         <div class="event-wrapper-inner">
-            {{ range first 4 (where .Data.Pages "Type" "event") }}
+            {{ range first 4 (where .Site.RegularPages "Type" "event") }}
             <div style="display: flex; width: 50%; padding-left: 0.25rem; padding-right: 0.25rem">
                 {{ .Render "li" }}
             </div>

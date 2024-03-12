@@ -10,8 +10,8 @@
 {{ define "meta" }}
 {{ if .Params.meta }}
 <meta name="description" content="{{ .meta }}">
-{{ else if and .Params.content (and (gt (len .Params.content) 0) (lt (len .Params.content) 161)) }}
-<meta name="description" content="{{ .content }}">
+{{ else if and .Content (and (gt (len .Content) 0) (lt (len .Content) 161)) }}
+<meta name="description" content="{{ .Content }}">
 {{ else }}
 <meta name="description" content="{{ .Title }}">
 {{ end }}

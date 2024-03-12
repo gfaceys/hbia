@@ -1,10 +1,10 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
+{{ partial "jumbotron" (dict "imageUrl" $.Site.Params.mainImage "title" "Latest events") }}
 
 <div style="display: flex; justify-content: center; margin: 0.25rem;">
     <ul style="width: 100%; display: flex; flex-wrap: wrap; padding: 1rem">
-        {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+        {{ range (.Paginator 8).Pages.ByPublishDate.Reverse }}
         <li style="width: 50%; padding: 0.1rem">
             {{ .Render "li"}}
         </li>
