@@ -301,12 +301,6 @@ ul {
     visibility: visible;
 }
 
-.lazy {
-    opacity: 0;
-    transition: opacity 1s;
-    -webkit-transition: opacity 1s; /* Safari */
-}
-
 .hover-text {
     visibility: hidden;
     position: relative;

@@ -1,3 +1,8 @@
+{{ define "styleSheets" }}
+<link href="/glide.core.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/glide.theme.min.css">
+{{ end }}
+
 {{ define "title" }}
 <title>{{ .Params.name }} | {{ $.Site.Title }}</title>
 {{ end }}
@@ -32,7 +37,7 @@
                         </li>
                         {{ range .Params.otherPics }}
                         <li class="glide__slide">
-                            <img class="square" alt="image inside store" src="{{$link}}{{ .image }}">
+                            <img loading="lazy" class="square" alt="image inside store" src="{{$link}}{{ .image }}">
                         </li>
                         {{ end }}
                     </ul>

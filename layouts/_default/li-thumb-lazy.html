@@ -6,9 +6,9 @@
 
     {{ with .storefront -}}
     <div class="thumb-title">{{ $name }}</div>
-    <img class="thumb lazy" alt="Storefront of {{ $name }}" data-src="{{ $link }}{{ . }}">
+    <img class="thumb" loading="lazy" alt="Storefront of {{ $name }}" src="{{ $link }}{{ . }}">
     {{ else }}
-    <div class="thumb lazy"
+    <div class="thumb"
          style="background-color: gainsboro; display: flex; justify-content: center; align-content: center; flex-direction: column">
         <p>Storefront photo missing</p>
         <p>{{ .name }}</p>

@@ -5,9 +5,10 @@
     <title>{{ .Title }} | {{ $.Site.Title }}</title>
     {{ end }}
 
-    <link href="/glide.core.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/glide.theme.min.css">
-    <link href="/style.css" rel="stylesheet">
+    {{ block "styleSheets" . }}
+    {{ end }}
+    {{ $css := resources.Get "style.css" | minify }}
+    <link href={{ $css.RelPermalink }} rel="stylesheet" type="text/css">
 
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
