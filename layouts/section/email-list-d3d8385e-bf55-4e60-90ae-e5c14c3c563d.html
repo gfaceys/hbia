@@ -1,0 +1,34 @@
+<html style="margin: 2rem">
+  <head>
+    <meta name="robots" content="noindex">
+  </head>
+
+  <body>
+    <h1>Mailing list</h1>
+      <p>This is all the emails from the cms system.</p>
+      <p>Anyone with this link can access this list.</p>
+      <p>This should not be publicly linked.</p>
+
+      <hr>
+
+      {{ $emails := slice -}}
+
+    {{ range (where .Site.RegularPages "Type" "directory") -}}
+      {{ if .Params.buildingMailingList -}}
+        {{ $emails = $emails | append .Params.buildingMailingList -}}
+      {{end}}
+      {{ if .Params.mailingList -}}
+        {{ $emails = $emails | append .Params.mailingList -}}
+      {{end}}
+    {{end}}
+
+    {{ $unique := $emails | uniq -}}
+    {{ $wrapped := apply $unique "printf" "<span>%s</span>" "." -}}
+
+    <div>
+      {{ range $unique -}}
+        <p>{{ . }}</p>
+      {{ end }}
+    </div>
+  </body>
+</html>
