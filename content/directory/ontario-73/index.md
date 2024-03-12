@@ -1,6 +1,6 @@
 ---
-name: Ganaraska Chiropractic and Healing Arts
-slug: ganaraska-chiropractic-and-healing-arts
+name: Ganaraska Chiropractic
+slug: ganaraska-chiropractic
 ontarioCategory: Professional Services
 businessType: service
 latitude: "43.954306024466"

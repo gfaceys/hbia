@@ -1,6 +1,6 @@
 ---
-name: The Ganaraska Hotel & Bar
-slug: the-ganaraska-hotel-bar
+name: Ganaraska Hotel & Bar
+slug: ganaraska-hotel-bar
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
 latitude: "43.9525152546498"

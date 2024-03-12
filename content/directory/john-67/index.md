@@ -1,6 +1,6 @@
 ---
-name: Canada Post Corporation
-slug: canada-post-corporation
+name: Canada Post
+slug: canada-post
 ontarioCategory: Other Services
 businessType: service
 latitude: "43.9488892517338"

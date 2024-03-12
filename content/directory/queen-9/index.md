@@ -1,6 +1,6 @@
 ---
-name: Pineridge Insurance Brokers Limited.
-slug: pineridge-insurance-brokers-limited
+name: Pine Ridge Insurance
+slug: pine-ridge-insurance
 ontarioCategory: Professional Services
 businessType: service
 latitude: "43.9507563335903"

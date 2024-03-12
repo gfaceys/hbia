@@ -1,6 +1,6 @@
 ---
-name: Port Hope Suites and Extended Stays
-slug: port-hope-suites-and-extended-stays
+name: Port Hope Suites
+slug: port-hope-suites
 ontarioCategory: Other Services
 businessType: explore-stay
 latitude: "43.9503503872691"
@@ -23,3 +23,4 @@ otherPics:
   - image: 12-mill-s-2.webp
 ---
 
+Port Hope Suites and Extended Stays

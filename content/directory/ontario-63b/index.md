@@ -1,6 +1,6 @@
 ---
-name: BobaLoka Bubble Tea Store
-slug: bobaloka-bubble-tea-store
+name: BobaLoka Bubble Tea
+slug: bobaloka-bubble-tea
 ontarioCategory: Food, Beverage & Pharmacy
 businessType: taste
 latitude: "43.9541110604184"

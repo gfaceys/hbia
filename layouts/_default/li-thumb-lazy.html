@@ -1,10 +1,11 @@
 {{ $link := .RelPermalink -}}
 
-<a href="{{ $link }}" class="no-underline raise">
+<a href="{{ $link }}" class="no-underline raise thumb">
     {{ with .Params -}}
     {{ $name := .name -}}
 
     {{ with .storefront -}}
+    <div class="thumb-title">{{ $name }}</div>
     <img class="thumb lazy" alt="Storefront of {{ $name }}" data-src="{{ $link }}{{ . }}">
     {{ else }}
     <div class="thumb lazy"

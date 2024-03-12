@@ -1,6 +1,6 @@
 ---
-name: Royal Service Real Estate
-slug: royal-service-real-estate
+name: Royal Service
+slug: royal-service
 ontarioCategory: Professional Services
 businessType: service
 latitude: "43.9513983498434"

@@ -1,6 +1,6 @@
 ---
-name: Lent Travel (1982) Ltd.
-slug: lent-travel-1982-ltd
+name: Lent Travel
+slug: lent-travel
 ontarioCategory: Other Services
 businessType: service
 latitude: "43.9513848368432"

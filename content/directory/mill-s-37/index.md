@@ -1,5 +1,5 @@
 ---
-name: Dr. Anna Tucka, Dental Office
+name: Dr. Anna Tucka Dentistry
 slug: dr-anna-tucka-dental-office
 ontarioCategory: Professional Services
 businessType: service

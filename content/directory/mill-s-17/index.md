@@ -1,5 +1,5 @@
 ---
-name: The Navy League of Canada
+name: The Navy League
 slug: navy-league
 ontarioCategory: Other Services
 businessType: explore-stay
@@ -21,3 +21,4 @@ buildingMailingList:
 storefront: 17-mill-s.webp
 ---
 
+The Navy League of Canada

@@ -1,6 +1,6 @@
 ---
-name: Port Hope & District Chamber of Commerce
-slug: port-hope-district-chamber-of-commerce
+name: Port Hope Chamber of Commerce
+slug: port-hope-chamber-commerce
 ontarioCategory: Professional Services
 businessType: service
 latitude: "43.9486447609795"

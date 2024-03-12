@@ -1,6 +1,6 @@
 ---
-name: Schmidt Legal Services
-slug: schmidt-legal-services
+name: Schmidt Law
+slug: schmidt-law
 ontarioCategory: Professional Services
 businessType: service
 latitude: "43.9512863"

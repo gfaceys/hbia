@@ -1,6 +1,6 @@
 ---
-name: Bosley Real Estate Ltd.
-slug: bosley-real-estate-ltd
+name: Bosley Real Estate
+slug: bosley-real-estate
 ontarioCategory: Professional Services
 businessType: service
 latitude: "43.9503320478733"

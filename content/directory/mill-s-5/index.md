@@ -1,6 +1,6 @@
 ---
-name: Municipality of Port Hope Development Team Office
-slug: municipality-of-port-hope-development-team-office
+name: Port Hope Development Team
+slug: port-hope-development-team
 ontarioCategory: Professional Services
 businessType: service
 latitude: "43.9506974622446"

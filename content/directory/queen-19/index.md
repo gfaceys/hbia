@@ -1,6 +1,6 @@
 ---
-name: Altima Port Hope Dental Centre
-slug: altima-port-hope-dental-centre
+name: Altima Dental Centre
+slug: altima-dental-centre
 ontarioCategory: Professional Services
 businessType: service
 latitude: "43.9505352967414"

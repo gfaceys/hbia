@@ -1,6 +1,6 @@
 ---
-name: Antiques on Queen, Chatwood & Simmons Inc, Antique & Estate Jewellery
-slug: antiques-on-queen-chatwood-simmons-inc-antique-estate-jewellery
+name: Antiques on Queen
+slug: antiques-on-queen
 ontarioCategory: Retail
 businessType: shop
 latitude: "43.95085"
@@ -20,5 +20,7 @@ buildingOwner: Simmons & Whitmore
 buildingMailingList: kendrasimmons291@gmail.com
 storefront: 12-Queen.webp
 ---
+
+Antiques on Queen, Chatwood & Simmons Inc, Antique & Estate Jewellery.
 
 Multi-dealer antiques & collectibles shop located next to the historic Capitol Theatre in picturesque Port Hope, ON
