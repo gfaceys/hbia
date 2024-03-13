@@ -1,27 +1,27 @@
 ---
-name: Atelier on John 
+title: john-46
+name: Atelier on John
 slug: atelier-on-john
+storefront: 25-john.webp
+otherPics:
+  - image: 25-john-2.webp
+  - image: 25-john-3.webp
 ontarioCategory: Retail
 businessType: shop
 latitude: "43.9507048685463"
 longitude: "-78.2946762442589"
 residential: false
 vacant: false
-address: 25 John Street
-title: john-25
+address: 46 John Street
 phone: 905 718-7166
 website: http://www.atelieronjohn.com/
-facebook:
-instagram:
-twitter:
+facebook: null
+twitter: null
+instagram: null
 ownerName: Dean & Tim Howlett Badgley
 mailingList: dean.howlett@sympatico.ca
-buildingOwner:
-buildingMailingList:
-storefront: 25-john.webp
-otherPics:
-  - image: 25-john-2.webp
-  - image: 25-john-3.webp
+buildingOwner: null
+buildingMailingList: null
 ---
 
 With 65 years of combined experience, Tim and Dean bring back to John Street a new venture that will showcase antiques,
