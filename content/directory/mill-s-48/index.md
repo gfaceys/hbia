@@ -16,7 +16,7 @@ facebook: null
 twitter: null
 instagram: null
 ownerName: Erica Smith
-mailingList: info@colour-concepts.ca
-buildingOwner: null
-buildingMailingList: null
+mailingList: Erica@colour-concepts.ca
+buildingOwner: "Morcap Group "
+buildingMailingList: Zandra@morcap.ca
 ---
