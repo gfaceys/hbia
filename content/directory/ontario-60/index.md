@@ -20,3 +20,4 @@ mailingList: porthopepharmasavefsm@gmail.com
 buildingOwner: null
 buildingMailingList: null
 ---
+Our Port Hope Pharmasave boasts one of the largest gift sections in all of the Pharmasave drug stores in Ontario! Grab a Starbucks while you browse, there's one right inside! Need to ship? There's a Canada Post outlet in here too! Check us out. 
