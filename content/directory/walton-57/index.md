@@ -15,7 +15,7 @@ address: 57 Walton Street
 phone: 905-885-1838
 website: http://www.gfaceys.com/
 facebook: https://www.facebook.com/gfaceys
-twitter: https://twitter.com/GFaceyClothing
+twitter: ""
 instagram: https://www.instagram.com/gfaceys/
 ownerName: Teri-Jo Collina
 mailingList: team@gfacey.com
