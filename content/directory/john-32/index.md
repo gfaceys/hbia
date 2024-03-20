@@ -3,8 +3,8 @@ title: john-32
 name: Ravenswood
 slug: ravenswood
 storefront: 32-john.webp
-ontarioCategory: Personal Services
-businessType: service
+ontarioCategory: Retail
+businessType: shop
 latitude: "43.9510692"
 longitude: "-78.2949918"
 residential: false
