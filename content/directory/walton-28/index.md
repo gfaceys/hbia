@@ -14,7 +14,7 @@ vacant: false
 address: 28 Walton Street
 phone: 905-885-0995
 website: null
-facebook: https://www.facebook.com/pages/category/Hair-Salon/Avanti-Hair-Design-1980258378855559/
+facebook: https://www.facebook.com/people/Fringe-Salon-and-Esthetics/100082810012720/
 twitter: null
 instagram: null
 ownerName: Claudia Ninnivacci
