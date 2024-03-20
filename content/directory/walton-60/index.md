@@ -1,6 +1,6 @@
 ---
 title: Walton-60
-name: "Faun Salon  "
+name: "Faun Boutique Salon  "
 slug: faun-boutique
 storefront: 60-Walton.webp
 ontarioCategory: Personal Services
