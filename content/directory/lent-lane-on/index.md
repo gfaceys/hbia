@@ -2,6 +2,7 @@
 title: lent-lane
 name: Critical Mass Art
 slug: critical-mass-art
+storefront: lent-lane.webp
 ontarioCategory: Cultural Attraction
 businessType: explore-stay
 latitude: "43.9503364707809"
@@ -11,14 +12,13 @@ vacant: false
 address: Lent Lane
 phone: 905-269-2120
 website: https://criticalmassart.com/
-facebook:
-instagram:
-twitter:
+facebook: https://www.facebook.com/CriticalMassPortHope/
+twitter: null
+instagram: null
 ownerName: Debbie Beattie
 mailingList: info@criticalmassart.com
-buildingOwner:
-buildingMailingList:
-storefront: lent-lane.webp
+buildingOwner: null
+buildingMailingList: null
 ---
 
 Critical Mass is a not-for-profit contemporary art organization based in Port Hope, Ontario, on the traditional
