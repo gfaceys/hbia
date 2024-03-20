@@ -21,4 +21,4 @@ buildingOwner: null
 buildingMailingList: null
 ---
 More years in dentistry than you have teeth, Dr. Guy is on top on his craft and his wit. 
-Don't expect him to laugh at his own jokes, but you will ;) A womderful family practice at the corner of Augusta and John Streets.
+Don't expect him to laugh at his own jokes, but you will ;) A wonderful family practice at the corner of Augusta and John Streets.
