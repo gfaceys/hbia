@@ -22,3 +22,4 @@ buildingMailingList: Same as Biz
 ---
 Anna has been practicing dentistry, with a bright smile, and great sense of humor in Port Hope since 2008. 
 She is a great supporter of businesses within her local HBIA and she's a great dentist! 
+Located in her beautiful office that blends historic and modern architectures on Mill Street South.
