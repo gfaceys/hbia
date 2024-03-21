@@ -14,7 +14,7 @@ vacant: false
 address: 93 Walton Street
 phone: 905-435-7228
 website: null
-facebook: https://www.facebook.com/pohoboho/
+facebook: https://www.facebook.com/p/On2ndthoughtupcycling-100048477316796/
 twitter: null
 instagram: https://www.instagram.com/on_2nd_thought_upcycling/
 ownerName: Carolyn Scatterty
