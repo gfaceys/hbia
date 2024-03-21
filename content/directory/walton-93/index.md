@@ -23,5 +23,6 @@ buildingOwner: null
 buildingMailingList: null
 ---
 
-Showcasing eclectic boho treasures and featuring the work of local artists, Poho Boho has reopened in a new downtown
-location.
+Carolyn Scatterty
+Clothing (Brand)
+Upcycler of vintage textiles into one of a kind, wearable art!
