@@ -1,6 +1,6 @@
 ---
 title: ontario-24-down
-name: 24 Ontario
+name: The Sweet Pea Shop
 slug: 24-ontario
 storefront: 24-ontario-down.webp
 ontarioCategory: Retail
