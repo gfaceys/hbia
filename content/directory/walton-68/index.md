@@ -5,7 +5,6 @@ slug: the-nooks
 storefront: 68-walton.webp
 otherPics:
   - image: 68-walton-2.webp
-  - image: 68-walton-2.webp
   - image: 68-walton3.jpg
 ontarioCategory: Retail
 businessType: shop
